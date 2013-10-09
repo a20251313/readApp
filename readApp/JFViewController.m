@@ -299,6 +299,22 @@
 
 -(void)clickbtnViewToolType:(JFToolViewButtonType)type
 {
+    
+    
+    switch (type)
+    {
+        case JFToolViewButtonTypeChapter:
+        {
+            JFChapterlistViewController  *controller = [[JFChapterlistViewController alloc] initWithdatArray:m_dataArray];
+            [self.navigationController pushViewController:controller animated:YES];
+            [controller release];
+            
+        }
+            break;
+            
+        default:
+            break;
+    }
     DLOG(@"clickbtnViewToolType:%d",type);
 }
 @end

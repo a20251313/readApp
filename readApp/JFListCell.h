@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "JFBookMarkModel.h"
 typedef enum
 {
     JFlistTypechapter,
@@ -23,5 +24,8 @@ typedef enum
 }
 
 @property(nonatomic,retain)id  dataModel;
+
+
+-(void)updateCellInfo:(id)model;
 
 @end

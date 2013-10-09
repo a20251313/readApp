@@ -11,6 +11,7 @@
 #import "JFChapterTitleView.h"
 #import "JFToolView.h"
 #import "JFUserSaveStoreInfo.h"
+#import "JFChapterlistViewController.h"
 @interface JFViewController : UIViewController<UITextViewDelegate,JFToolViewDelegate>
 {
     JFToolView          *m_toolView;

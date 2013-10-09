@@ -78,12 +78,24 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    UITableViewCell  *cell = [tableView dequeueReusableCellWithIdentifier:@"11"];
+    JFListCell  *cell = [tableView dequeueReusableCellWithIdentifier:@"11"];
     if (cell == nil)
     {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"11"];
+        cell = [[[JFListCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"11"] autorelease];
+    }
+    
+    
+    if (m_itype == JFlistTypeBookMark)
+    {
+        id model = [m_bookmarkArray objectAtIndex:indexPath.row];
+        [cell updateCellInfo:model];
+    }else if(m_itype == JFlistTypechapter)
+    {
+        id model = [m_dataArray objectAtIndex:indexPath.row];
+        [cell updateCellInfo:model];
         
     }
+    
     return cell;
 }
 

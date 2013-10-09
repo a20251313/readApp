@@ -18,4 +18,6 @@
     JFlistType          m_itype;
 }
 
+
+-(id)initWithdatArray:(NSMutableArray *)dataArray;
 @end
