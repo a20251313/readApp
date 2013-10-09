@@ -21,6 +21,133 @@
 		F5F923AA18051D9E0070D1D5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5F9238C18051D9E0070D1D5 /* UIKit.framework */; };
 		F5F923B218051D9E0070D1D5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F5F923B018051D9E0070D1D5 /* InfoPlist.strings */; };
 		F5F923B418051D9E0070D1D5 /* readAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F923B318051D9E0070D1D5 /* readAppTests.m */; };
+		F5F9243B18051E0E0070D1D5 /* chapters.png in Resources */ = {isa = PBXBuildFile; fileRef = F5F923BE18051E0D0070D1D5 /* chapters.png */; };
+		F5F9243C18051E0E0070D1D5 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F5F923BF18051E0D0070D1D5 /* Default.png */; };
+		F5F9243D18051E0E0070D1D5 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F5F923C018051E0D0070D1D5 /* icon.png */; };
+		F5F9243E18051E0E0070D1D5 /* icon2.png in Resources */ = {isa = PBXBuildFile; fileRef = F5F923C118051E0D0070D1D5 /* icon2.png */; };
+		F5F9243F18051E0E0070D1D5 /* test.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F923C218051E0D0070D1D5 /* test.txt */; };
+		F5F9244018051E0E0070D1D5 /* 第一回 甄士隐梦幻识通灵　贾雨村风尘怀闺秀.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F923C318051E0D0070D1D5 /* 第一回 甄士隐梦幻识通灵　贾雨村风尘怀闺秀.txt */; };
+		F5F9244118051E0E0070D1D5 /* 第一百一回 大观园月夜警幽魂　散花寺神签惊异兆.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F923C418051E0D0070D1D5 /* 第一百一回 大观园月夜警幽魂　散花寺神签惊异兆.txt */; };
+		F5F9244218051E0E0070D1D5 /* 第一百七回 散余资贾母明大义　复世职政老沐天恩.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F923C518051E0D0070D1D5 /* 第一百七回 散余资贾母明大义　复世职政老沐天恩.txt */; };
+		F5F9244318051E0E0070D1D5 /* 第一百三回 施毒计金桂自焚身　昧真禅雨村空遇旧.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F923C618051E0D0070D1D5 /* 第一百三回 施毒计金桂自焚身　昧真禅雨村空遇旧.txt */; };
+		F5F9244418051E0E0070D1D5 /* 第一百九回 候芳魂五儿承错爱　还孽债迎女返真元.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F923C718051E0D0070D1D5 /* 第一百九回 候芳魂五儿承错爱　还孽债迎女返真元.txt */; };
+		F5F9244518051E0E0070D1D5 /* 第一百二十回 甄士隐详说太虚情　贾雨村归结红楼梦.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F923C818051E0D0070D1D5 /* 第一百二十回 甄士隐详说太虚情　贾雨村归结红楼梦.txt */; };
+		F5F9244618051E0E0070D1D5 /* 第一百二回 宁国府骨肉病灾祲　大观园符水驱妖孽.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F923C918051E0D0070D1D5 /* 第一百二回 宁国府骨肉病灾祲　大观园符水驱妖孽.txt */; };
+		F5F9244718051E0E0070D1D5 /* 第一百五回 锦衣军查抄宁国府　骢马使弹劾平安州.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F923CA18051E0D0070D1D5 /* 第一百五回 锦衣军查抄宁国府　骢马使弹劾平安州.txt */; };
+		F5F9244818051E0E0070D1D5 /* 第一百八回 强欢笑蘅芜庆生辰　死缠绵潇湘闻鬼哭.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F923CB18051E0D0070D1D5 /* 第一百八回 强欢笑蘅芜庆生辰　死缠绵潇湘闻鬼哭.txt */; };
+		F5F9244918051E0E0070D1D5 /* 第一百六回 王熙凤致祸抱羞惭　贾太君祷天消祸患.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F923CC18051E0D0070D1D5 /* 第一百六回 王熙凤致祸抱羞惭　贾太君祷天消祸患.txt */; };
+		F5F9244A18051E0E0070D1D5 /* 第一百十一回 鸳鸯女殉主登太虚　狗彘奴欺天招伙盗.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F923CD18051E0D0070D1D5 /* 第一百十一回 鸳鸯女殉主登太虚　狗彘奴欺天招伙盗.txt */; };
+		F5F9244B18051E0E0070D1D5 /* 第一百十七回 阻超凡佳人双护玉　欣聚党恶子独承家.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F923CE18051E0D0070D1D5 /* 第一百十七回 阻超凡佳人双护玉　欣聚党恶子独承家.txt */; };
+		F5F9244C18051E0E0070D1D5 /* 第一百十三回 忏宿冤凤姐托村妪　释旧憾情婢感痴郎.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F923CF18051E0D0070D1D5 /* 第一百十三回 忏宿冤凤姐托村妪　释旧憾情婢感痴郎.txt */; };
+		F5F9244D18051E0E0070D1D5 /* 第一百十九回 中乡魁宝玉却尘缘　沐皇恩贾家延世泽.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F923D018051E0D0070D1D5 /* 第一百十九回 中乡魁宝玉却尘缘　沐皇恩贾家延世泽.txt */; };
+		F5F9244E18051E0E0070D1D5 /* 第一百十二回 活冤孽妙姑遭大劫　死雠仇赵妾赴冥曹.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F923D118051E0D0070D1D5 /* 第一百十二回 活冤孽妙姑遭大劫　死雠仇赵妾赴冥曹.txt */; };
+		F5F9244F18051E0E0070D1D5 /* 第一百十五回 惑偏私惜春矢素志　证同类宝玉失相知.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F923D218051E0D0070D1D5 /* 第一百十五回 惑偏私惜春矢素志　证同类宝玉失相知.txt */; };
+		F5F9245018051E0E0070D1D5 /* 第一百十八回 记微嫌舅兄欺弱女　惊谜语妻妾谏痴人.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F923D318051E0D0070D1D5 /* 第一百十八回 记微嫌舅兄欺弱女　惊谜语妻妾谏痴人.txt */; };
+		F5F9245118051E0E0070D1D5 /* 第一百十六回 得通灵幻境悟仙缘　送慈柩故乡全孝道.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F923D418051E0D0070D1D5 /* 第一百十六回 得通灵幻境悟仙缘　送慈柩故乡全孝道.txt */; };
+		F5F9245218051E0E0070D1D5 /* 第一百十四回 王熙凤历幻返金陵　甄应嘉蒙恩还玉阙.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F923D518051E0D0070D1D5 /* 第一百十四回 王熙凤历幻返金陵　甄应嘉蒙恩还玉阙.txt */; };
+		F5F9245318051E0E0070D1D5 /* 第一百十回 史太君寿终归地府　王凤姐力诎失人心.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F923D618051E0D0070D1D5 /* 第一百十回 史太君寿终归地府　王凤姐力诎失人心.txt */; };
+		F5F9245418051E0E0070D1D5 /* 第一百四回 醉金刚小鳅生大浪　痴公子余痛触前情.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F923D718051E0D0070D1D5 /* 第一百四回 醉金刚小鳅生大浪　痴公子余痛触前情.txt */; };
+		F5F9245518051E0E0070D1D5 /* 第一百回 破好事香菱结深恨　悲远嫁宝玉感离情.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F923D818051E0D0070D1D5 /* 第一百回 破好事香菱结深恨　悲远嫁宝玉感离情.txt */; };
+		F5F9245618051E0E0070D1D5 /* 第七十一回 嫌隙人有心生嫌隙　鸳鸯女无意遇鸳鸯.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F923D918051E0D0070D1D5 /* 第七十一回 嫌隙人有心生嫌隙　鸳鸯女无意遇鸳鸯.txt */; };
+		F5F9245718051E0E0070D1D5 /* 第七十七回　俏丫鬟抱屈夭风流　美优伶斩情归水月.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F923DA18051E0D0070D1D5 /* 第七十七回　俏丫鬟抱屈夭风流　美优伶斩情归水月.txt */; };
+		F5F9245818051E0E0070D1D5 /* 第七十三回 痴丫头误拾绣春囊　懦小姐不问累金凤.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F923DB18051E0D0070D1D5 /* 第七十三回 痴丫头误拾绣春囊　懦小姐不问累金凤.txt */; };
+		F5F9245918051E0E0070D1D5 /* 第七十九回 薛文起悔娶河东吼　贾迎春误嫁中山狼.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F923DC18051E0D0070D1D5 /* 第七十九回 薛文起悔娶河东吼　贾迎春误嫁中山狼.txt */; };
+		F5F9245A18051E0E0070D1D5 /* 第七十二回 王熙凤恃强羞说病　来旺妇倚势霸成亲.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F923DD18051E0D0070D1D5 /* 第七十二回 王熙凤恃强羞说病　来旺妇倚势霸成亲.txt */; };
+		F5F9245B18051E0E0070D1D5 /* 第七十五回 开夜宴异兆发悲音　赏中秋新词得佳谶.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F923DE18051E0D0070D1D5 /* 第七十五回 开夜宴异兆发悲音　赏中秋新词得佳谶.txt */; };
+		F5F9245C18051E0E0070D1D5 /* 第七十八回 老学士闲征姽婳词　痴公子杜撰芙蓉诔.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F923DF18051E0D0070D1D5 /* 第七十八回 老学士闲征姽婳词　痴公子杜撰芙蓉诔.txt */; };
+		F5F9245D18051E0E0070D1D5 /* 第七十六回 凸碧堂品笛感凄清　凹晶馆联诗悲寂寞.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F923E018051E0D0070D1D5 /* 第七十六回 凸碧堂品笛感凄清　凹晶馆联诗悲寂寞.txt */; };
+		F5F9245E18051E0E0070D1D5 /* 第七十四回 惑奸谗抄检大观园　避嫌隙杜绝宁国府.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F923E118051E0D0070D1D5 /* 第七十四回 惑奸谗抄检大观园　避嫌隙杜绝宁国府.txt */; };
+		F5F9245F18051E0E0070D1D5 /* 第七十回 林黛玉重建桃花社　史湘云偶填柳絮词.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F923E218051E0D0070D1D5 /* 第七十回 林黛玉重建桃花社　史湘云偶填柳絮词.txt */; };
+		F5F9246018051E0E0070D1D5 /* 第七回 送宫花贾琏戏熙凤　宴宁府宝玉会秦钟.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F923E318051E0D0070D1D5 /* 第七回 送宫花贾琏戏熙凤　宴宁府宝玉会秦钟.txt */; };
+		F5F9246118051E0E0070D1D5 /* 第三十一回 撕扇子作千金一笑　因麒麟伏白首双星.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F923E418051E0D0070D1D5 /* 第三十一回 撕扇子作千金一笑　因麒麟伏白首双星.txt */; };
+		F5F9246218051E0E0070D1D5 /* 第三十七回 秋爽斋偶结海棠社　蘅芜院夜拟菊花题.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F923E518051E0D0070D1D5 /* 第三十七回 秋爽斋偶结海棠社　蘅芜院夜拟菊花题.txt */; };
+		F5F9246318051E0E0070D1D5 /* 第三十三回 手足眈眈小动唇舌　不肖种种大承笞挞.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F923E618051E0D0070D1D5 /* 第三十三回 手足眈眈小动唇舌　不肖种种大承笞挞.txt */; };
+		F5F9246418051E0E0070D1D5 /* 第三十九回 村姥姥是信口开河　情哥哥偏寻根究底.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F923E718051E0D0070D1D5 /* 第三十九回 村姥姥是信口开河　情哥哥偏寻根究底.txt */; };
+		F5F9246518051E0E0070D1D5 /* 第三十二回 诉肺腑心迷活宝玉　含耻辱情烈死金钏.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F923E818051E0D0070D1D5 /* 第三十二回 诉肺腑心迷活宝玉　含耻辱情烈死金钏.txt */; };
+		F5F9246618051E0E0070D1D5 /* 第三十五回 白玉钏亲尝莲叶羹　黄金莺巧结梅花络.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F923E918051E0D0070D1D5 /* 第三十五回 白玉钏亲尝莲叶羹　黄金莺巧结梅花络.txt */; };
+		F5F9246718051E0E0070D1D5 /* 第三十八回 林潇湘魁夺菊花诗　薛蘅芜讽和螃蟹咏.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F923EA18051E0D0070D1D5 /* 第三十八回 林潇湘魁夺菊花诗　薛蘅芜讽和螃蟹咏.txt */; };
+		F5F9246818051E0E0070D1D5 /* 第三十六回 绣鸳鸯梦兆绛芸轩　识分定情悟梨香院.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F923EB18051E0D0070D1D5 /* 第三十六回 绣鸳鸯梦兆绛芸轩　识分定情悟梨香院.txt */; };
+		F5F9246918051E0E0070D1D5 /* 第三十四回 情中情因情感妹妹　错里错以错劝哥哥.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F923EC18051E0D0070D1D5 /* 第三十四回 情中情因情感妹妹　错里错以错劝哥哥.txt */; };
+		F5F9246A18051E0E0070D1D5 /* 第三十回 宝钗借扇机带双敲　椿龄画蔷痴及局外.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F923ED18051E0D0070D1D5 /* 第三十回 宝钗借扇机带双敲　椿龄画蔷痴及局外.txt */; };
+		F5F9246B18051E0E0070D1D5 /* 第三回 贾雨村夤缘复旧职　林黛玉抛父进京都.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F923EE18051E0D0070D1D5 /* 第三回 贾雨村夤缘复旧职　林黛玉抛父进京都.txt */; };
+		F5F9246C18051E0E0070D1D5 /* 第九十一回 纵淫心宝蟾工设计　布疑阵宝玉妄谈禅.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F923EF18051E0D0070D1D5 /* 第九十一回 纵淫心宝蟾工设计　布疑阵宝玉妄谈禅.txt */; };
+		F5F9246D18051E0E0070D1D5 /* 第九十七回 林黛玉焚稿断痴情　薛宝钗出闺成大礼.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F923F018051E0D0070D1D5 /* 第九十七回 林黛玉焚稿断痴情　薛宝钗出闺成大礼.txt */; };
+		F5F9246E18051E0E0070D1D5 /* 第九十三回 甄家仆投靠贾家门　水月庵掀翻风月案.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F923F118051E0D0070D1D5 /* 第九十三回 甄家仆投靠贾家门　水月庵掀翻风月案.txt */; };
+		F5F9246F18051E0E0070D1D5 /* 第九十九回 守官箴恶奴同破例　阅邸报老舅自担惊.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F923F218051E0D0070D1D5 /* 第九十九回 守官箴恶奴同破例　阅邸报老舅自担惊.txt */; };
+		F5F9247018051E0E0070D1D5 /* 第九十二回 评女传巧姐慕贤良　玩母珠贾政参聚散.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F923F318051E0D0070D1D5 /* 第九十二回 评女传巧姐慕贤良　玩母珠贾政参聚散.txt */; };
+		F5F9247118051E0E0070D1D5 /* 第九十五回 因讹成实元妃薨逝　以假混真宝玉疯癫.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F923F418051E0D0070D1D5 /* 第九十五回 因讹成实元妃薨逝　以假混真宝玉疯癫.txt */; };
+		F5F9247218051E0E0070D1D5 /* 第九十八回 苦绛珠魂归离恨天　病神瑛泪洒相思地.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F923F518051E0D0070D1D5 /* 第九十八回 苦绛珠魂归离恨天　病神瑛泪洒相思地.txt */; };
+		F5F9247318051E0E0070D1D5 /* 第九十六回 瞒消息凤姐设奇谋　泄机关颦儿迷本性.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F923F618051E0D0070D1D5 /* 第九十六回 瞒消息凤姐设奇谋　泄机关颦儿迷本性.txt */; };
+		F5F9247418051E0E0070D1D5 /* 第九十四回 宴海棠贾母赏花妖　失宝玉通灵知奇祸.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F923F718051E0D0070D1D5 /* 第九十四回 宴海棠贾母赏花妖　失宝玉通灵知奇祸.txt */; };
+		F5F9247518051E0E0070D1D5 /* 第九十回 失绵衣贫女耐嗷嘈　送果品小郎惊叵测.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F923F818051E0D0070D1D5 /* 第九十回 失绵衣贫女耐嗷嘈　送果品小郎惊叵测.txt */; };
+		F5F9247618051E0E0070D1D5 /* 第九回 训劣子李贵承申饬　嗔顽童茗烟闹书房.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F923F918051E0E0070D1D5 /* 第九回 训劣子李贵承申饬　嗔顽童茗烟闹书房.txt */; };
+		F5F9247718051E0E0070D1D5 /* 第二十一回 贤袭人娇嗔箴宝玉　俏平儿软语救贾琏.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F923FA18051E0E0070D1D5 /* 第二十一回 贤袭人娇嗔箴宝玉　俏平儿软语救贾琏.txt */; };
+		F5F9247818051E0E0070D1D5 /* 第二十七回 滴翠亭杨妃戏彩蝶　埋香冢飞燕泣残红.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F923FB18051E0E0070D1D5 /* 第二十七回 滴翠亭杨妃戏彩蝶　埋香冢飞燕泣残红.txt */; };
+		F5F9247918051E0E0070D1D5 /* 第二十三回 西厢记妙词通戏语　牡丹亭艳曲警芳心.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F923FC18051E0E0070D1D5 /* 第二十三回 西厢记妙词通戏语　牡丹亭艳曲警芳心.txt */; };
+		F5F9247A18051E0E0070D1D5 /* 第二十九回 享福人福深还祷福　多情女情重愈斟情.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F923FD18051E0E0070D1D5 /* 第二十九回 享福人福深还祷福　多情女情重愈斟情.txt */; };
+		F5F9247B18051E0E0070D1D5 /* 第二十二回 听曲文宝玉悟禅机　制灯谜贾政悲谶语.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F923FE18051E0E0070D1D5 /* 第二十二回 听曲文宝玉悟禅机　制灯谜贾政悲谶语.txt */; };
+		F5F9247C18051E0E0070D1D5 /* 第二十五回 魇魔法叔嫂逢五鬼　通灵玉蒙蔽遇双真.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F923FF18051E0E0070D1D5 /* 第二十五回 魇魔法叔嫂逢五鬼　通灵玉蒙蔽遇双真.txt */; };
+		F5F9247D18051E0E0070D1D5 /* 第二十八回 蒋玉函情赠茜香罗　薛宝钗羞笼红麝串.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F9240018051E0E0070D1D5 /* 第二十八回 蒋玉函情赠茜香罗　薛宝钗羞笼红麝串.txt */; };
+		F5F9247E18051E0E0070D1D5 /* 第二十六回　蜂腰桥设言传心事　潇湘馆春困发幽情.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F9240118051E0E0070D1D5 /* 第二十六回　蜂腰桥设言传心事　潇湘馆春困发幽情.txt */; };
+		F5F9247F18051E0E0070D1D5 /* 第二十四回 醉金刚轻财尚义侠　痴女儿遗帕惹相思.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F9240218051E0E0070D1D5 /* 第二十四回 醉金刚轻财尚义侠　痴女儿遗帕惹相思.txt */; };
+		F5F9248018051E0E0070D1D5 /* 第二十回 王熙凤正言弹妒意　林黛玉俏语谑娇音.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F9240318051E0E0070D1D5 /* 第二十回 王熙凤正言弹妒意　林黛玉俏语谑娇音.txt */; };
+		F5F9248118051E0E0070D1D5 /* 第二回 贾夫人仙逝扬州城　冷子兴演说荣国府.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F9240418051E0E0070D1D5 /* 第二回 贾夫人仙逝扬州城　冷子兴演说荣国府.txt */; };
+		F5F9248218051E0E0070D1D5 /* 第五十一回 薛小妹新编怀古诗　胡庸医乱用虎狼药.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F9240518051E0E0070D1D5 /* 第五十一回 薛小妹新编怀古诗　胡庸医乱用虎狼药.txt */; };
+		F5F9248318051E0E0070D1D5 /* 第五十七回 慧紫鹃情辞试莽玉　慈姨妈爱语慰痴颦.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F9240618051E0E0070D1D5 /* 第五十七回 慧紫鹃情辞试莽玉　慈姨妈爱语慰痴颦.txt */; };
+		F5F9248418051E0E0070D1D5 /* 第五十三回 宁国府除夕祭宗祠　荣国府元宵开夜宴.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F9240718051E0E0070D1D5 /* 第五十三回 宁国府除夕祭宗祠　荣国府元宵开夜宴.txt */; };
+		F5F9248518051E0E0070D1D5 /* 第五十九回 柳叶渚边嗔莺叱燕　绛芸轩里召将飞符.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F9240818051E0E0070D1D5 /* 第五十九回 柳叶渚边嗔莺叱燕　绛芸轩里召将飞符.txt */; };
+		F5F9248618051E0E0070D1D5 /* 第五十二回 俏平儿情掩虾须镯 勇晴雯病补孔雀裘.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F9240918051E0E0070D1D5 /* 第五十二回 俏平儿情掩虾须镯 勇晴雯病补孔雀裘.txt */; };
+		F5F9248718051E0E0070D1D5 /* 第五十五回 辱亲女愚妾争闲气　欺幼主刁奴蓄险心.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F9240A18051E0E0070D1D5 /* 第五十五回 辱亲女愚妾争闲气　欺幼主刁奴蓄险心.txt */; };
+		F5F9248818051E0E0070D1D5 /* 第五十八回 杏子阴假凤泣虚凰　茜纱窗真情揆痴理.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F9240B18051E0E0070D1D5 /* 第五十八回 杏子阴假凤泣虚凰　茜纱窗真情揆痴理.txt */; };
+		F5F9248918051E0E0070D1D5 /* 第五十六回 敏探春兴利除宿弊　贤宝钗小惠全大体.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F9240C18051E0E0070D1D5 /* 第五十六回 敏探春兴利除宿弊　贤宝钗小惠全大体.txt */; };
+		F5F9248A18051E0E0070D1D5 /* 第五十四回 史太君破陈腐旧套　王熙凤效戏彩斑衣.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F9240D18051E0E0070D1D5 /* 第五十四回 史太君破陈腐旧套　王熙凤效戏彩斑衣.txt */; };
+		F5F9248B18051E0E0070D1D5 /* 第五十回 芦雪庭争联即景诗 暖香坞雅制春灯谜.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F9240E18051E0E0070D1D5 /* 第五十回 芦雪庭争联即景诗 暖香坞雅制春灯谜.txt */; };
+		F5F9248C18051E0E0070D1D5 /* 第五回 游幻境指迷十二钗　饮仙醪曲演红楼梦.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F9240F18051E0E0070D1D5 /* 第五回 游幻境指迷十二钗　饮仙醪曲演红楼梦.txt */; };
+		F5F9248D18051E0E0070D1D5 /* 第八十一回　占旺相四美钓游鱼　奉严词两番入家塾.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F9241018051E0E0070D1D5 /* 第八十一回　占旺相四美钓游鱼　奉严词两番入家塾.txt */; };
+		F5F9248E18051E0E0070D1D5 /* 第八十七回 感秋声抚琴悲往事　坐禅寂走火入邪魔.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F9241118051E0E0070D1D5 /* 第八十七回 感秋声抚琴悲往事　坐禅寂走火入邪魔.txt */; };
+		F5F9248F18051E0E0070D1D5 /* 第八十三回 省宫闱贾元妃染恙　闹闺阃薛宝钗吞声.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F9241218051E0E0070D1D5 /* 第八十三回 省宫闱贾元妃染恙　闹闺阃薛宝钗吞声.txt */; };
+		F5F9249018051E0E0070D1D5 /* 第八十九回 人亡物在公子填词　蛇影杯弓颦卿绝粒.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F9241318051E0E0070D1D5 /* 第八十九回 人亡物在公子填词　蛇影杯弓颦卿绝粒.txt */; };
+		F5F9249118051E0E0070D1D5 /* 第八十二回 老学究讲义警顽心　病潇湘痴魂惊恶梦.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F9241418051E0E0070D1D5 /* 第八十二回 老学究讲义警顽心　病潇湘痴魂惊恶梦.txt */; };
+		F5F9249218051E0E0070D1D5 /* 第八十五回 贾存周报升郎中任　薛文起复惹放流刑.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F9241518051E0E0070D1D5 /* 第八十五回 贾存周报升郎中任　薛文起复惹放流刑.txt */; };
+		F5F9249318051E0E0070D1D5 /* 第八十八回 博庭欢宝玉赞孤儿　正家法贾珍鞭悍仆.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F9241618051E0E0070D1D5 /* 第八十八回 博庭欢宝玉赞孤儿　正家法贾珍鞭悍仆.txt */; };
+		F5F9249418051E0E0070D1D5 /* 第八十六回 受私贿老官翻案牍　寄闲情淑女解琴书.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F9241718051E0E0070D1D5 /* 第八十六回 受私贿老官翻案牍　寄闲情淑女解琴书.txt */; };
+		F5F9249518051E0E0070D1D5 /* 第八十四回 试文字宝玉始提亲　探惊风贾环重结怨.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F9241818051E0E0070D1D5 /* 第八十四回 试文字宝玉始提亲　探惊风贾环重结怨.txt */; };
+		F5F9249618051E0E0070D1D5 /* 第八十回 美香菱屈受贪夫棒　王道士胡诌妒妇方.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F9241918051E0E0070D1D5 /* 第八十回 美香菱屈受贪夫棒　王道士胡诌妒妇方.txt */; };
+		F5F9249718051E0E0070D1D5 /* 第八回 贾宝玉奇缘识金锁　薛宝钗巧合认通灵.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F9241A18051E0E0070D1D5 /* 第八回 贾宝玉奇缘识金锁　薛宝钗巧合认通灵.txt */; };
+		F5F9249818051E0E0070D1D5 /* 第六十一回 投鼠忌器宝王瞒赃　判冤决狱平儿行权.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F9241B18051E0E0070D1D5 /* 第六十一回 投鼠忌器宝王瞒赃　判冤决狱平儿行权.txt */; };
+		F5F9249918051E0E0070D1D5 /* 第六十七回 见土仪颦卿思故里　闻秘事凤姐讯家童.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F9241C18051E0E0070D1D5 /* 第六十七回 见土仪颦卿思故里　闻秘事凤姐讯家童.txt */; };
+		F5F9249A18051E0E0070D1D5 /* 第六十三回 寿怡红群芳开夜宴　死金丹独艳理亲丧.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F9241D18051E0E0070D1D5 /* 第六十三回 寿怡红群芳开夜宴　死金丹独艳理亲丧.txt */; };
+		F5F9249B18051E0E0070D1D5 /* 第六十九回 弄小巧用借剑杀人　觉大限吞生金自逝.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F9241E18051E0E0070D1D5 /* 第六十九回 弄小巧用借剑杀人　觉大限吞生金自逝.txt */; };
+		F5F9249C18051E0E0070D1D5 /* 第六十二回 憨湘云醉眠芍药裀　呆香菱情解石榴裙.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F9241F18051E0E0070D1D5 /* 第六十二回 憨湘云醉眠芍药裀　呆香菱情解石榴裙.txt */; };
+		F5F9249D18051E0E0070D1D5 /* 第六十五回 贾二舍偷娶尤二姨　尤三姐思嫁柳二郎.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F9242018051E0E0070D1D5 /* 第六十五回 贾二舍偷娶尤二姨　尤三姐思嫁柳二郎.txt */; };
+		F5F9249E18051E0E0070D1D5 /* 第六十八回 苦尤娘赚入大观园　酸凤姐大闹宁国府.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F9242118051E0E0070D1D5 /* 第六十八回 苦尤娘赚入大观园　酸凤姐大闹宁国府.txt */; };
+		F5F9249F18051E0E0070D1D5 /* 第六十六回 情小妹耻情归地府　冷二郎一冷入空门.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F9242218051E0E0070D1D5 /* 第六十六回 情小妹耻情归地府　冷二郎一冷入空门.txt */; };
+		F5F924A018051E0E0070D1D5 /* 第六十四回 幽淑女悲题五美吟　浪荡子情遗九龙佩.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F9242318051E0E0070D1D5 /* 第六十四回 幽淑女悲题五美吟　浪荡子情遗九龙佩.txt */; };
+		F5F924A118051E0E0070D1D5 /* 第六十回 茉莉粉替去蔷薇硝　玫瑰露引出茯苓霜.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F9242418051E0E0070D1D5 /* 第六十回 茉莉粉替去蔷薇硝　玫瑰露引出茯苓霜.txt */; };
+		F5F924A218051E0E0070D1D5 /* 第六回 贾宝玉初试云雨情　刘姥姥一进荣国府.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F9242518051E0E0070D1D5 /* 第六回 贾宝玉初试云雨情　刘姥姥一进荣国府.txt */; };
+		F5F924A318051E0E0070D1D5 /* 第十一回 庆寿辰宁府排家宴　见熙凤贾瑞起淫心.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F9242618051E0E0070D1D5 /* 第十一回 庆寿辰宁府排家宴　见熙凤贾瑞起淫心.txt */; };
+		F5F924A418051E0E0070D1D5 /* 第十七回 大观园试才题对额　荣国府归省庆元宵.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F9242718051E0E0070D1D5 /* 第十七回 大观园试才题对额　荣国府归省庆元宵.txt */; };
+		F5F924A518051E0E0070D1D5 /* 第十三回 秦可卿死封龙禁尉　王熙凤协理宁国府.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F9242818051E0E0070D1D5 /* 第十三回 秦可卿死封龙禁尉　王熙凤协理宁国府.txt */; };
+		F5F924A618051E0E0070D1D5 /* 第十九回 情切切良宵花解语　意绵绵静日玉生香.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F9242918051E0E0070D1D5 /* 第十九回 情切切良宵花解语　意绵绵静日玉生香.txt */; };
+		F5F924A718051E0E0070D1D5 /* 第十二回 王熙凤毒设相思局　贾天祥正照风月鉴.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F9242A18051E0E0070D1D5 /* 第十二回 王熙凤毒设相思局　贾天祥正照风月鉴.txt */; };
+		F5F924A818051E0E0070D1D5 /* 第十五回 王凤姐弄权铁槛寺　秦鲸卿得趣馒头庵.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F9242B18051E0E0070D1D5 /* 第十五回 王凤姐弄权铁槛寺　秦鲸卿得趣馒头庵.txt */; };
+		F5F924A918051E0E0070D1D5 /* 第十八回 皇恩重元妃省父母　天伦乐宝玉呈才藻.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F9242C18051E0E0070D1D5 /* 第十八回 皇恩重元妃省父母　天伦乐宝玉呈才藻.txt */; };
+		F5F924AA18051E0E0070D1D5 /* 第十六回 贾元春才选凤藻宫　秦鲸卿夭逝黄泉路.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F9242D18051E0E0070D1D5 /* 第十六回 贾元春才选凤藻宫　秦鲸卿夭逝黄泉路.txt */; };
+		F5F924AB18051E0E0070D1D5 /* 第十四回 林如海灵返苏州郡　贾宝玉路谒北静王.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F9242E18051E0E0070D1D5 /* 第十四回 林如海灵返苏州郡　贾宝玉路谒北静王.txt */; };
+		F5F924AC18051E0E0070D1D5 /* 第十回 金寡妇贪利权受辱　张太医论病细穷源.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F9242F18051E0E0070D1D5 /* 第十回 金寡妇贪利权受辱　张太医论病细穷源.txt */; };
+		F5F924AD18051E0E0070D1D5 /* 第四十一回 贾宝玉品茶栊翠庵　刘姥姥醉卧怡红院.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F9243018051E0E0070D1D5 /* 第四十一回 贾宝玉品茶栊翠庵　刘姥姥醉卧怡红院.txt */; };
+		F5F924AE18051E0E0070D1D5 /* 第四十七回 呆霸王调情遭苦打　冷郎君惧祸走他乡.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F9243118051E0E0070D1D5 /* 第四十七回 呆霸王调情遭苦打　冷郎君惧祸走他乡.txt */; };
+		F5F924AF18051E0E0070D1D5 /* 第四十三回 闲取乐偶攒金庆寿　不了情暂撮土为香.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F9243218051E0E0070D1D5 /* 第四十三回 闲取乐偶攒金庆寿　不了情暂撮土为香.txt */; };
+		F5F924B018051E0E0070D1D5 /* 第四十九回 琉璃世界白雪红梅 脂粉香娃割腥啖膻.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F9243318051E0E0070D1D5 /* 第四十九回 琉璃世界白雪红梅 脂粉香娃割腥啖膻.txt */; };
+		F5F924B118051E0E0070D1D5 /* 第四十二回 蘅芜君兰言解疑癖　潇湘子雅谑补余音.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F9243418051E0E0070D1D5 /* 第四十二回 蘅芜君兰言解疑癖　潇湘子雅谑补余音.txt */; };
+		F5F924B218051E0E0070D1D5 /* 第四十五回 金兰契互剖金兰语　风雨夕闷制风雨词.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F9243518051E0E0070D1D5 /* 第四十五回 金兰契互剖金兰语　风雨夕闷制风雨词.txt */; };
+		F5F924B318051E0E0070D1D5 /* 第四十八回 滥情人情误思游艺 慕雅女雅集苦吟诗.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F9243618051E0E0070D1D5 /* 第四十八回 滥情人情误思游艺 慕雅女雅集苦吟诗.txt */; };
+		F5F924B418051E0E0070D1D5 /* 第四十六回 尴尬人难免尴尬事　鸳鸯女誓绝鸳鸯偶.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F9243718051E0E0070D1D5 /* 第四十六回 尴尬人难免尴尬事　鸳鸯女誓绝鸳鸯偶.txt */; };
+		F5F924B518051E0E0070D1D5 /* 第四十四回 变生不测凤姐泼醋　喜出望外平儿理妆.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F9243818051E0E0070D1D5 /* 第四十四回 变生不测凤姐泼醋　喜出望外平儿理妆.txt */; };
+		F5F924B618051E0E0070D1D5 /* 第四十回 史太君两宴大观园　金鸳鸯三宣牙牌令.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F9243918051E0E0070D1D5 /* 第四十回 史太君两宴大观园　金鸳鸯三宣牙牌令.txt */; };
+		F5F924B718051E0E0070D1D5 /* 第四回 薄命女偏逢薄命郎　葫芦僧乱判葫芦案.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F9243A18051E0E0070D1D5 /* 第四回 薄命女偏逢薄命郎　葫芦僧乱判葫芦案.txt */; };
+		F5F924B918051E380070D1D5 /* ChapterList.plist in Resources */ = {isa = PBXBuildFile; fileRef = F5F924B818051E380070D1D5 /* ChapterList.plist */; };
+		F5F924BC18051F530070D1D5 /* JFSetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F924BB18051F530070D1D5 /* JFSetModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +180,134 @@
 		F5F923AF18051D9E0070D1D5 /* readAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "readAppTests-Info.plist"; sourceTree = "<group>"; };
 		F5F923B118051D9E0070D1D5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F5F923B318051D9E0070D1D5 /* readAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = readAppTests.m; sourceTree = "<group>"; };
+		F5F923BE18051E0D0070D1D5 /* chapters.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chapters.png; sourceTree = "<group>"; };
+		F5F923BF18051E0D0070D1D5 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		F5F923C018051E0D0070D1D5 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		F5F923C118051E0D0070D1D5 /* icon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon2.png; sourceTree = "<group>"; };
+		F5F923C218051E0D0070D1D5 /* test.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.txt; sourceTree = "<group>"; };
+		F5F923C318051E0D0070D1D5 /* 第一回 甄士隐梦幻识通灵　贾雨村风尘怀闺秀.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第一回 甄士隐梦幻识通灵　贾雨村风尘怀闺秀.txt"; sourceTree = "<group>"; };
+		F5F923C418051E0D0070D1D5 /* 第一百一回 大观园月夜警幽魂　散花寺神签惊异兆.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第一百一回 大观园月夜警幽魂　散花寺神签惊异兆.txt"; sourceTree = "<group>"; };
+		F5F923C518051E0D0070D1D5 /* 第一百七回 散余资贾母明大义　复世职政老沐天恩.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第一百七回 散余资贾母明大义　复世职政老沐天恩.txt"; sourceTree = "<group>"; };
+		F5F923C618051E0D0070D1D5 /* 第一百三回 施毒计金桂自焚身　昧真禅雨村空遇旧.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第一百三回 施毒计金桂自焚身　昧真禅雨村空遇旧.txt"; sourceTree = "<group>"; };
+		F5F923C718051E0D0070D1D5 /* 第一百九回 候芳魂五儿承错爱　还孽债迎女返真元.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第一百九回 候芳魂五儿承错爱　还孽债迎女返真元.txt"; sourceTree = "<group>"; };
+		F5F923C818051E0D0070D1D5 /* 第一百二十回 甄士隐详说太虚情　贾雨村归结红楼梦.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第一百二十回 甄士隐详说太虚情　贾雨村归结红楼梦.txt"; sourceTree = "<group>"; };
+		F5F923C918051E0D0070D1D5 /* 第一百二回 宁国府骨肉病灾祲　大观园符水驱妖孽.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第一百二回 宁国府骨肉病灾祲　大观园符水驱妖孽.txt"; sourceTree = "<group>"; };
+		F5F923CA18051E0D0070D1D5 /* 第一百五回 锦衣军查抄宁国府　骢马使弹劾平安州.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第一百五回 锦衣军查抄宁国府　骢马使弹劾平安州.txt"; sourceTree = "<group>"; };
+		F5F923CB18051E0D0070D1D5 /* 第一百八回 强欢笑蘅芜庆生辰　死缠绵潇湘闻鬼哭.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第一百八回 强欢笑蘅芜庆生辰　死缠绵潇湘闻鬼哭.txt"; sourceTree = "<group>"; };
+		F5F923CC18051E0D0070D1D5 /* 第一百六回 王熙凤致祸抱羞惭　贾太君祷天消祸患.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第一百六回 王熙凤致祸抱羞惭　贾太君祷天消祸患.txt"; sourceTree = "<group>"; };
+		F5F923CD18051E0D0070D1D5 /* 第一百十一回 鸳鸯女殉主登太虚　狗彘奴欺天招伙盗.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第一百十一回 鸳鸯女殉主登太虚　狗彘奴欺天招伙盗.txt"; sourceTree = "<group>"; };
+		F5F923CE18051E0D0070D1D5 /* 第一百十七回 阻超凡佳人双护玉　欣聚党恶子独承家.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第一百十七回 阻超凡佳人双护玉　欣聚党恶子独承家.txt"; sourceTree = "<group>"; };
+		F5F923CF18051E0D0070D1D5 /* 第一百十三回 忏宿冤凤姐托村妪　释旧憾情婢感痴郎.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第一百十三回 忏宿冤凤姐托村妪　释旧憾情婢感痴郎.txt"; sourceTree = "<group>"; };
+		F5F923D018051E0D0070D1D5 /* 第一百十九回 中乡魁宝玉却尘缘　沐皇恩贾家延世泽.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第一百十九回 中乡魁宝玉却尘缘　沐皇恩贾家延世泽.txt"; sourceTree = "<group>"; };
+		F5F923D118051E0D0070D1D5 /* 第一百十二回 活冤孽妙姑遭大劫　死雠仇赵妾赴冥曹.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第一百十二回 活冤孽妙姑遭大劫　死雠仇赵妾赴冥曹.txt"; sourceTree = "<group>"; };
+		F5F923D218051E0D0070D1D5 /* 第一百十五回 惑偏私惜春矢素志　证同类宝玉失相知.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第一百十五回 惑偏私惜春矢素志　证同类宝玉失相知.txt"; sourceTree = "<group>"; };
+		F5F923D318051E0D0070D1D5 /* 第一百十八回 记微嫌舅兄欺弱女　惊谜语妻妾谏痴人.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第一百十八回 记微嫌舅兄欺弱女　惊谜语妻妾谏痴人.txt"; sourceTree = "<group>"; };
+		F5F923D418051E0D0070D1D5 /* 第一百十六回 得通灵幻境悟仙缘　送慈柩故乡全孝道.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第一百十六回 得通灵幻境悟仙缘　送慈柩故乡全孝道.txt"; sourceTree = "<group>"; };
+		F5F923D518051E0D0070D1D5 /* 第一百十四回 王熙凤历幻返金陵　甄应嘉蒙恩还玉阙.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第一百十四回 王熙凤历幻返金陵　甄应嘉蒙恩还玉阙.txt"; sourceTree = "<group>"; };
+		F5F923D618051E0D0070D1D5 /* 第一百十回 史太君寿终归地府　王凤姐力诎失人心.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第一百十回 史太君寿终归地府　王凤姐力诎失人心.txt"; sourceTree = "<group>"; };
+		F5F923D718051E0D0070D1D5 /* 第一百四回 醉金刚小鳅生大浪　痴公子余痛触前情.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第一百四回 醉金刚小鳅生大浪　痴公子余痛触前情.txt"; sourceTree = "<group>"; };
+		F5F923D818051E0D0070D1D5 /* 第一百回 破好事香菱结深恨　悲远嫁宝玉感离情.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第一百回 破好事香菱结深恨　悲远嫁宝玉感离情.txt"; sourceTree = "<group>"; };
+		F5F923D918051E0D0070D1D5 /* 第七十一回 嫌隙人有心生嫌隙　鸳鸯女无意遇鸳鸯.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第七十一回 嫌隙人有心生嫌隙　鸳鸯女无意遇鸳鸯.txt"; sourceTree = "<group>"; };
+		F5F923DA18051E0D0070D1D5 /* 第七十七回　俏丫鬟抱屈夭风流　美优伶斩情归水月.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第七十七回　俏丫鬟抱屈夭风流　美优伶斩情归水月.txt"; sourceTree = "<group>"; };
+		F5F923DB18051E0D0070D1D5 /* 第七十三回 痴丫头误拾绣春囊　懦小姐不问累金凤.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第七十三回 痴丫头误拾绣春囊　懦小姐不问累金凤.txt"; sourceTree = "<group>"; };
+		F5F923DC18051E0D0070D1D5 /* 第七十九回 薛文起悔娶河东吼　贾迎春误嫁中山狼.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第七十九回 薛文起悔娶河东吼　贾迎春误嫁中山狼.txt"; sourceTree = "<group>"; };
+		F5F923DD18051E0D0070D1D5 /* 第七十二回 王熙凤恃强羞说病　来旺妇倚势霸成亲.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第七十二回 王熙凤恃强羞说病　来旺妇倚势霸成亲.txt"; sourceTree = "<group>"; };
+		F5F923DE18051E0D0070D1D5 /* 第七十五回 开夜宴异兆发悲音　赏中秋新词得佳谶.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第七十五回 开夜宴异兆发悲音　赏中秋新词得佳谶.txt"; sourceTree = "<group>"; };
+		F5F923DF18051E0D0070D1D5 /* 第七十八回 老学士闲征姽婳词　痴公子杜撰芙蓉诔.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第七十八回 老学士闲征姽婳词　痴公子杜撰芙蓉诔.txt"; sourceTree = "<group>"; };
+		F5F923E018051E0D0070D1D5 /* 第七十六回 凸碧堂品笛感凄清　凹晶馆联诗悲寂寞.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第七十六回 凸碧堂品笛感凄清　凹晶馆联诗悲寂寞.txt"; sourceTree = "<group>"; };
+		F5F923E118051E0D0070D1D5 /* 第七十四回 惑奸谗抄检大观园　避嫌隙杜绝宁国府.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第七十四回 惑奸谗抄检大观园　避嫌隙杜绝宁国府.txt"; sourceTree = "<group>"; };
+		F5F923E218051E0D0070D1D5 /* 第七十回 林黛玉重建桃花社　史湘云偶填柳絮词.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第七十回 林黛玉重建桃花社　史湘云偶填柳絮词.txt"; sourceTree = "<group>"; };
+		F5F923E318051E0D0070D1D5 /* 第七回 送宫花贾琏戏熙凤　宴宁府宝玉会秦钟.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第七回 送宫花贾琏戏熙凤　宴宁府宝玉会秦钟.txt"; sourceTree = "<group>"; };
+		F5F923E418051E0D0070D1D5 /* 第三十一回 撕扇子作千金一笑　因麒麟伏白首双星.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第三十一回 撕扇子作千金一笑　因麒麟伏白首双星.txt"; sourceTree = "<group>"; };
+		F5F923E518051E0D0070D1D5 /* 第三十七回 秋爽斋偶结海棠社　蘅芜院夜拟菊花题.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第三十七回 秋爽斋偶结海棠社　蘅芜院夜拟菊花题.txt"; sourceTree = "<group>"; };
+		F5F923E618051E0D0070D1D5 /* 第三十三回 手足眈眈小动唇舌　不肖种种大承笞挞.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第三十三回 手足眈眈小动唇舌　不肖种种大承笞挞.txt"; sourceTree = "<group>"; };
+		F5F923E718051E0D0070D1D5 /* 第三十九回 村姥姥是信口开河　情哥哥偏寻根究底.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第三十九回 村姥姥是信口开河　情哥哥偏寻根究底.txt"; sourceTree = "<group>"; };
+		F5F923E818051E0D0070D1D5 /* 第三十二回 诉肺腑心迷活宝玉　含耻辱情烈死金钏.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第三十二回 诉肺腑心迷活宝玉　含耻辱情烈死金钏.txt"; sourceTree = "<group>"; };
+		F5F923E918051E0D0070D1D5 /* 第三十五回 白玉钏亲尝莲叶羹　黄金莺巧结梅花络.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第三十五回 白玉钏亲尝莲叶羹　黄金莺巧结梅花络.txt"; sourceTree = "<group>"; };
+		F5F923EA18051E0D0070D1D5 /* 第三十八回 林潇湘魁夺菊花诗　薛蘅芜讽和螃蟹咏.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第三十八回 林潇湘魁夺菊花诗　薛蘅芜讽和螃蟹咏.txt"; sourceTree = "<group>"; };
+		F5F923EB18051E0D0070D1D5 /* 第三十六回 绣鸳鸯梦兆绛芸轩　识分定情悟梨香院.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第三十六回 绣鸳鸯梦兆绛芸轩　识分定情悟梨香院.txt"; sourceTree = "<group>"; };
+		F5F923EC18051E0D0070D1D5 /* 第三十四回 情中情因情感妹妹　错里错以错劝哥哥.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第三十四回 情中情因情感妹妹　错里错以错劝哥哥.txt"; sourceTree = "<group>"; };
+		F5F923ED18051E0D0070D1D5 /* 第三十回 宝钗借扇机带双敲　椿龄画蔷痴及局外.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第三十回 宝钗借扇机带双敲　椿龄画蔷痴及局外.txt"; sourceTree = "<group>"; };
+		F5F923EE18051E0D0070D1D5 /* 第三回 贾雨村夤缘复旧职　林黛玉抛父进京都.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第三回 贾雨村夤缘复旧职　林黛玉抛父进京都.txt"; sourceTree = "<group>"; };
+		F5F923EF18051E0D0070D1D5 /* 第九十一回 纵淫心宝蟾工设计　布疑阵宝玉妄谈禅.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第九十一回 纵淫心宝蟾工设计　布疑阵宝玉妄谈禅.txt"; sourceTree = "<group>"; };
+		F5F923F018051E0D0070D1D5 /* 第九十七回 林黛玉焚稿断痴情　薛宝钗出闺成大礼.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第九十七回 林黛玉焚稿断痴情　薛宝钗出闺成大礼.txt"; sourceTree = "<group>"; };
+		F5F923F118051E0D0070D1D5 /* 第九十三回 甄家仆投靠贾家门　水月庵掀翻风月案.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第九十三回 甄家仆投靠贾家门　水月庵掀翻风月案.txt"; sourceTree = "<group>"; };
+		F5F923F218051E0D0070D1D5 /* 第九十九回 守官箴恶奴同破例　阅邸报老舅自担惊.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第九十九回 守官箴恶奴同破例　阅邸报老舅自担惊.txt"; sourceTree = "<group>"; };
+		F5F923F318051E0D0070D1D5 /* 第九十二回 评女传巧姐慕贤良　玩母珠贾政参聚散.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第九十二回 评女传巧姐慕贤良　玩母珠贾政参聚散.txt"; sourceTree = "<group>"; };
+		F5F923F418051E0D0070D1D5 /* 第九十五回 因讹成实元妃薨逝　以假混真宝玉疯癫.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第九十五回 因讹成实元妃薨逝　以假混真宝玉疯癫.txt"; sourceTree = "<group>"; };
+		F5F923F518051E0D0070D1D5 /* 第九十八回 苦绛珠魂归离恨天　病神瑛泪洒相思地.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第九十八回 苦绛珠魂归离恨天　病神瑛泪洒相思地.txt"; sourceTree = "<group>"; };
+		F5F923F618051E0D0070D1D5 /* 第九十六回 瞒消息凤姐设奇谋　泄机关颦儿迷本性.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第九十六回 瞒消息凤姐设奇谋　泄机关颦儿迷本性.txt"; sourceTree = "<group>"; };
+		F5F923F718051E0D0070D1D5 /* 第九十四回 宴海棠贾母赏花妖　失宝玉通灵知奇祸.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第九十四回 宴海棠贾母赏花妖　失宝玉通灵知奇祸.txt"; sourceTree = "<group>"; };
+		F5F923F818051E0D0070D1D5 /* 第九十回 失绵衣贫女耐嗷嘈　送果品小郎惊叵测.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第九十回 失绵衣贫女耐嗷嘈　送果品小郎惊叵测.txt"; sourceTree = "<group>"; };
+		F5F923F918051E0E0070D1D5 /* 第九回 训劣子李贵承申饬　嗔顽童茗烟闹书房.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第九回 训劣子李贵承申饬　嗔顽童茗烟闹书房.txt"; sourceTree = "<group>"; };
+		F5F923FA18051E0E0070D1D5 /* 第二十一回 贤袭人娇嗔箴宝玉　俏平儿软语救贾琏.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第二十一回 贤袭人娇嗔箴宝玉　俏平儿软语救贾琏.txt"; sourceTree = "<group>"; };
+		F5F923FB18051E0E0070D1D5 /* 第二十七回 滴翠亭杨妃戏彩蝶　埋香冢飞燕泣残红.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第二十七回 滴翠亭杨妃戏彩蝶　埋香冢飞燕泣残红.txt"; sourceTree = "<group>"; };
+		F5F923FC18051E0E0070D1D5 /* 第二十三回 西厢记妙词通戏语　牡丹亭艳曲警芳心.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第二十三回 西厢记妙词通戏语　牡丹亭艳曲警芳心.txt"; sourceTree = "<group>"; };
+		F5F923FD18051E0E0070D1D5 /* 第二十九回 享福人福深还祷福　多情女情重愈斟情.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第二十九回 享福人福深还祷福　多情女情重愈斟情.txt"; sourceTree = "<group>"; };
+		F5F923FE18051E0E0070D1D5 /* 第二十二回 听曲文宝玉悟禅机　制灯谜贾政悲谶语.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第二十二回 听曲文宝玉悟禅机　制灯谜贾政悲谶语.txt"; sourceTree = "<group>"; };
+		F5F923FF18051E0E0070D1D5 /* 第二十五回 魇魔法叔嫂逢五鬼　通灵玉蒙蔽遇双真.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第二十五回 魇魔法叔嫂逢五鬼　通灵玉蒙蔽遇双真.txt"; sourceTree = "<group>"; };
+		F5F9240018051E0E0070D1D5 /* 第二十八回 蒋玉函情赠茜香罗　薛宝钗羞笼红麝串.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第二十八回 蒋玉函情赠茜香罗　薛宝钗羞笼红麝串.txt"; sourceTree = "<group>"; };
+		F5F9240118051E0E0070D1D5 /* 第二十六回　蜂腰桥设言传心事　潇湘馆春困发幽情.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第二十六回　蜂腰桥设言传心事　潇湘馆春困发幽情.txt"; sourceTree = "<group>"; };
+		F5F9240218051E0E0070D1D5 /* 第二十四回 醉金刚轻财尚义侠　痴女儿遗帕惹相思.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第二十四回 醉金刚轻财尚义侠　痴女儿遗帕惹相思.txt"; sourceTree = "<group>"; };
+		F5F9240318051E0E0070D1D5 /* 第二十回 王熙凤正言弹妒意　林黛玉俏语谑娇音.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第二十回 王熙凤正言弹妒意　林黛玉俏语谑娇音.txt"; sourceTree = "<group>"; };
+		F5F9240418051E0E0070D1D5 /* 第二回 贾夫人仙逝扬州城　冷子兴演说荣国府.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第二回 贾夫人仙逝扬州城　冷子兴演说荣国府.txt"; sourceTree = "<group>"; };
+		F5F9240518051E0E0070D1D5 /* 第五十一回 薛小妹新编怀古诗　胡庸医乱用虎狼药.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第五十一回 薛小妹新编怀古诗　胡庸医乱用虎狼药.txt"; sourceTree = "<group>"; };
+		F5F9240618051E0E0070D1D5 /* 第五十七回 慧紫鹃情辞试莽玉　慈姨妈爱语慰痴颦.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第五十七回 慧紫鹃情辞试莽玉　慈姨妈爱语慰痴颦.txt"; sourceTree = "<group>"; };
+		F5F9240718051E0E0070D1D5 /* 第五十三回 宁国府除夕祭宗祠　荣国府元宵开夜宴.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第五十三回 宁国府除夕祭宗祠　荣国府元宵开夜宴.txt"; sourceTree = "<group>"; };
+		F5F9240818051E0E0070D1D5 /* 第五十九回 柳叶渚边嗔莺叱燕　绛芸轩里召将飞符.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第五十九回 柳叶渚边嗔莺叱燕　绛芸轩里召将飞符.txt"; sourceTree = "<group>"; };
+		F5F9240918051E0E0070D1D5 /* 第五十二回 俏平儿情掩虾须镯 勇晴雯病补孔雀裘.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第五十二回 俏平儿情掩虾须镯 勇晴雯病补孔雀裘.txt"; sourceTree = "<group>"; };
+		F5F9240A18051E0E0070D1D5 /* 第五十五回 辱亲女愚妾争闲气　欺幼主刁奴蓄险心.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第五十五回 辱亲女愚妾争闲气　欺幼主刁奴蓄险心.txt"; sourceTree = "<group>"; };
+		F5F9240B18051E0E0070D1D5 /* 第五十八回 杏子阴假凤泣虚凰　茜纱窗真情揆痴理.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第五十八回 杏子阴假凤泣虚凰　茜纱窗真情揆痴理.txt"; sourceTree = "<group>"; };
+		F5F9240C18051E0E0070D1D5 /* 第五十六回 敏探春兴利除宿弊　贤宝钗小惠全大体.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第五十六回 敏探春兴利除宿弊　贤宝钗小惠全大体.txt"; sourceTree = "<group>"; };
+		F5F9240D18051E0E0070D1D5 /* 第五十四回 史太君破陈腐旧套　王熙凤效戏彩斑衣.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第五十四回 史太君破陈腐旧套　王熙凤效戏彩斑衣.txt"; sourceTree = "<group>"; };
+		F5F9240E18051E0E0070D1D5 /* 第五十回 芦雪庭争联即景诗 暖香坞雅制春灯谜.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第五十回 芦雪庭争联即景诗 暖香坞雅制春灯谜.txt"; sourceTree = "<group>"; };
+		F5F9240F18051E0E0070D1D5 /* 第五回 游幻境指迷十二钗　饮仙醪曲演红楼梦.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第五回 游幻境指迷十二钗　饮仙醪曲演红楼梦.txt"; sourceTree = "<group>"; };
+		F5F9241018051E0E0070D1D5 /* 第八十一回　占旺相四美钓游鱼　奉严词两番入家塾.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第八十一回　占旺相四美钓游鱼　奉严词两番入家塾.txt"; sourceTree = "<group>"; };
+		F5F9241118051E0E0070D1D5 /* 第八十七回 感秋声抚琴悲往事　坐禅寂走火入邪魔.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第八十七回 感秋声抚琴悲往事　坐禅寂走火入邪魔.txt"; sourceTree = "<group>"; };
+		F5F9241218051E0E0070D1D5 /* 第八十三回 省宫闱贾元妃染恙　闹闺阃薛宝钗吞声.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第八十三回 省宫闱贾元妃染恙　闹闺阃薛宝钗吞声.txt"; sourceTree = "<group>"; };
+		F5F9241318051E0E0070D1D5 /* 第八十九回 人亡物在公子填词　蛇影杯弓颦卿绝粒.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第八十九回 人亡物在公子填词　蛇影杯弓颦卿绝粒.txt"; sourceTree = "<group>"; };
+		F5F9241418051E0E0070D1D5 /* 第八十二回 老学究讲义警顽心　病潇湘痴魂惊恶梦.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第八十二回 老学究讲义警顽心　病潇湘痴魂惊恶梦.txt"; sourceTree = "<group>"; };
+		F5F9241518051E0E0070D1D5 /* 第八十五回 贾存周报升郎中任　薛文起复惹放流刑.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第八十五回 贾存周报升郎中任　薛文起复惹放流刑.txt"; sourceTree = "<group>"; };
+		F5F9241618051E0E0070D1D5 /* 第八十八回 博庭欢宝玉赞孤儿　正家法贾珍鞭悍仆.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第八十八回 博庭欢宝玉赞孤儿　正家法贾珍鞭悍仆.txt"; sourceTree = "<group>"; };
+		F5F9241718051E0E0070D1D5 /* 第八十六回 受私贿老官翻案牍　寄闲情淑女解琴书.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第八十六回 受私贿老官翻案牍　寄闲情淑女解琴书.txt"; sourceTree = "<group>"; };
+		F5F9241818051E0E0070D1D5 /* 第八十四回 试文字宝玉始提亲　探惊风贾环重结怨.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第八十四回 试文字宝玉始提亲　探惊风贾环重结怨.txt"; sourceTree = "<group>"; };
+		F5F9241918051E0E0070D1D5 /* 第八十回 美香菱屈受贪夫棒　王道士胡诌妒妇方.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第八十回 美香菱屈受贪夫棒　王道士胡诌妒妇方.txt"; sourceTree = "<group>"; };
+		F5F9241A18051E0E0070D1D5 /* 第八回 贾宝玉奇缘识金锁　薛宝钗巧合认通灵.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第八回 贾宝玉奇缘识金锁　薛宝钗巧合认通灵.txt"; sourceTree = "<group>"; };
+		F5F9241B18051E0E0070D1D5 /* 第六十一回 投鼠忌器宝王瞒赃　判冤决狱平儿行权.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第六十一回 投鼠忌器宝王瞒赃　判冤决狱平儿行权.txt"; sourceTree = "<group>"; };
+		F5F9241C18051E0E0070D1D5 /* 第六十七回 见土仪颦卿思故里　闻秘事凤姐讯家童.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第六十七回 见土仪颦卿思故里　闻秘事凤姐讯家童.txt"; sourceTree = "<group>"; };
+		F5F9241D18051E0E0070D1D5 /* 第六十三回 寿怡红群芳开夜宴　死金丹独艳理亲丧.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第六十三回 寿怡红群芳开夜宴　死金丹独艳理亲丧.txt"; sourceTree = "<group>"; };
+		F5F9241E18051E0E0070D1D5 /* 第六十九回 弄小巧用借剑杀人　觉大限吞生金自逝.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第六十九回 弄小巧用借剑杀人　觉大限吞生金自逝.txt"; sourceTree = "<group>"; };
+		F5F9241F18051E0E0070D1D5 /* 第六十二回 憨湘云醉眠芍药裀　呆香菱情解石榴裙.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第六十二回 憨湘云醉眠芍药裀　呆香菱情解石榴裙.txt"; sourceTree = "<group>"; };
+		F5F9242018051E0E0070D1D5 /* 第六十五回 贾二舍偷娶尤二姨　尤三姐思嫁柳二郎.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第六十五回 贾二舍偷娶尤二姨　尤三姐思嫁柳二郎.txt"; sourceTree = "<group>"; };
+		F5F9242118051E0E0070D1D5 /* 第六十八回 苦尤娘赚入大观园　酸凤姐大闹宁国府.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第六十八回 苦尤娘赚入大观园　酸凤姐大闹宁国府.txt"; sourceTree = "<group>"; };
+		F5F9242218051E0E0070D1D5 /* 第六十六回 情小妹耻情归地府　冷二郎一冷入空门.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第六十六回 情小妹耻情归地府　冷二郎一冷入空门.txt"; sourceTree = "<group>"; };
+		F5F9242318051E0E0070D1D5 /* 第六十四回 幽淑女悲题五美吟　浪荡子情遗九龙佩.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第六十四回 幽淑女悲题五美吟　浪荡子情遗九龙佩.txt"; sourceTree = "<group>"; };
+		F5F9242418051E0E0070D1D5 /* 第六十回 茉莉粉替去蔷薇硝　玫瑰露引出茯苓霜.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第六十回 茉莉粉替去蔷薇硝　玫瑰露引出茯苓霜.txt"; sourceTree = "<group>"; };
+		F5F9242518051E0E0070D1D5 /* 第六回 贾宝玉初试云雨情　刘姥姥一进荣国府.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第六回 贾宝玉初试云雨情　刘姥姥一进荣国府.txt"; sourceTree = "<group>"; };
+		F5F9242618051E0E0070D1D5 /* 第十一回 庆寿辰宁府排家宴　见熙凤贾瑞起淫心.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第十一回 庆寿辰宁府排家宴　见熙凤贾瑞起淫心.txt"; sourceTree = "<group>"; };
+		F5F9242718051E0E0070D1D5 /* 第十七回 大观园试才题对额　荣国府归省庆元宵.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第十七回 大观园试才题对额　荣国府归省庆元宵.txt"; sourceTree = "<group>"; };
+		F5F9242818051E0E0070D1D5 /* 第十三回 秦可卿死封龙禁尉　王熙凤协理宁国府.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第十三回 秦可卿死封龙禁尉　王熙凤协理宁国府.txt"; sourceTree = "<group>"; };
+		F5F9242918051E0E0070D1D5 /* 第十九回 情切切良宵花解语　意绵绵静日玉生香.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第十九回 情切切良宵花解语　意绵绵静日玉生香.txt"; sourceTree = "<group>"; };
+		F5F9242A18051E0E0070D1D5 /* 第十二回 王熙凤毒设相思局　贾天祥正照风月鉴.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第十二回 王熙凤毒设相思局　贾天祥正照风月鉴.txt"; sourceTree = "<group>"; };
+		F5F9242B18051E0E0070D1D5 /* 第十五回 王凤姐弄权铁槛寺　秦鲸卿得趣馒头庵.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第十五回 王凤姐弄权铁槛寺　秦鲸卿得趣馒头庵.txt"; sourceTree = "<group>"; };
+		F5F9242C18051E0E0070D1D5 /* 第十八回 皇恩重元妃省父母　天伦乐宝玉呈才藻.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第十八回 皇恩重元妃省父母　天伦乐宝玉呈才藻.txt"; sourceTree = "<group>"; };
+		F5F9242D18051E0E0070D1D5 /* 第十六回 贾元春才选凤藻宫　秦鲸卿夭逝黄泉路.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第十六回 贾元春才选凤藻宫　秦鲸卿夭逝黄泉路.txt"; sourceTree = "<group>"; };
+		F5F9242E18051E0E0070D1D5 /* 第十四回 林如海灵返苏州郡　贾宝玉路谒北静王.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第十四回 林如海灵返苏州郡　贾宝玉路谒北静王.txt"; sourceTree = "<group>"; };
+		F5F9242F18051E0E0070D1D5 /* 第十回 金寡妇贪利权受辱　张太医论病细穷源.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第十回 金寡妇贪利权受辱　张太医论病细穷源.txt"; sourceTree = "<group>"; };
+		F5F9243018051E0E0070D1D5 /* 第四十一回 贾宝玉品茶栊翠庵　刘姥姥醉卧怡红院.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第四十一回 贾宝玉品茶栊翠庵　刘姥姥醉卧怡红院.txt"; sourceTree = "<group>"; };
+		F5F9243118051E0E0070D1D5 /* 第四十七回 呆霸王调情遭苦打　冷郎君惧祸走他乡.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第四十七回 呆霸王调情遭苦打　冷郎君惧祸走他乡.txt"; sourceTree = "<group>"; };
+		F5F9243218051E0E0070D1D5 /* 第四十三回 闲取乐偶攒金庆寿　不了情暂撮土为香.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第四十三回 闲取乐偶攒金庆寿　不了情暂撮土为香.txt"; sourceTree = "<group>"; };
+		F5F9243318051E0E0070D1D5 /* 第四十九回 琉璃世界白雪红梅 脂粉香娃割腥啖膻.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第四十九回 琉璃世界白雪红梅 脂粉香娃割腥啖膻.txt"; sourceTree = "<group>"; };
+		F5F9243418051E0E0070D1D5 /* 第四十二回 蘅芜君兰言解疑癖　潇湘子雅谑补余音.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第四十二回 蘅芜君兰言解疑癖　潇湘子雅谑补余音.txt"; sourceTree = "<group>"; };
+		F5F9243518051E0E0070D1D5 /* 第四十五回 金兰契互剖金兰语　风雨夕闷制风雨词.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第四十五回 金兰契互剖金兰语　风雨夕闷制风雨词.txt"; sourceTree = "<group>"; };
+		F5F9243618051E0E0070D1D5 /* 第四十八回 滥情人情误思游艺 慕雅女雅集苦吟诗.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第四十八回 滥情人情误思游艺 慕雅女雅集苦吟诗.txt"; sourceTree = "<group>"; };
+		F5F9243718051E0E0070D1D5 /* 第四十六回 尴尬人难免尴尬事　鸳鸯女誓绝鸳鸯偶.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第四十六回 尴尬人难免尴尬事　鸳鸯女誓绝鸳鸯偶.txt"; sourceTree = "<group>"; };
+		F5F9243818051E0E0070D1D5 /* 第四十四回 变生不测凤姐泼醋　喜出望外平儿理妆.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第四十四回 变生不测凤姐泼醋　喜出望外平儿理妆.txt"; sourceTree = "<group>"; };
+		F5F9243918051E0E0070D1D5 /* 第四十回 史太君两宴大观园　金鸳鸯三宣牙牌令.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第四十回 史太君两宴大观园　金鸳鸯三宣牙牌令.txt"; sourceTree = "<group>"; };
+		F5F9243A18051E0E0070D1D5 /* 第四回 薄命女偏逢薄命郎　葫芦僧乱判葫芦案.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第四回 薄命女偏逢薄命郎　葫芦僧乱判葫芦案.txt"; sourceTree = "<group>"; };
+		F5F924B818051E380070D1D5 /* ChapterList.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = ChapterList.plist; sourceTree = "<group>"; };
+		F5F924BA18051F530070D1D5 /* JFSetModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFSetModel.h; sourceTree = "<group>"; };
+		F5F924BB18051F530070D1D5 /* JFSetModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFSetModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,7 +372,10 @@
 				F5F9239A18051D9E0070D1D5 /* Main.storyboard */,
 				F5F9239D18051D9E0070D1D5 /* JFViewController.h */,
 				F5F9239E18051D9E0070D1D5 /* JFViewController.m */,
+				F5F924BA18051F530070D1D5 /* JFSetModel.h */,
+				F5F924BB18051F530070D1D5 /* JFSetModel.m */,
 				F5F923A018051D9E0070D1D5 /* Images.xcassets */,
+				F5F923BD18051E0D0070D1D5 /* hongloumeng */,
 				F5F9238F18051D9E0070D1D5 /* Supporting Files */,
 			);
 			path = readApp;
@@ -150,6 +408,139 @@
 				F5F923B018051D9E0070D1D5 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F5F923BD18051E0D0070D1D5 /* hongloumeng */ = {
+			isa = PBXGroup;
+			children = (
+				F5F923BE18051E0D0070D1D5 /* chapters.png */,
+				F5F923BF18051E0D0070D1D5 /* Default.png */,
+				F5F923C018051E0D0070D1D5 /* icon.png */,
+				F5F923C118051E0D0070D1D5 /* icon2.png */,
+				F5F923C218051E0D0070D1D5 /* test.txt */,
+				F5F924B818051E380070D1D5 /* ChapterList.plist */,
+				F5F923C318051E0D0070D1D5 /* 第一回 甄士隐梦幻识通灵　贾雨村风尘怀闺秀.txt */,
+				F5F923C418051E0D0070D1D5 /* 第一百一回 大观园月夜警幽魂　散花寺神签惊异兆.txt */,
+				F5F923C518051E0D0070D1D5 /* 第一百七回 散余资贾母明大义　复世职政老沐天恩.txt */,
+				F5F923C618051E0D0070D1D5 /* 第一百三回 施毒计金桂自焚身　昧真禅雨村空遇旧.txt */,
+				F5F923C718051E0D0070D1D5 /* 第一百九回 候芳魂五儿承错爱　还孽债迎女返真元.txt */,
+				F5F923C818051E0D0070D1D5 /* 第一百二十回 甄士隐详说太虚情　贾雨村归结红楼梦.txt */,
+				F5F923C918051E0D0070D1D5 /* 第一百二回 宁国府骨肉病灾祲　大观园符水驱妖孽.txt */,
+				F5F923CA18051E0D0070D1D5 /* 第一百五回 锦衣军查抄宁国府　骢马使弹劾平安州.txt */,
+				F5F923CB18051E0D0070D1D5 /* 第一百八回 强欢笑蘅芜庆生辰　死缠绵潇湘闻鬼哭.txt */,
+				F5F923CC18051E0D0070D1D5 /* 第一百六回 王熙凤致祸抱羞惭　贾太君祷天消祸患.txt */,
+				F5F923CD18051E0D0070D1D5 /* 第一百十一回 鸳鸯女殉主登太虚　狗彘奴欺天招伙盗.txt */,
+				F5F923CE18051E0D0070D1D5 /* 第一百十七回 阻超凡佳人双护玉　欣聚党恶子独承家.txt */,
+				F5F923CF18051E0D0070D1D5 /* 第一百十三回 忏宿冤凤姐托村妪　释旧憾情婢感痴郎.txt */,
+				F5F923D018051E0D0070D1D5 /* 第一百十九回 中乡魁宝玉却尘缘　沐皇恩贾家延世泽.txt */,
+				F5F923D118051E0D0070D1D5 /* 第一百十二回 活冤孽妙姑遭大劫　死雠仇赵妾赴冥曹.txt */,
+				F5F923D218051E0D0070D1D5 /* 第一百十五回 惑偏私惜春矢素志　证同类宝玉失相知.txt */,
+				F5F923D318051E0D0070D1D5 /* 第一百十八回 记微嫌舅兄欺弱女　惊谜语妻妾谏痴人.txt */,
+				F5F923D418051E0D0070D1D5 /* 第一百十六回 得通灵幻境悟仙缘　送慈柩故乡全孝道.txt */,
+				F5F923D518051E0D0070D1D5 /* 第一百十四回 王熙凤历幻返金陵　甄应嘉蒙恩还玉阙.txt */,
+				F5F923D618051E0D0070D1D5 /* 第一百十回 史太君寿终归地府　王凤姐力诎失人心.txt */,
+				F5F923D718051E0D0070D1D5 /* 第一百四回 醉金刚小鳅生大浪　痴公子余痛触前情.txt */,
+				F5F923D818051E0D0070D1D5 /* 第一百回 破好事香菱结深恨　悲远嫁宝玉感离情.txt */,
+				F5F923D918051E0D0070D1D5 /* 第七十一回 嫌隙人有心生嫌隙　鸳鸯女无意遇鸳鸯.txt */,
+				F5F923DA18051E0D0070D1D5 /* 第七十七回　俏丫鬟抱屈夭风流　美优伶斩情归水月.txt */,
+				F5F923DB18051E0D0070D1D5 /* 第七十三回 痴丫头误拾绣春囊　懦小姐不问累金凤.txt */,
+				F5F923DC18051E0D0070D1D5 /* 第七十九回 薛文起悔娶河东吼　贾迎春误嫁中山狼.txt */,
+				F5F923DD18051E0D0070D1D5 /* 第七十二回 王熙凤恃强羞说病　来旺妇倚势霸成亲.txt */,
+				F5F923DE18051E0D0070D1D5 /* 第七十五回 开夜宴异兆发悲音　赏中秋新词得佳谶.txt */,
+				F5F923DF18051E0D0070D1D5 /* 第七十八回 老学士闲征姽婳词　痴公子杜撰芙蓉诔.txt */,
+				F5F923E018051E0D0070D1D5 /* 第七十六回 凸碧堂品笛感凄清　凹晶馆联诗悲寂寞.txt */,
+				F5F923E118051E0D0070D1D5 /* 第七十四回 惑奸谗抄检大观园　避嫌隙杜绝宁国府.txt */,
+				F5F923E218051E0D0070D1D5 /* 第七十回 林黛玉重建桃花社　史湘云偶填柳絮词.txt */,
+				F5F923E318051E0D0070D1D5 /* 第七回 送宫花贾琏戏熙凤　宴宁府宝玉会秦钟.txt */,
+				F5F923E418051E0D0070D1D5 /* 第三十一回 撕扇子作千金一笑　因麒麟伏白首双星.txt */,
+				F5F923E518051E0D0070D1D5 /* 第三十七回 秋爽斋偶结海棠社　蘅芜院夜拟菊花题.txt */,
+				F5F923E618051E0D0070D1D5 /* 第三十三回 手足眈眈小动唇舌　不肖种种大承笞挞.txt */,
+				F5F923E718051E0D0070D1D5 /* 第三十九回 村姥姥是信口开河　情哥哥偏寻根究底.txt */,
+				F5F923E818051E0D0070D1D5 /* 第三十二回 诉肺腑心迷活宝玉　含耻辱情烈死金钏.txt */,
+				F5F923E918051E0D0070D1D5 /* 第三十五回 白玉钏亲尝莲叶羹　黄金莺巧结梅花络.txt */,
+				F5F923EA18051E0D0070D1D5 /* 第三十八回 林潇湘魁夺菊花诗　薛蘅芜讽和螃蟹咏.txt */,
+				F5F923EB18051E0D0070D1D5 /* 第三十六回 绣鸳鸯梦兆绛芸轩　识分定情悟梨香院.txt */,
+				F5F923EC18051E0D0070D1D5 /* 第三十四回 情中情因情感妹妹　错里错以错劝哥哥.txt */,
+				F5F923ED18051E0D0070D1D5 /* 第三十回 宝钗借扇机带双敲　椿龄画蔷痴及局外.txt */,
+				F5F923EE18051E0D0070D1D5 /* 第三回 贾雨村夤缘复旧职　林黛玉抛父进京都.txt */,
+				F5F923EF18051E0D0070D1D5 /* 第九十一回 纵淫心宝蟾工设计　布疑阵宝玉妄谈禅.txt */,
+				F5F923F018051E0D0070D1D5 /* 第九十七回 林黛玉焚稿断痴情　薛宝钗出闺成大礼.txt */,
+				F5F923F118051E0D0070D1D5 /* 第九十三回 甄家仆投靠贾家门　水月庵掀翻风月案.txt */,
+				F5F923F218051E0D0070D1D5 /* 第九十九回 守官箴恶奴同破例　阅邸报老舅自担惊.txt */,
+				F5F923F318051E0D0070D1D5 /* 第九十二回 评女传巧姐慕贤良　玩母珠贾政参聚散.txt */,
+				F5F923F418051E0D0070D1D5 /* 第九十五回 因讹成实元妃薨逝　以假混真宝玉疯癫.txt */,
+				F5F923F518051E0D0070D1D5 /* 第九十八回 苦绛珠魂归离恨天　病神瑛泪洒相思地.txt */,
+				F5F923F618051E0D0070D1D5 /* 第九十六回 瞒消息凤姐设奇谋　泄机关颦儿迷本性.txt */,
+				F5F923F718051E0D0070D1D5 /* 第九十四回 宴海棠贾母赏花妖　失宝玉通灵知奇祸.txt */,
+				F5F923F818051E0D0070D1D5 /* 第九十回 失绵衣贫女耐嗷嘈　送果品小郎惊叵测.txt */,
+				F5F923F918051E0E0070D1D5 /* 第九回 训劣子李贵承申饬　嗔顽童茗烟闹书房.txt */,
+				F5F923FA18051E0E0070D1D5 /* 第二十一回 贤袭人娇嗔箴宝玉　俏平儿软语救贾琏.txt */,
+				F5F923FB18051E0E0070D1D5 /* 第二十七回 滴翠亭杨妃戏彩蝶　埋香冢飞燕泣残红.txt */,
+				F5F923FC18051E0E0070D1D5 /* 第二十三回 西厢记妙词通戏语　牡丹亭艳曲警芳心.txt */,
+				F5F923FD18051E0E0070D1D5 /* 第二十九回 享福人福深还祷福　多情女情重愈斟情.txt */,
+				F5F923FE18051E0E0070D1D5 /* 第二十二回 听曲文宝玉悟禅机　制灯谜贾政悲谶语.txt */,
+				F5F923FF18051E0E0070D1D5 /* 第二十五回 魇魔法叔嫂逢五鬼　通灵玉蒙蔽遇双真.txt */,
+				F5F9240018051E0E0070D1D5 /* 第二十八回 蒋玉函情赠茜香罗　薛宝钗羞笼红麝串.txt */,
+				F5F9240118051E0E0070D1D5 /* 第二十六回　蜂腰桥设言传心事　潇湘馆春困发幽情.txt */,
+				F5F9240218051E0E0070D1D5 /* 第二十四回 醉金刚轻财尚义侠　痴女儿遗帕惹相思.txt */,
+				F5F9240318051E0E0070D1D5 /* 第二十回 王熙凤正言弹妒意　林黛玉俏语谑娇音.txt */,
+				F5F9240418051E0E0070D1D5 /* 第二回 贾夫人仙逝扬州城　冷子兴演说荣国府.txt */,
+				F5F9240518051E0E0070D1D5 /* 第五十一回 薛小妹新编怀古诗　胡庸医乱用虎狼药.txt */,
+				F5F9240618051E0E0070D1D5 /* 第五十七回 慧紫鹃情辞试莽玉　慈姨妈爱语慰痴颦.txt */,
+				F5F9240718051E0E0070D1D5 /* 第五十三回 宁国府除夕祭宗祠　荣国府元宵开夜宴.txt */,
+				F5F9240818051E0E0070D1D5 /* 第五十九回 柳叶渚边嗔莺叱燕　绛芸轩里召将飞符.txt */,
+				F5F9240918051E0E0070D1D5 /* 第五十二回 俏平儿情掩虾须镯 勇晴雯病补孔雀裘.txt */,
+				F5F9240A18051E0E0070D1D5 /* 第五十五回 辱亲女愚妾争闲气　欺幼主刁奴蓄险心.txt */,
+				F5F9240B18051E0E0070D1D5 /* 第五十八回 杏子阴假凤泣虚凰　茜纱窗真情揆痴理.txt */,
+				F5F9240C18051E0E0070D1D5 /* 第五十六回 敏探春兴利除宿弊　贤宝钗小惠全大体.txt */,
+				F5F9240D18051E0E0070D1D5 /* 第五十四回 史太君破陈腐旧套　王熙凤效戏彩斑衣.txt */,
+				F5F9240E18051E0E0070D1D5 /* 第五十回 芦雪庭争联即景诗 暖香坞雅制春灯谜.txt */,
+				F5F9240F18051E0E0070D1D5 /* 第五回 游幻境指迷十二钗　饮仙醪曲演红楼梦.txt */,
+				F5F9241018051E0E0070D1D5 /* 第八十一回　占旺相四美钓游鱼　奉严词两番入家塾.txt */,
+				F5F9241118051E0E0070D1D5 /* 第八十七回 感秋声抚琴悲往事　坐禅寂走火入邪魔.txt */,
+				F5F9241218051E0E0070D1D5 /* 第八十三回 省宫闱贾元妃染恙　闹闺阃薛宝钗吞声.txt */,
+				F5F9241318051E0E0070D1D5 /* 第八十九回 人亡物在公子填词　蛇影杯弓颦卿绝粒.txt */,
+				F5F9241418051E0E0070D1D5 /* 第八十二回 老学究讲义警顽心　病潇湘痴魂惊恶梦.txt */,
+				F5F9241518051E0E0070D1D5 /* 第八十五回 贾存周报升郎中任　薛文起复惹放流刑.txt */,
+				F5F9241618051E0E0070D1D5 /* 第八十八回 博庭欢宝玉赞孤儿　正家法贾珍鞭悍仆.txt */,
+				F5F9241718051E0E0070D1D5 /* 第八十六回 受私贿老官翻案牍　寄闲情淑女解琴书.txt */,
+				F5F9241818051E0E0070D1D5 /* 第八十四回 试文字宝玉始提亲　探惊风贾环重结怨.txt */,
+				F5F9241918051E0E0070D1D5 /* 第八十回 美香菱屈受贪夫棒　王道士胡诌妒妇方.txt */,
+				F5F9241A18051E0E0070D1D5 /* 第八回 贾宝玉奇缘识金锁　薛宝钗巧合认通灵.txt */,
+				F5F9241B18051E0E0070D1D5 /* 第六十一回 投鼠忌器宝王瞒赃　判冤决狱平儿行权.txt */,
+				F5F9241C18051E0E0070D1D5 /* 第六十七回 见土仪颦卿思故里　闻秘事凤姐讯家童.txt */,
+				F5F9241D18051E0E0070D1D5 /* 第六十三回 寿怡红群芳开夜宴　死金丹独艳理亲丧.txt */,
+				F5F9241E18051E0E0070D1D5 /* 第六十九回 弄小巧用借剑杀人　觉大限吞生金自逝.txt */,
+				F5F9241F18051E0E0070D1D5 /* 第六十二回 憨湘云醉眠芍药裀　呆香菱情解石榴裙.txt */,
+				F5F9242018051E0E0070D1D5 /* 第六十五回 贾二舍偷娶尤二姨　尤三姐思嫁柳二郎.txt */,
+				F5F9242118051E0E0070D1D5 /* 第六十八回 苦尤娘赚入大观园　酸凤姐大闹宁国府.txt */,
+				F5F9242218051E0E0070D1D5 /* 第六十六回 情小妹耻情归地府　冷二郎一冷入空门.txt */,
+				F5F9242318051E0E0070D1D5 /* 第六十四回 幽淑女悲题五美吟　浪荡子情遗九龙佩.txt */,
+				F5F9242418051E0E0070D1D5 /* 第六十回 茉莉粉替去蔷薇硝　玫瑰露引出茯苓霜.txt */,
+				F5F9242518051E0E0070D1D5 /* 第六回 贾宝玉初试云雨情　刘姥姥一进荣国府.txt */,
+				F5F9242618051E0E0070D1D5 /* 第十一回 庆寿辰宁府排家宴　见熙凤贾瑞起淫心.txt */,
+				F5F9242718051E0E0070D1D5 /* 第十七回 大观园试才题对额　荣国府归省庆元宵.txt */,
+				F5F9242818051E0E0070D1D5 /* 第十三回 秦可卿死封龙禁尉　王熙凤协理宁国府.txt */,
+				F5F9242918051E0E0070D1D5 /* 第十九回 情切切良宵花解语　意绵绵静日玉生香.txt */,
+				F5F9242A18051E0E0070D1D5 /* 第十二回 王熙凤毒设相思局　贾天祥正照风月鉴.txt */,
+				F5F9242B18051E0E0070D1D5 /* 第十五回 王凤姐弄权铁槛寺　秦鲸卿得趣馒头庵.txt */,
+				F5F9242C18051E0E0070D1D5 /* 第十八回 皇恩重元妃省父母　天伦乐宝玉呈才藻.txt */,
+				F5F9242D18051E0E0070D1D5 /* 第十六回 贾元春才选凤藻宫　秦鲸卿夭逝黄泉路.txt */,
+				F5F9242E18051E0E0070D1D5 /* 第十四回 林如海灵返苏州郡　贾宝玉路谒北静王.txt */,
+				F5F9242F18051E0E0070D1D5 /* 第十回 金寡妇贪利权受辱　张太医论病细穷源.txt */,
+				F5F9243018051E0E0070D1D5 /* 第四十一回 贾宝玉品茶栊翠庵　刘姥姥醉卧怡红院.txt */,
+				F5F9243118051E0E0070D1D5 /* 第四十七回 呆霸王调情遭苦打　冷郎君惧祸走他乡.txt */,
+				F5F9243218051E0E0070D1D5 /* 第四十三回 闲取乐偶攒金庆寿　不了情暂撮土为香.txt */,
+				F5F9243318051E0E0070D1D5 /* 第四十九回 琉璃世界白雪红梅 脂粉香娃割腥啖膻.txt */,
+				F5F9243418051E0E0070D1D5 /* 第四十二回 蘅芜君兰言解疑癖　潇湘子雅谑补余音.txt */,
+				F5F9243518051E0E0070D1D5 /* 第四十五回 金兰契互剖金兰语　风雨夕闷制风雨词.txt */,
+				F5F9243618051E0E0070D1D5 /* 第四十八回 滥情人情误思游艺 慕雅女雅集苦吟诗.txt */,
+				F5F9243718051E0E0070D1D5 /* 第四十六回 尴尬人难免尴尬事　鸳鸯女誓绝鸳鸯偶.txt */,
+				F5F9243818051E0E0070D1D5 /* 第四十四回 变生不测凤姐泼醋　喜出望外平儿理妆.txt */,
+				F5F9243918051E0E0070D1D5 /* 第四十回 史太君两宴大观园　金鸳鸯三宣牙牌令.txt */,
+				F5F9243A18051E0E0070D1D5 /* 第四回 薄命女偏逢薄命郎　葫芦僧乱判葫芦案.txt */,
+			);
+			path = hongloumeng;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +620,135 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5F9248918051E0E0070D1D5 /* 第五十六回 敏探春兴利除宿弊　贤宝钗小惠全大体.txt in Resources */,
+				F5F9247618051E0E0070D1D5 /* 第九回 训劣子李贵承申饬　嗔顽童茗烟闹书房.txt in Resources */,
+				F5F9247418051E0E0070D1D5 /* 第九十四回 宴海棠贾母赏花妖　失宝玉通灵知奇祸.txt in Resources */,
+				F5F9246A18051E0E0070D1D5 /* 第三十回 宝钗借扇机带双敲　椿龄画蔷痴及局外.txt in Resources */,
+				F5F9245718051E0E0070D1D5 /* 第七十七回　俏丫鬟抱屈夭风流　美优伶斩情归水月.txt in Resources */,
+				F5F9247E18051E0E0070D1D5 /* 第二十六回　蜂腰桥设言传心事　潇湘馆春困发幽情.txt in Resources */,
+				F5F9245B18051E0E0070D1D5 /* 第七十五回 开夜宴异兆发悲音　赏中秋新词得佳谶.txt in Resources */,
+				F5F924B418051E0E0070D1D5 /* 第四十六回 尴尬人难免尴尬事　鸳鸯女誓绝鸳鸯偶.txt in Resources */,
+				F5F9244318051E0E0070D1D5 /* 第一百三回 施毒计金桂自焚身　昧真禅雨村空遇旧.txt in Resources */,
+				F5F9249F18051E0E0070D1D5 /* 第六十六回 情小妹耻情归地府　冷二郎一冷入空门.txt in Resources */,
+				F5F9244A18051E0E0070D1D5 /* 第一百十一回 鸳鸯女殉主登太虚　狗彘奴欺天招伙盗.txt in Resources */,
+				F5F9246B18051E0E0070D1D5 /* 第三回 贾雨村夤缘复旧职　林黛玉抛父进京都.txt in Resources */,
+				F5F9244818051E0E0070D1D5 /* 第一百八回 强欢笑蘅芜庆生辰　死缠绵潇湘闻鬼哭.txt in Resources */,
+				F5F9249918051E0E0070D1D5 /* 第六十七回 见土仪颦卿思故里　闻秘事凤姐讯家童.txt in Resources */,
+				F5F9245018051E0E0070D1D5 /* 第一百十八回 记微嫌舅兄欺弱女　惊谜语妻妾谏痴人.txt in Resources */,
+				F5F9248118051E0E0070D1D5 /* 第二回 贾夫人仙逝扬州城　冷子兴演说荣国府.txt in Resources */,
+				F5F9248C18051E0E0070D1D5 /* 第五回 游幻境指迷十二钗　饮仙醪曲演红楼梦.txt in Resources */,
+				F5F9244518051E0E0070D1D5 /* 第一百二十回 甄士隐详说太虚情　贾雨村归结红楼梦.txt in Resources */,
+				F5F9247818051E0E0070D1D5 /* 第二十七回 滴翠亭杨妃戏彩蝶　埋香冢飞燕泣残红.txt in Resources */,
+				F5F9246618051E0E0070D1D5 /* 第三十五回 白玉钏亲尝莲叶羹　黄金莺巧结梅花络.txt in Resources */,
+				F5F9246E18051E0E0070D1D5 /* 第九十三回 甄家仆投靠贾家门　水月庵掀翻风月案.txt in Resources */,
+				F5F924A918051E0E0070D1D5 /* 第十八回 皇恩重元妃省父母　天伦乐宝玉呈才藻.txt in Resources */,
+				F5F924B318051E0E0070D1D5 /* 第四十八回 滥情人情误思游艺 慕雅女雅集苦吟诗.txt in Resources */,
+				F5F924A418051E0E0070D1D5 /* 第十七回 大观园试才题对额　荣国府归省庆元宵.txt in Resources */,
+				F5F924A318051E0E0070D1D5 /* 第十一回 庆寿辰宁府排家宴　见熙凤贾瑞起淫心.txt in Resources */,
+				F5F9246418051E0E0070D1D5 /* 第三十九回 村姥姥是信口开河　情哥哥偏寻根究底.txt in Resources */,
+				F5F9248218051E0E0070D1D5 /* 第五十一回 薛小妹新编怀古诗　胡庸医乱用虎狼药.txt in Resources */,
+				F5F924A118051E0E0070D1D5 /* 第六十回 茉莉粉替去蔷薇硝　玫瑰露引出茯苓霜.txt in Resources */,
+				F5F9247218051E0E0070D1D5 /* 第九十八回 苦绛珠魂归离恨天　病神瑛泪洒相思地.txt in Resources */,
+				F5F924B118051E0E0070D1D5 /* 第四十二回 蘅芜君兰言解疑癖　潇湘子雅谑补余音.txt in Resources */,
+				F5F924A218051E0E0070D1D5 /* 第六回 贾宝玉初试云雨情　刘姥姥一进荣国府.txt in Resources */,
 				F5F923A118051D9E0070D1D5 /* Images.xcassets in Resources */,
+				F5F9243B18051E0E0070D1D5 /* chapters.png in Resources */,
+				F5F9248B18051E0E0070D1D5 /* 第五十回 芦雪庭争联即景诗 暖香坞雅制春灯谜.txt in Resources */,
+				F5F924B018051E0E0070D1D5 /* 第四十九回 琉璃世界白雪红梅 脂粉香娃割腥啖膻.txt in Resources */,
+				F5F9248F18051E0E0070D1D5 /* 第八十三回 省宫闱贾元妃染恙　闹闺阃薛宝钗吞声.txt in Resources */,
+				F5F9247318051E0E0070D1D5 /* 第九十六回 瞒消息凤姐设奇谋　泄机关颦儿迷本性.txt in Resources */,
+				F5F9244E18051E0E0070D1D5 /* 第一百十二回 活冤孽妙姑遭大劫　死雠仇赵妾赴冥曹.txt in Resources */,
+				F5F9246818051E0E0070D1D5 /* 第三十六回 绣鸳鸯梦兆绛芸轩　识分定情悟梨香院.txt in Resources */,
+				F5F924A518051E0E0070D1D5 /* 第十三回 秦可卿死封龙禁尉　王熙凤协理宁国府.txt in Resources */,
+				F5F9245A18051E0E0070D1D5 /* 第七十二回 王熙凤恃强羞说病　来旺妇倚势霸成亲.txt in Resources */,
+				F5F9244D18051E0E0070D1D5 /* 第一百十九回 中乡魁宝玉却尘缘　沐皇恩贾家延世泽.txt in Resources */,
+				F5F9247018051E0E0070D1D5 /* 第九十二回 评女传巧姐慕贤良　玩母珠贾政参聚散.txt in Resources */,
+				F5F9245C18051E0E0070D1D5 /* 第七十八回 老学士闲征姽婳词　痴公子杜撰芙蓉诔.txt in Resources */,
+				F5F9244C18051E0E0070D1D5 /* 第一百十三回 忏宿冤凤姐托村妪　释旧憾情婢感痴郎.txt in Resources */,
+				F5F924AB18051E0E0070D1D5 /* 第十四回 林如海灵返苏州郡　贾宝玉路谒北静王.txt in Resources */,
+				F5F9249C18051E0E0070D1D5 /* 第六十二回 憨湘云醉眠芍药裀　呆香菱情解石榴裙.txt in Resources */,
+				F5F9245118051E0E0070D1D5 /* 第一百十六回 得通灵幻境悟仙缘　送慈柩故乡全孝道.txt in Resources */,
+				F5F9249618051E0E0070D1D5 /* 第八十回 美香菱屈受贪夫棒　王道士胡诌妒妇方.txt in Resources */,
+				F5F9245418051E0E0070D1D5 /* 第一百四回 醉金刚小鳅生大浪　痴公子余痛触前情.txt in Resources */,
+				F5F924B218051E0E0070D1D5 /* 第四十五回 金兰契互剖金兰语　风雨夕闷制风雨词.txt in Resources */,
+				F5F924A018051E0E0070D1D5 /* 第六十四回 幽淑女悲题五美吟　浪荡子情遗九龙佩.txt in Resources */,
+				F5F9249518051E0E0070D1D5 /* 第八十四回 试文字宝玉始提亲　探惊风贾环重结怨.txt in Resources */,
+				F5F9247718051E0E0070D1D5 /* 第二十一回 贤袭人娇嗔箴宝玉　俏平儿软语救贾琏.txt in Resources */,
+				F5F924B618051E0E0070D1D5 /* 第四十回 史太君两宴大观园　金鸳鸯三宣牙牌令.txt in Resources */,
+				F5F9246518051E0E0070D1D5 /* 第三十二回 诉肺腑心迷活宝玉　含耻辱情烈死金钏.txt in Resources */,
+				F5F9249418051E0E0070D1D5 /* 第八十六回 受私贿老官翻案牍　寄闲情淑女解琴书.txt in Resources */,
+				F5F9243D18051E0E0070D1D5 /* icon.png in Resources */,
+				F5F9246F18051E0E0070D1D5 /* 第九十九回 守官箴恶奴同破例　阅邸报老舅自担惊.txt in Resources */,
+				F5F924A618051E0E0070D1D5 /* 第十九回 情切切良宵花解语　意绵绵静日玉生香.txt in Resources */,
 				F5F9239318051D9E0070D1D5 /* InfoPlist.strings in Resources */,
+				F5F9245818051E0E0070D1D5 /* 第七十三回 痴丫头误拾绣春囊　懦小姐不问累金凤.txt in Resources */,
+				F5F9244618051E0E0070D1D5 /* 第一百二回 宁国府骨肉病灾祲　大观园符水驱妖孽.txt in Resources */,
+				F5F9248D18051E0E0070D1D5 /* 第八十一回　占旺相四美钓游鱼　奉严词两番入家塾.txt in Resources */,
+				F5F9249018051E0E0070D1D5 /* 第八十九回 人亡物在公子填词　蛇影杯弓颦卿绝粒.txt in Resources */,
+				F5F9246018051E0E0070D1D5 /* 第七回 送宫花贾琏戏熙凤　宴宁府宝玉会秦钟.txt in Resources */,
+				F5F9247B18051E0E0070D1D5 /* 第二十二回 听曲文宝玉悟禅机　制灯谜贾政悲谶语.txt in Resources */,
+				F5F9244418051E0E0070D1D5 /* 第一百九回 候芳魂五儿承错爱　还孽债迎女返真元.txt in Resources */,
+				F5F9249818051E0E0070D1D5 /* 第六十一回 投鼠忌器宝王瞒赃　判冤决狱平儿行权.txt in Resources */,
 				F5F9239C18051D9E0070D1D5 /* Main.storyboard in Resources */,
+				F5F924B718051E0E0070D1D5 /* 第四回 薄命女偏逢薄命郎　葫芦僧乱判葫芦案.txt in Resources */,
+				F5F9245E18051E0E0070D1D5 /* 第七十四回 惑奸谗抄检大观园　避嫌隙杜绝宁国府.txt in Resources */,
+				F5F9244F18051E0E0070D1D5 /* 第一百十五回 惑偏私惜春矢素志　证同类宝玉失相知.txt in Resources */,
+				F5F924AA18051E0E0070D1D5 /* 第十六回 贾元春才选凤藻宫　秦鲸卿夭逝黄泉路.txt in Resources */,
+				F5F9248018051E0E0070D1D5 /* 第二十回 王熙凤正言弹妒意　林黛玉俏语谑娇音.txt in Resources */,
+				F5F9247518051E0E0070D1D5 /* 第九十回 失绵衣贫女耐嗷嘈　送果品小郎惊叵测.txt in Resources */,
+				F5F9246318051E0E0070D1D5 /* 第三十三回 手足眈眈小动唇舌　不肖种种大承笞挞.txt in Resources */,
+				F5F9246918051E0E0070D1D5 /* 第三十四回 情中情因情感妹妹　错里错以错劝哥哥.txt in Resources */,
+				F5F9245618051E0E0070D1D5 /* 第七十一回 嫌隙人有心生嫌隙　鸳鸯女无意遇鸳鸯.txt in Resources */,
+				F5F9246D18051E0E0070D1D5 /* 第九十七回 林黛玉焚稿断痴情　薛宝钗出闺成大礼.txt in Resources */,
+				F5F9245218051E0E0070D1D5 /* 第一百十四回 王熙凤历幻返金陵　甄应嘉蒙恩还玉阙.txt in Resources */,
+				F5F9247A18051E0E0070D1D5 /* 第二十九回 享福人福深还祷福　多情女情重愈斟情.txt in Resources */,
+				F5F9243E18051E0E0070D1D5 /* icon2.png in Resources */,
+				F5F9249A18051E0E0070D1D5 /* 第六十三回 寿怡红群芳开夜宴　死金丹独艳理亲丧.txt in Resources */,
+				F5F9245518051E0E0070D1D5 /* 第一百回 破好事香菱结深恨　悲远嫁宝玉感离情.txt in Resources */,
+				F5F9248418051E0E0070D1D5 /* 第五十三回 宁国府除夕祭宗祠　荣国府元宵开夜宴.txt in Resources */,
+				F5F924A718051E0E0070D1D5 /* 第十二回 王熙凤毒设相思局　贾天祥正照风月鉴.txt in Resources */,
+				F5F924B518051E0E0070D1D5 /* 第四十四回 变生不测凤姐泼醋　喜出望外平儿理妆.txt in Resources */,
+				F5F924AD18051E0E0070D1D5 /* 第四十一回 贾宝玉品茶栊翠庵　刘姥姥醉卧怡红院.txt in Resources */,
+				F5F9249B18051E0E0070D1D5 /* 第六十九回 弄小巧用借剑杀人　觉大限吞生金自逝.txt in Resources */,
+				F5F9245F18051E0E0070D1D5 /* 第七十回 林黛玉重建桃花社　史湘云偶填柳絮词.txt in Resources */,
+				F5F924AC18051E0E0070D1D5 /* 第十回 金寡妇贪利权受辱　张太医论病细穷源.txt in Resources */,
+				F5F9247D18051E0E0070D1D5 /* 第二十八回 蒋玉函情赠茜香罗　薛宝钗羞笼红麝串.txt in Resources */,
+				F5F9244718051E0E0070D1D5 /* 第一百五回 锦衣军查抄宁国府　骢马使弹劾平安州.txt in Resources */,
+				F5F924AE18051E0E0070D1D5 /* 第四十七回 呆霸王调情遭苦打　冷郎君惧祸走他乡.txt in Resources */,
+				F5F9245918051E0E0070D1D5 /* 第七十九回 薛文起悔娶河东吼　贾迎春误嫁中山狼.txt in Resources */,
+				F5F9244018051E0E0070D1D5 /* 第一回 甄士隐梦幻识通灵　贾雨村风尘怀闺秀.txt in Resources */,
+				F5F9248818051E0E0070D1D5 /* 第五十八回 杏子阴假凤泣虚凰　茜纱窗真情揆痴理.txt in Resources */,
+				F5F9243F18051E0E0070D1D5 /* test.txt in Resources */,
+				F5F9248A18051E0E0070D1D5 /* 第五十四回 史太君破陈腐旧套　王熙凤效戏彩斑衣.txt in Resources */,
+				F5F9249718051E0E0070D1D5 /* 第八回 贾宝玉奇缘识金锁　薛宝钗巧合认通灵.txt in Resources */,
+				F5F9245D18051E0E0070D1D5 /* 第七十六回 凸碧堂品笛感凄清　凹晶馆联诗悲寂寞.txt in Resources */,
+				F5F9247C18051E0E0070D1D5 /* 第二十五回 魇魔法叔嫂逢五鬼　通灵玉蒙蔽遇双真.txt in Resources */,
+				F5F9248718051E0E0070D1D5 /* 第五十五回 辱亲女愚妾争闲气　欺幼主刁奴蓄险心.txt in Resources */,
+				F5F924A818051E0E0070D1D5 /* 第十五回 王凤姐弄权铁槛寺　秦鲸卿得趣馒头庵.txt in Resources */,
+				F5F9248318051E0E0070D1D5 /* 第五十七回 慧紫鹃情辞试莽玉　慈姨妈爱语慰痴颦.txt in Resources */,
+				F5F9244118051E0E0070D1D5 /* 第一百一回 大观园月夜警幽魂　散花寺神签惊异兆.txt in Resources */,
+				F5F9248518051E0E0070D1D5 /* 第五十九回 柳叶渚边嗔莺叱燕　绛芸轩里召将飞符.txt in Resources */,
+				F5F9246218051E0E0070D1D5 /* 第三十七回 秋爽斋偶结海棠社　蘅芜院夜拟菊花题.txt in Resources */,
+				F5F9249218051E0E0070D1D5 /* 第八十五回 贾存周报升郎中任　薛文起复惹放流刑.txt in Resources */,
+				F5F9249E18051E0E0070D1D5 /* 第六十八回 苦尤娘赚入大观园　酸凤姐大闹宁国府.txt in Resources */,
+				F5F9246C18051E0E0070D1D5 /* 第九十一回 纵淫心宝蟾工设计　布疑阵宝玉妄谈禅.txt in Resources */,
+				F5F924B918051E380070D1D5 /* ChapterList.plist in Resources */,
+				F5F9243C18051E0E0070D1D5 /* Default.png in Resources */,
+				F5F9247F18051E0E0070D1D5 /* 第二十四回 醉金刚轻财尚义侠　痴女儿遗帕惹相思.txt in Resources */,
+				F5F9245318051E0E0070D1D5 /* 第一百十回 史太君寿终归地府　王凤姐力诎失人心.txt in Resources */,
+				F5F9246718051E0E0070D1D5 /* 第三十八回 林潇湘魁夺菊花诗　薛蘅芜讽和螃蟹咏.txt in Resources */,
+				F5F9247918051E0E0070D1D5 /* 第二十三回 西厢记妙词通戏语　牡丹亭艳曲警芳心.txt in Resources */,
+				F5F9248618051E0E0070D1D5 /* 第五十二回 俏平儿情掩虾须镯 勇晴雯病补孔雀裘.txt in Resources */,
+				F5F9249118051E0E0070D1D5 /* 第八十二回 老学究讲义警顽心　病潇湘痴魂惊恶梦.txt in Resources */,
+				F5F9248E18051E0E0070D1D5 /* 第八十七回 感秋声抚琴悲往事　坐禅寂走火入邪魔.txt in Resources */,
+				F5F924AF18051E0E0070D1D5 /* 第四十三回 闲取乐偶攒金庆寿　不了情暂撮土为香.txt in Resources */,
+				F5F9249D18051E0E0070D1D5 /* 第六十五回 贾二舍偷娶尤二姨　尤三姐思嫁柳二郎.txt in Resources */,
+				F5F9246118051E0E0070D1D5 /* 第三十一回 撕扇子作千金一笑　因麒麟伏白首双星.txt in Resources */,
+				F5F9244918051E0E0070D1D5 /* 第一百六回 王熙凤致祸抱羞惭　贾太君祷天消祸患.txt in Resources */,
+				F5F9247118051E0E0070D1D5 /* 第九十五回 因讹成实元妃薨逝　以假混真宝玉疯癫.txt in Resources */,
+				F5F9244218051E0E0070D1D5 /* 第一百七回 散余资贾母明大义　复世职政老沐天恩.txt in Resources */,
+				F5F9244B18051E0E0070D1D5 /* 第一百十七回 阻超凡佳人双护玉　欣聚党恶子独承家.txt in Resources */,
+				F5F9249318051E0E0070D1D5 /* 第八十八回 博庭欢宝玉赞孤儿　正家法贾珍鞭悍仆.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +767,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5F924BC18051F530070D1D5 /* JFSetModel.m in Sources */,
 				F5F9239918051D9E0070D1D5 /* JFAppDelegate.m in Sources */,
 				F5F9239F18051D9E0070D1D5 /* JFViewController.m in Sources */,
 				F5F9239518051D9E0070D1D5 /* main.m in Sources */,
@@ -382,7 +900,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "readApp/readApp-Prefix.pch";
 				INFOPLIST_FILE = "readApp/readApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -395,6 +915,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "readApp/readApp-Prefix.pch";
 				INFOPLIST_FILE = "readApp/readApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
