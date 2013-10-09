@@ -15,9 +15,22 @@
 @implementation JFViewController
 
 @synthesize setModel;
+@synthesize lastBookModel;
 -(void)dealloc
 {
     self.setModel = nil;
+    
+    self.lastBookModel = nil;
+    
+    [m_toolView release];
+    m_toolView = nil;
+    
+    [m_chapView release];
+    m_chapView = nil;
+    
+    [m_dataArray release];
+    m_dataArray = nil;
+    
     [super dealloc];
 }
 
@@ -33,6 +46,25 @@
         self.setModel = model;
         [model release];
         
+        
+        
+        self.lastBookModel = [JFUserSaveStoreInfo getUserStoreLastreadBookMark];
+        
+        
+        m_dataArray = [[NSMutableArray alloc] init];
+        m_index = 0;
+        NSString  *strFile = [[NSBundle mainBundle] pathForResource:@"ChapterList" ofType:@"plist"];
+        //  NSDictionary    *dicInfo = [NSDictionary dictionaryWithContentsOfFile:strFile];
+        
+        
+        
+        NSArray *arrayChapter = [NSPropertyListSerialization propertyListWithData:[NSData dataWithContentsOfFile:strFile] options:NSPropertyListImmutable format:nil error:NULL];
+        DLOG(@"dicInfo:%@",arrayChapter);
+        [m_dataArray addObjectsFromArray:arrayChapter];
+        
+        
+        
+    
         m_bIsShow = NO;
     }
     return self;
@@ -49,33 +81,96 @@
 }
 
 
+
+-(void)loadWithIndex:(int)index
+{
+    
+    m_index = index;
+    NSString  *strFirst = [m_dataArray objectAtIndex:index];
+    strFirst = [[NSBundle mainBundle] pathForResource:strFirst ofType:@"txt"];
+    NSError *error = nil;
+    NSString  *strContent = [NSString stringWithContentsOfFile:strFirst encoding:NSUTF8StringEncoding error:&error];
+    
+    if (!error)
+    {
+        [m_textView setText:strContent];
+    }else
+    {
+        DLOG(@"loadWithIndex index:%d error:%@",index,error);
+    }
+    
+}
+
+-(void)loadWithBookMark:(JFBookMarkModel*)model
+{
+    
+    
+    NSString  *strFirst = [m_dataArray objectAtIndex:model.index];
+   
+    
+    strFirst = [[NSBundle mainBundle] pathForResource:strFirst ofType:@"txt"];
+    NSError *error = nil;
+    NSString  *strContent = [NSString stringWithContentsOfFile:strFirst encoding:NSUTF8StringEncoding error:&error];
+    
+    
+    NSRange  range = [strContent rangeOfString:model.content];
+     m_index = model.index;
+    if (!error)
+    {
+        [m_textView setText:strContent];
+        [m_textView scrollRangeToVisible:range];
+    }else
+    {
+        DLOG(@"loadWithIndex JFBookMarkModel:%@ error:%@",model,error);
+    }
+    
+}
 -(void)loadView
 {
     [super loadView];
+    
+
     
     
     
     [self.navigationController setNavigationBarHidden:YES animated:NO];
     
-    CGRect frame = [UIScreen mainScreen].bounds;
     
-    UITextView  *view = [[UITextView alloc] initWithFrame:frame];
-    view.delegate = self;
-    [view setBackgroundColor:self.setModel.bgColor];
-    [view setTextColor:self.setModel.textColor];
-    [view setFont:self.setModel.textFont];
-    [view setText:@"Do any additional setup after loading the view, typically from a nib.\n一个人的时间啊市场上的scjsdDo any additional setup after loading the view, typically from a nib.\n一个人的时间啊市场上的scjsdDo any additional setup after loading the view, typically from a nib.\n一个人的时间啊市场上的scjsdDo any additional setup after loading the view, typically from a nib.\n一个人的时间啊市场上的scjsdDo any additional setup after loading the view, typically from a nib.\n一个人的时间啊市场上的scjsdDo any additional setup after loading the view, typically from a nib.\n一个人的时间啊市场上的scjsdDo any additional setup after loading the view, typically from a nib.\n一个人的时间啊市场上的scjsdDo any additional setup after loading the view, typically from a nib.\n一个人的时间啊市场上的scjsdDo any additional setup after loading the view, typically from a nib.\n一个人的时间啊市场上的scjsdDo any additional setup after loading the view, typically from a nib.\n一个人的时间啊市场上的scjsdDo any additional setup after loading the view, typically from a nib.\n一个人的时间啊市场上的scjsdDo any additional setup after loading the view, typically from a nib.\n一个人的时间啊市场上的scjsdDo any additional setup after loading the view, typically from a nib.\n一个人的时间啊市场上的scjsdDo any additional setup after loading the view, typically from a nib.\n一个人的时间啊市场上的scjsdDo any additional setup after loading the view, typically from a nib.\n一个人的时间啊市场上的scjsdDo any additional setup after loading the view, typically from a nib.\n一个人的时间啊市场上的scjsdDo any additional setup after loading the view, typically from a nib.\n一个人的时间啊市场上的scjsdDo any additional setup after loading the view, typically from a nib.\n一个人的时间啊市场上的scjsdDo any additional setup after loading the view, typically from a nib.\n一个人的时间啊市场上的scjsdDo any additional setup after loading the view, typically from a nib.\n一个人的时间啊市场上的scjsdDo any additional setup after loading the view, typically from a nib.\n一个人的时间啊市场上的scjsdDo any additional setup after loading the view, typically from a nib.\n一个人的时间啊市场上的scjsdDo any additional setup after loading the view, typically from a nib.\n一个人的时间啊市场上的scjsdDo any additional setup after loading the view, typically from a nib.\n一个人的时间啊市场上的scjsdDo any additional setup after loading the view, typically from a nib.\n一个人的时间啊市场上的scjsdDo any additional setup after loading the view, typically from a nib.\n一个人的时间啊市场上的scjsdDo any additional setup after loading the view, typically from a nib.\n一个人的时间啊市场上的scjsdDo any additional setup after loading the view, typically from a nib.\n一个人的时间啊市场上的scjsdDo any additional setup after loading the view, typically from a nib.\n一个人的时间啊市场上的scjsdDo any additional setup after loading the view, typically from a nib.\n一个人的时间啊市场上的scjsdDo any additional setup after loading the view, typically from a nib.\n一个人的时间啊市场上的scjsdDo any additional setup after loading the view, typically from a nib.\n一个人的时间啊市场上的scjsdDo any additional setup after loading the view, typically from a nib.\n一个人的时间啊市场上的scjsdDo any additional setup after loading the view, typically from a nib.\n一个人的时间啊市场上的scjsdDo any additional setup after loading the view, typically from a nib.\n一个人的时间啊市场上的scjsdDo any additional setup after loading the view, typically from a nib.\n一个人的时间啊市场上的scjsdDo any additional setup after loading the view, typically from a nib.\n一个人的时间啊市场上的scjsdDo any additional setup after loading the view, typically from a nib.\n一个人的时间啊市场上的scjsdDo any additional setup after loading the view, typically from a nib.\n一个人的时间啊市场上的scjsd"];
-    [view setEditable:NO];
-    [self.view addSubview:view];
-    [view release];
+
+    
+    
+    
+
+    
+    CGRect frame = [UIScreen mainScreen].bounds;
+     m_textView = [[UITextView alloc] initWithFrame:frame];
+    m_textView.delegate = self;
+    [m_textView setBackgroundColor:self.setModel.bgColor];
+    [m_textView setTextColor:self.setModel.textColor];
+    [m_textView setFont:self.setModel.textFont];
+    
+
+    
+    [m_textView setEditable:NO];
+    [self.view addSubview:m_textView];
+    [m_textView release];
+
+    if (self.lastBookModel)
+    {
+        [self loadWithBookMark:self.lastBookModel];
+    }else
+    {
+        [self loadWithIndex:m_index];
+    }
+    
 
  
     UITapGestureRecognizer  *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(clickTextView:)];
-    [view addGestureRecognizer:tap];
+    [m_textView addGestureRecognizer:tap];
     [tap release];
     
     
-    m_toolView = [[JFToolView alloc] initWithFrame:CGRectMake(20, frame.size.height-45, 220, 35)];
+    m_toolView = [[JFToolView alloc] initWithFrame:CGRectMake(20, frame.size.height-40, 220, 35)];
     [self.view addSubview:m_toolView];
     m_toolView.delegate = self;
     
@@ -84,6 +179,9 @@
     [self.view addSubview:m_chapView];
 
     [self setToolViewHide:YES isAnimating:NO];
+    
+    
+    
 }
 
 
@@ -106,31 +204,27 @@
     if (isAnimating)
     {
         
-        m_toolView.alpha = toAlpha;
-        m_chapView.alpha = toAlpha;
+        
         
         CABasicAnimation  *ani = [CABasicAnimation animationWithKeyPath:@"alpha"];
         ani.fromValue = [NSNumber numberWithFloat:fromalpha];
         ani.toValue = [NSNumber numberWithFloat:toAlpha];
         ani.repeatCount = 1;
-        ani.duration = 0.75;
+        ani.duration = 0.25;
         ani.autoreverses = NO;
         ani.removedOnCompletion = NO;
         ani.fillMode = kCAFillModeForwards;
-        
+        ani.delegate = self;
        
         
         [m_toolView.layer addAnimation:ani forKey:@"asx"];
         [m_chapView.layer addAnimation:ani forKey:@"asf"];
         
-        
-        
         if (!bIsHide)
         {
             [self performSelector:@selector(perFormMethod) withObject:nil afterDelay:6];
         }
-        
-        
+   
     }else
     {
         
@@ -139,6 +233,17 @@
     }
 }
 
+
+-(void)animationDidStop:(CAAnimation *)anim finished:(BOOL)flag
+{
+    if (flag)
+    {
+        CABasicAnimation  *aniBasic = (CABasicAnimation*)anim;
+        m_toolView.alpha = [aniBasic.toValue floatValue];
+        m_chapView.alpha = [aniBasic.toValue floatValue];
+        
+    }
+}
 
 -(void)perFormMethod
 {

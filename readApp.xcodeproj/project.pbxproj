@@ -10,6 +10,10 @@
 		F5CC2B1318053096009C64A5 /* JFChapterTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CC2B1218053096009C64A5 /* JFChapterTitleView.m */; };
 		F5CC2B161805319A009C64A5 /* JFToolView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CC2B151805319A009C64A5 /* JFToolView.m */; };
 		F5CC2B1818053CFB009C64A5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5CC2B1718053CFB009C64A5 /* QuartzCore.framework */; };
+		F5CC2B1B18055296009C64A5 /* JFBookMarkModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CC2B1A18055296009C64A5 /* JFBookMarkModel.m */; };
+		F5CC2B1E18055555009C64A5 /* JFUserSaveStoreInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CC2B1D18055555009C64A5 /* JFUserSaveStoreInfo.m */; };
+		F5CC2B2118055B77009C64A5 /* JFChapterlistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CC2B2018055B77009C64A5 /* JFChapterlistViewController.m */; };
+		F5CC2B2418055EE5009C64A5 /* JFListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CC2B2318055EE5009C64A5 /* JFListCell.m */; };
 		F5F9238918051D9E0070D1D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5F9238818051D9E0070D1D5 /* Foundation.framework */; };
 		F5F9238B18051D9E0070D1D5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5F9238A18051D9E0070D1D5 /* CoreGraphics.framework */; };
 		F5F9238D18051D9E0070D1D5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5F9238C18051D9E0070D1D5 /* UIKit.framework */; };
@@ -167,6 +171,14 @@
 		F5CC2B141805319A009C64A5 /* JFToolView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFToolView.h; sourceTree = "<group>"; };
 		F5CC2B151805319A009C64A5 /* JFToolView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFToolView.m; sourceTree = "<group>"; };
 		F5CC2B1718053CFB009C64A5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F5CC2B1918055296009C64A5 /* JFBookMarkModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFBookMarkModel.h; sourceTree = "<group>"; };
+		F5CC2B1A18055296009C64A5 /* JFBookMarkModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFBookMarkModel.m; sourceTree = "<group>"; };
+		F5CC2B1C18055555009C64A5 /* JFUserSaveStoreInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFUserSaveStoreInfo.h; sourceTree = "<group>"; };
+		F5CC2B1D18055555009C64A5 /* JFUserSaveStoreInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFUserSaveStoreInfo.m; sourceTree = "<group>"; };
+		F5CC2B1F18055B77009C64A5 /* JFChapterlistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFChapterlistViewController.h; sourceTree = "<group>"; };
+		F5CC2B2018055B77009C64A5 /* JFChapterlistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFChapterlistViewController.m; sourceTree = "<group>"; };
+		F5CC2B2218055EE5009C64A5 /* JFListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFListCell.h; sourceTree = "<group>"; };
+		F5CC2B2318055EE5009C64A5 /* JFListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFListCell.m; sourceTree = "<group>"; };
 		F5F9238518051D9E0070D1D5 /* readApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = readApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5F9238818051D9E0070D1D5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F5F9238A18051D9E0070D1D5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -383,6 +395,14 @@
 				F5CC2B1218053096009C64A5 /* JFChapterTitleView.m */,
 				F5CC2B141805319A009C64A5 /* JFToolView.h */,
 				F5CC2B151805319A009C64A5 /* JFToolView.m */,
+				F5CC2B1918055296009C64A5 /* JFBookMarkModel.h */,
+				F5CC2B1A18055296009C64A5 /* JFBookMarkModel.m */,
+				F5CC2B1C18055555009C64A5 /* JFUserSaveStoreInfo.h */,
+				F5CC2B1D18055555009C64A5 /* JFUserSaveStoreInfo.m */,
+				F5CC2B1F18055B77009C64A5 /* JFChapterlistViewController.h */,
+				F5CC2B2018055B77009C64A5 /* JFChapterlistViewController.m */,
+				F5CC2B2218055EE5009C64A5 /* JFListCell.h */,
+				F5CC2B2318055EE5009C64A5 /* JFListCell.m */,
 				F5F923BD18051E0D0070D1D5 /* hongloumeng */,
 				F5F9238F18051D9E0070D1D5 /* Supporting Files */,
 			);
@@ -774,11 +794,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5F924BC18051F530070D1D5 /* JFSetModel.m in Sources */,
+				F5CC2B1B18055296009C64A5 /* JFBookMarkModel.m in Sources */,
 				F5F9239918051D9E0070D1D5 /* JFAppDelegate.m in Sources */,
+				F5CC2B2418055EE5009C64A5 /* JFListCell.m in Sources */,
+				F5CC2B2118055B77009C64A5 /* JFChapterlistViewController.m in Sources */,
 				F5CC2B1318053096009C64A5 /* JFChapterTitleView.m in Sources */,
 				F5F9239F18051D9E0070D1D5 /* JFViewController.m in Sources */,
 				F5CC2B161805319A009C64A5 /* JFToolView.m in Sources */,
 				F5F9239518051D9E0070D1D5 /* main.m in Sources */,
+				F5CC2B1E18055555009C64A5 /* JFUserSaveStoreInfo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
