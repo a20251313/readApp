@@ -12,6 +12,18 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    
+    
+    [[UIApplication sharedApplication] setStatusBarHidden:YES withAnimation:UIStatusBarAnimationFade];
+    
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    
+    JFViewController  *controller = [[JFViewController alloc] init];
+    UINavigationController  *nav = [[UINavigationController alloc] initWithRootViewController:controller];
+    self.window.rootViewController = nav;
+    [self.window addSubview:nav.view];
+    [self.window makeKeyAndVisible];
     // Override point for customization after application launch.
     return YES;
 }

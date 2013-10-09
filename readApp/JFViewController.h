@@ -7,7 +7,19 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "JFSetModel.h"
+#import "JFChapterTitleView.h"
+#import "JFToolView.h"
+@interface JFViewController : UIViewController<UITextViewDelegate,JFToolViewDelegate>
+{
+    JFToolView          *m_toolView;
+    JFChapterTitleView  *m_chapView;
+    
+    
+    BOOL                m_bIsShow;
 
-@interface JFViewController : UIViewController
+}
 
+
+@property(nonatomic,retain)JFSetModel   *setModel;
 @end

@@ -13,4 +13,9 @@
     
 }
 
+@property(nonatomic,retain)UIColor *bgColor;
+@property(nonatomic,retain)UIColor  *textColor;
+@property(nonatomic,retain)UIFont   *textFont;
+
+
 @end

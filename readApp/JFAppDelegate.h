@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
+#import "JFViewController.h"
 @interface JFAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
