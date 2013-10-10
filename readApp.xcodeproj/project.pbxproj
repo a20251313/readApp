@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F52DA9301806C4D9006AD00A /* nav_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F52DA92D1806C4D9006AD00A /* nav_bg@2x.png */; };
+		F52DA9311806C4D9006AD00A /* nav_view_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F52DA92E1806C4D9006AD00A /* nav_view_bg@2x.png */; };
+		F52DA9321806C4D9006AD00A /* nav_bgview@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F52DA92F1806C4D9006AD00A /* nav_bgview@2x.png */; };
+		F52DA9341806C612006AD00A /* navigation_arrows@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F52DA9331806C612006AD00A /* navigation_arrows@2x.png */; };
+		F52DA9361806C63A006AD00A /* navigation_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F52DA9351806C639006AD00A /* navigation_button@2x.png */; };
+		F5309FA21806B2660015C888 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F5309FA11806B2660015C888 /* Default-568h@2x.png */; };
 		F5CC2B1318053096009C64A5 /* JFChapterTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CC2B1218053096009C64A5 /* JFChapterTitleView.m */; };
 		F5CC2B161805319A009C64A5 /* JFToolView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CC2B151805319A009C64A5 /* JFToolView.m */; };
 		F5CC2B1818053CFB009C64A5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5CC2B1718053CFB009C64A5 /* QuartzCore.framework */; };
@@ -54,7 +60,7 @@
 		F5F9245418051E0E0070D1D5 /* 第一百四回 醉金刚小鳅生大浪　痴公子余痛触前情.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F923D718051E0D0070D1D5 /* 第一百四回 醉金刚小鳅生大浪　痴公子余痛触前情.txt */; };
 		F5F9245518051E0E0070D1D5 /* 第一百回 破好事香菱结深恨　悲远嫁宝玉感离情.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F923D818051E0D0070D1D5 /* 第一百回 破好事香菱结深恨　悲远嫁宝玉感离情.txt */; };
 		F5F9245618051E0E0070D1D5 /* 第七十一回 嫌隙人有心生嫌隙　鸳鸯女无意遇鸳鸯.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F923D918051E0D0070D1D5 /* 第七十一回 嫌隙人有心生嫌隙　鸳鸯女无意遇鸳鸯.txt */; };
-		F5F9245718051E0E0070D1D5 /* 第七十七回　俏丫鬟抱屈夭风流　美优伶斩情归水月.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F923DA18051E0D0070D1D5 /* 第七十七回　俏丫鬟抱屈夭风流　美优伶斩情归水月.txt */; };
+		F5F9245718051E0E0070D1D5 /* 第七十七回 俏丫鬟抱屈夭风流　美优伶斩情归水月.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F923DA18051E0D0070D1D5 /* 第七十七回 俏丫鬟抱屈夭风流　美优伶斩情归水月.txt */; };
 		F5F9245818051E0E0070D1D5 /* 第七十三回 痴丫头误拾绣春囊　懦小姐不问累金凤.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F923DB18051E0D0070D1D5 /* 第七十三回 痴丫头误拾绣春囊　懦小姐不问累金凤.txt */; };
 		F5F9245918051E0E0070D1D5 /* 第七十九回 薛文起悔娶河东吼　贾迎春误嫁中山狼.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F923DC18051E0D0070D1D5 /* 第七十九回 薛文起悔娶河东吼　贾迎春误嫁中山狼.txt */; };
 		F5F9245A18051E0E0070D1D5 /* 第七十二回 王熙凤恃强羞说病　来旺妇倚势霸成亲.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F923DD18051E0D0070D1D5 /* 第七十二回 王熙凤恃强羞说病　来旺妇倚势霸成亲.txt */; };
@@ -166,6 +172,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F52DA92D1806C4D9006AD00A /* nav_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nav_bg@2x.png"; sourceTree = "<group>"; };
+		F52DA92E1806C4D9006AD00A /* nav_view_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nav_view_bg@2x.png"; sourceTree = "<group>"; };
+		F52DA92F1806C4D9006AD00A /* nav_bgview@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nav_bgview@2x.png"; sourceTree = "<group>"; };
+		F52DA9331806C612006AD00A /* navigation_arrows@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navigation_arrows@2x.png"; sourceTree = "<group>"; };
+		F52DA9351806C639006AD00A /* navigation_button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navigation_button@2x.png"; sourceTree = "<group>"; };
+		F5309FA11806B2660015C888 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		F5CC2B1118053096009C64A5 /* JFChapterTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFChapterTitleView.h; sourceTree = "<group>"; };
 		F5CC2B1218053096009C64A5 /* JFChapterTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFChapterTitleView.m; sourceTree = "<group>"; };
 		F5CC2B141805319A009C64A5 /* JFToolView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFToolView.h; sourceTree = "<group>"; };
@@ -224,7 +236,7 @@
 		F5F923D718051E0D0070D1D5 /* 第一百四回 醉金刚小鳅生大浪　痴公子余痛触前情.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第一百四回 醉金刚小鳅生大浪　痴公子余痛触前情.txt"; sourceTree = "<group>"; };
 		F5F923D818051E0D0070D1D5 /* 第一百回 破好事香菱结深恨　悲远嫁宝玉感离情.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第一百回 破好事香菱结深恨　悲远嫁宝玉感离情.txt"; sourceTree = "<group>"; };
 		F5F923D918051E0D0070D1D5 /* 第七十一回 嫌隙人有心生嫌隙　鸳鸯女无意遇鸳鸯.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第七十一回 嫌隙人有心生嫌隙　鸳鸯女无意遇鸳鸯.txt"; sourceTree = "<group>"; };
-		F5F923DA18051E0D0070D1D5 /* 第七十七回　俏丫鬟抱屈夭风流　美优伶斩情归水月.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第七十七回　俏丫鬟抱屈夭风流　美优伶斩情归水月.txt"; sourceTree = "<group>"; };
+		F5F923DA18051E0D0070D1D5 /* 第七十七回 俏丫鬟抱屈夭风流　美优伶斩情归水月.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第七十七回 俏丫鬟抱屈夭风流　美优伶斩情归水月.txt"; sourceTree = "<group>"; };
 		F5F923DB18051E0D0070D1D5 /* 第七十三回 痴丫头误拾绣春囊　懦小姐不问累金凤.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第七十三回 痴丫头误拾绣春囊　懦小姐不问累金凤.txt"; sourceTree = "<group>"; };
 		F5F923DC18051E0D0070D1D5 /* 第七十九回 薛文起悔娶河东吼　贾迎春误嫁中山狼.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第七十九回 薛文起悔娶河东吼　贾迎春误嫁中山狼.txt"; sourceTree = "<group>"; };
 		F5F923DD18051E0D0070D1D5 /* 第七十二回 王熙凤恃强羞说病　来旺妇倚势霸成亲.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第七十二回 王熙凤恃强羞说病　来旺妇倚势霸成亲.txt"; sourceTree = "<group>"; };
@@ -441,6 +453,12 @@
 		F5F923BD18051E0D0070D1D5 /* hongloumeng */ = {
 			isa = PBXGroup;
 			children = (
+				F52DA9331806C612006AD00A /* navigation_arrows@2x.png */,
+				F52DA9351806C639006AD00A /* navigation_button@2x.png */,
+				F52DA92D1806C4D9006AD00A /* nav_bg@2x.png */,
+				F52DA92E1806C4D9006AD00A /* nav_view_bg@2x.png */,
+				F52DA92F1806C4D9006AD00A /* nav_bgview@2x.png */,
+				F5309FA11806B2660015C888 /* Default-568h@2x.png */,
 				F5F923BE18051E0D0070D1D5 /* chapters.png */,
 				F5F923BF18051E0D0070D1D5 /* Default.png */,
 				F5F923C018051E0D0070D1D5 /* icon.png */,
@@ -470,7 +488,7 @@
 				F5F923D718051E0D0070D1D5 /* 第一百四回 醉金刚小鳅生大浪　痴公子余痛触前情.txt */,
 				F5F923D818051E0D0070D1D5 /* 第一百回 破好事香菱结深恨　悲远嫁宝玉感离情.txt */,
 				F5F923D918051E0D0070D1D5 /* 第七十一回 嫌隙人有心生嫌隙　鸳鸯女无意遇鸳鸯.txt */,
-				F5F923DA18051E0D0070D1D5 /* 第七十七回　俏丫鬟抱屈夭风流　美优伶斩情归水月.txt */,
+				F5F923DA18051E0D0070D1D5 /* 第七十七回 俏丫鬟抱屈夭风流　美优伶斩情归水月.txt */,
 				F5F923DB18051E0D0070D1D5 /* 第七十三回 痴丫头误拾绣春囊　懦小姐不问累金凤.txt */,
 				F5F923DC18051E0D0070D1D5 /* 第七十九回 薛文起悔娶河东吼　贾迎春误嫁中山狼.txt */,
 				F5F923DD18051E0D0070D1D5 /* 第七十二回 王熙凤恃强羞说病　来旺妇倚势霸成亲.txt */,
@@ -652,7 +670,7 @@
 				F5F9247618051E0E0070D1D5 /* 第九回 训劣子李贵承申饬　嗔顽童茗烟闹书房.txt in Resources */,
 				F5F9247418051E0E0070D1D5 /* 第九十四回 宴海棠贾母赏花妖　失宝玉通灵知奇祸.txt in Resources */,
 				F5F9246A18051E0E0070D1D5 /* 第三十回 宝钗借扇机带双敲　椿龄画蔷痴及局外.txt in Resources */,
-				F5F9245718051E0E0070D1D5 /* 第七十七回　俏丫鬟抱屈夭风流　美优伶斩情归水月.txt in Resources */,
+				F5F9245718051E0E0070D1D5 /* 第七十七回 俏丫鬟抱屈夭风流　美优伶斩情归水月.txt in Resources */,
 				F5F9247E18051E0E0070D1D5 /* 第二十六回　蜂腰桥设言传心事　潇湘馆春困发幽情.txt in Resources */,
 				F5F9245B18051E0E0070D1D5 /* 第七十五回 开夜宴异兆发悲音　赏中秋新词得佳谶.txt in Resources */,
 				F5F924B418051E0E0070D1D5 /* 第四十六回 尴尬人难免尴尬事　鸳鸯女誓绝鸳鸯偶.txt in Resources */,
@@ -665,6 +683,7 @@
 				F5F9245018051E0E0070D1D5 /* 第一百十八回 记微嫌舅兄欺弱女　惊谜语妻妾谏痴人.txt in Resources */,
 				F5F9248118051E0E0070D1D5 /* 第二回 贾夫人仙逝扬州城　冷子兴演说荣国府.txt in Resources */,
 				F5F9248C18051E0E0070D1D5 /* 第五回 游幻境指迷十二钗　饮仙醪曲演红楼梦.txt in Resources */,
+				F52DA9301806C4D9006AD00A /* nav_bg@2x.png in Resources */,
 				F5F9244518051E0E0070D1D5 /* 第一百二十回 甄士隐详说太虚情　贾雨村归结红楼梦.txt in Resources */,
 				F5F9247818051E0E0070D1D5 /* 第二十七回 滴翠亭杨妃戏彩蝶　埋香冢飞燕泣残红.txt in Resources */,
 				F5F9246618051E0E0070D1D5 /* 第三十五回 白玉钏亲尝莲叶羹　黄金莺巧结梅花络.txt in Resources */,
@@ -710,6 +729,7 @@
 				F5F9239318051D9E0070D1D5 /* InfoPlist.strings in Resources */,
 				F5F9245818051E0E0070D1D5 /* 第七十三回 痴丫头误拾绣春囊　懦小姐不问累金凤.txt in Resources */,
 				F5F9244618051E0E0070D1D5 /* 第一百二回 宁国府骨肉病灾祲　大观园符水驱妖孽.txt in Resources */,
+				F52DA9321806C4D9006AD00A /* nav_bgview@2x.png in Resources */,
 				F5F9248D18051E0E0070D1D5 /* 第八十一回　占旺相四美钓游鱼　奉严词两番入家塾.txt in Resources */,
 				F5F9249018051E0E0070D1D5 /* 第八十九回 人亡物在公子填词　蛇影杯弓颦卿绝粒.txt in Resources */,
 				F5F9246018051E0E0070D1D5 /* 第七回 送宫花贾琏戏熙凤　宴宁府宝玉会秦钟.txt in Resources */,
@@ -731,6 +751,7 @@
 				F5F9243E18051E0E0070D1D5 /* icon2.png in Resources */,
 				F5F9249A18051E0E0070D1D5 /* 第六十三回 寿怡红群芳开夜宴　死金丹独艳理亲丧.txt in Resources */,
 				F5F9245518051E0E0070D1D5 /* 第一百回 破好事香菱结深恨　悲远嫁宝玉感离情.txt in Resources */,
+				F52DA9361806C63A006AD00A /* navigation_button@2x.png in Resources */,
 				F5F9248418051E0E0070D1D5 /* 第五十三回 宁国府除夕祭宗祠　荣国府元宵开夜宴.txt in Resources */,
 				F5F924A718051E0E0070D1D5 /* 第十二回 王熙凤毒设相思局　贾天祥正照风月鉴.txt in Resources */,
 				F5F924B518051E0E0070D1D5 /* 第四十四回 变生不测凤姐泼醋　喜出望外平儿理妆.txt in Resources */,
@@ -740,6 +761,7 @@
 				F5F924AC18051E0E0070D1D5 /* 第十回 金寡妇贪利权受辱　张太医论病细穷源.txt in Resources */,
 				F5F9247D18051E0E0070D1D5 /* 第二十八回 蒋玉函情赠茜香罗　薛宝钗羞笼红麝串.txt in Resources */,
 				F5F9244718051E0E0070D1D5 /* 第一百五回 锦衣军查抄宁国府　骢马使弹劾平安州.txt in Resources */,
+				F52DA9341806C612006AD00A /* navigation_arrows@2x.png in Resources */,
 				F5F924AE18051E0E0070D1D5 /* 第四十七回 呆霸王调情遭苦打　冷郎君惧祸走他乡.txt in Resources */,
 				F5F9245918051E0E0070D1D5 /* 第七十九回 薛文起悔娶河东吼　贾迎春误嫁中山狼.txt in Resources */,
 				F5F9244018051E0E0070D1D5 /* 第一回 甄士隐梦幻识通灵　贾雨村风尘怀闺秀.txt in Resources */,
@@ -757,6 +779,8 @@
 				F5F9246218051E0E0070D1D5 /* 第三十七回 秋爽斋偶结海棠社　蘅芜院夜拟菊花题.txt in Resources */,
 				F5F9249218051E0E0070D1D5 /* 第八十五回 贾存周报升郎中任　薛文起复惹放流刑.txt in Resources */,
 				F5F9249E18051E0E0070D1D5 /* 第六十八回 苦尤娘赚入大观园　酸凤姐大闹宁国府.txt in Resources */,
+				F5309FA21806B2660015C888 /* Default-568h@2x.png in Resources */,
+				F52DA9311806C4D9006AD00A /* nav_view_bg@2x.png in Resources */,
 				F5F9246C18051E0E0070D1D5 /* 第九十一回 纵淫心宝蟾工设计　布疑阵宝玉妄谈禅.txt in Resources */,
 				F5F924B918051E380070D1D5 /* ChapterList.plist in Resources */,
 				F5F9243C18051E0E0070D1D5 /* Default.png in Resources */,
@@ -929,6 +953,7 @@
 				INFOPLIST_FILE = "readApp/readApp-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
@@ -945,6 +970,7 @@
 				INFOPLIST_FILE = "readApp/readApp-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

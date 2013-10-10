@@ -27,7 +27,7 @@
         
         m_labelBelow = [[UILabel alloc] initWithFrame:CGRectMake(2, 21, frame.size.width, 20)];
         m_labelBelow.backgroundColor = [UIColor clearColor];
-        m_labelBelow.textColor = [UIColor lightTextColor];
+        m_labelBelow.textColor = [UIColor blackColor];
         m_labelBelow.font = [UIFont systemFontOfSize:16];
         [self.contentView addSubview:m_labelBelow];
         

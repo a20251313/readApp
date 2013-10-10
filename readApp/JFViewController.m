@@ -204,9 +204,9 @@
     if (isAnimating)
     {
         
+
         
-        
-        CABasicAnimation  *ani = [CABasicAnimation animationWithKeyPath:@"alpha"];
+        CABasicAnimation  *ani = [CABasicAnimation animationWithKeyPath:@"opacity"];
         ani.fromValue = [NSNumber numberWithFloat:fromalpha];
         ani.toValue = [NSNumber numberWithFloat:toAlpha];
         ani.repeatCount = 1;
@@ -311,10 +311,63 @@
             
         }
             break;
+        case JFToolViewButtonTypeFastForward:
+        {
+            [self showAniFromLeft:NO];
+            if (m_index+1 < [m_dataArray count])
+            {
+                m_index++;
+            }else
+            {
+                m_index = 0;
+            }
+            
+            [self loadWithIndex:m_index];
+            
+        }
+            break;
+        case JFToolViewButtonTypeRewind:
+        {
+            [self showAniFromLeft:YES];
+            if (m_index-1 >= 0)
+            {
+                m_index--;
+            }else
+            {
+                m_index = [m_dataArray count]-1;
+            }
+            
+            [self loadWithIndex:m_index];
+            
+        }
+            break;
             
         default:
             break;
     }
     DLOG(@"clickbtnViewToolType:%d",type);
+}
+
+
+-(void)showAniFromLeft:(BOOL)isLeft
+{
+    CATransition *animation = [CATransition animation];
+    animation.duration = 0.75f;
+    animation.timingFunction = UIViewAnimationCurveEaseInOut;
+    animation.fillMode = kCAFillModeForwards;
+    animation.type = kCATransitionMoveIn;
+    
+    if (isLeft)
+    {
+        
+         animation.subtype = kCATransitionFromLeft;
+        
+    }else
+    {
+         animation.subtype = kCATransitionFromRight;
+    }
+   
+    
+    [m_textView.layer addAnimation:animation forKey:@"nil"];
 }
 @end

@@ -15,8 +15,10 @@
     self = [super initWithFrame:frame];
     if (self)
     {
-        [self setBackgroundColor:[UIColor lightGrayColor]];
-         self.alpha = 0.3;
+      /// [self setBackgroundColor:[UIColor lightGrayColor]];
+         //self.alpha = 0.3;
+        
+        self.layer.contents = (id)[UIImage imageNamed:@"nav_view_bg@2x.png"].CGImage;
         
         m_labelTitle = [[UILabel alloc] initWithFrame:self.bounds];
         [m_labelTitle setBackgroundColor:[UIColor clearColor]];

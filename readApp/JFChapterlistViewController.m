@@ -49,6 +49,9 @@
     m_tableView.dataSource = self;
     [self.view addSubview:m_tableView];
     [m_tableView reloadData];
+    
+    
+    [self createAndAddNavView];
 }
 
 - (void)didReceiveMemoryWarning
@@ -70,6 +73,12 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
+    
+    if (m_itype == JFlistTypeBookMark)
+    {
+        return [m_bookmarkArray count];
+    }
+    
     return [m_dataArray count];
 }
 
@@ -100,10 +109,62 @@
 }
 
 
+-(void)backButtonPressed:(id)sender
+{
+    [self.navigationController popViewControllerAnimated:YES];
+}
 
 
 
+-(void)clickSegInfo:(UISegmentedControl*)info
+{
+    
+    if (info.selectedSegmentIndex == 0)
+    {
+        m_itype = JFlistTypechapter;
+    }else
+    {
+        m_itype = JFlistTypeBookMark;
+    }
+    [m_tableView reloadData];
+    
+}
 
+
+-(void)createAndAddNavView
+{
+    
+    CGRect  frame = [UIScreen mainScreen].bounds;
+    UIView  *bgView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, frame.size.width, 44)];
+    bgView.layer.contents =(id) [UIImage imageNamed:@"nav_bg@2x.png"].CGImage;
+    [self.view addSubview:bgView];
+    
+    
+    
+    UIButton *button = [[UIButton alloc] initWithFrame:CGRectMake(10, (bgView.frame.size.height-30)/2, 40, 30)];
+    [button setExclusiveTouch:YES];
+    [button setImage: [UIImage imageNamed:@"navigation_arrows.png"] forState:UIControlStateNormal];
+    [button addTarget:self action:@selector(backButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
+    [button setBackgroundImage: [UIImage imageNamed:@"navigation_button.png"] forState:UIControlStateNormal];
+    button.alpha = 0.8;
+    [button setShowsTouchWhenHighlighted:YES];
+    [bgView addSubview:button];
+    
+    
+    UISegmentedControl  *seg = [[UISegmentedControl alloc] initWithItems:[NSArray  arrayWithObjects:@"Chapter",@"BookMark",nil]];
+    seg.segmentedControlStyle = UISegmentedControlStyleBordered;
+    [seg setFrame:CGRectMake((frame.size.width-200)/2, (bgView.frame.size.height-30)/2, 200, 30)];
+    [seg addTarget:self action:@selector(clickSegInfo:) forControlEvents:UIControlEventValueChanged];
+    seg.selectedSegmentIndex = 0;
+    [bgView addSubview:seg];
+    seg.alpha = 0.8;
+    [seg release];
+    
+    
+    
+    [bgView release];
+    [button release];
+}
 
 
 
