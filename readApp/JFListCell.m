@@ -66,9 +66,17 @@
     {
         JFBookMarkModel  *tempModel = (JFBookMarkModel*)model;
         
+        
+        NSDateFormatter  *format = [[NSDateFormatter alloc] init];
+        [format setLocale:[NSLocale currentLocale]];
+        [format setDateFormat:@"YYYY-MM-dd HH:mm:ss"];
+        NSString  *strDate = [format stringFromDate:tempModel.time];
+        
+        
         [m_labelAbove setFont:[UIFont systemFontOfSize:12]];
         [m_labelAbove setText:tempModel.chaptitle];
-        [m_labelBelow setText:[NSString stringWithFormat:@"Page:%d Time:%@",tempModel.page,[tempModel.time description]]];
+        [m_labelBelow setText:[NSString stringWithFormat:@"Page:%d Time:%@",tempModel.page,strDate]];
+        [format release];
     }
 }
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated

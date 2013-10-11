@@ -67,7 +67,7 @@
         if ([self isSameColor:color colorB:model.bgColor])
         {
             int index = [m_coclorArray indexOfObject:color];
-            [m_pickView selectRow:index inComponent:0 animated:YES];
+            [m_pickView selectRow:index inComponent:0 animated:NO];
             count++;
             if (count == 2)
             {
@@ -77,7 +77,7 @@
         if ([self isSameColor:color colorB:model.textColor])
         {
             int index = [m_coclorArray indexOfObject:color];
-            [m_pickView selectRow:index inComponent:1 animated:YES];
+            [m_pickView selectRow:index inComponent:1 animated:NO];
             count++;
             if (count == 2)
             {
@@ -92,7 +92,7 @@
         if ([number intValue] == model.textFont.pointSize)
         {
             int index = [m_numberArray indexOfObject:number];
-            [m_pickView selectRow:index inComponent:2 animated:YES];
+            [m_pickView selectRow:index inComponent:2 animated:NO];
             break;
         }
     }
