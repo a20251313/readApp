@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F5111BA91807AE17000C994C /* iToast.m in Sources */ = {isa = PBXBuildFile; fileRef = F5111BA81807AE17000C994C /* iToast.m */; };
+		F5111BAC1807C75A000C994C /* JFSetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5111BAB1807C75A000C994C /* JFSetViewController.m */; };
+		F5111BAF1807CB2E000C994C /* JFSetChooseView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5111BAE1807CB2E000C994C /* JFSetChooseView.m */; };
 		F52DA9301806C4D9006AD00A /* nav_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F52DA92D1806C4D9006AD00A /* nav_bg@2x.png */; };
 		F52DA9311806C4D9006AD00A /* nav_view_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F52DA92E1806C4D9006AD00A /* nav_view_bg@2x.png */; };
 		F52DA9321806C4D9006AD00A /* nav_bgview@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F52DA92F1806C4D9006AD00A /* nav_bgview@2x.png */; };
@@ -172,6 +175,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F5111BA71807AE17000C994C /* iToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iToast.h; sourceTree = "<group>"; };
+		F5111BA81807AE17000C994C /* iToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iToast.m; sourceTree = "<group>"; };
+		F5111BAA1807C75A000C994C /* JFSetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFSetViewController.h; sourceTree = "<group>"; };
+		F5111BAB1807C75A000C994C /* JFSetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFSetViewController.m; sourceTree = "<group>"; };
+		F5111BAD1807CB2E000C994C /* JFSetChooseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFSetChooseView.h; sourceTree = "<group>"; };
+		F5111BAE1807CB2E000C994C /* JFSetChooseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFSetChooseView.m; sourceTree = "<group>"; };
 		F52DA92D1806C4D9006AD00A /* nav_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nav_bg@2x.png"; sourceTree = "<group>"; };
 		F52DA92E1806C4D9006AD00A /* nav_view_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nav_view_bg@2x.png"; sourceTree = "<group>"; };
 		F52DA92F1806C4D9006AD00A /* nav_bgview@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nav_bgview@2x.png"; sourceTree = "<group>"; };
@@ -413,8 +422,14 @@
 				F5CC2B1D18055555009C64A5 /* JFUserSaveStoreInfo.m */,
 				F5CC2B1F18055B77009C64A5 /* JFChapterlistViewController.h */,
 				F5CC2B2018055B77009C64A5 /* JFChapterlistViewController.m */,
+				F5111BAA1807C75A000C994C /* JFSetViewController.h */,
+				F5111BAB1807C75A000C994C /* JFSetViewController.m */,
+				F5111BAD1807CB2E000C994C /* JFSetChooseView.h */,
+				F5111BAE1807CB2E000C994C /* JFSetChooseView.m */,
 				F5CC2B2218055EE5009C64A5 /* JFListCell.h */,
 				F5CC2B2318055EE5009C64A5 /* JFListCell.m */,
+				F5111BA71807AE17000C994C /* iToast.h */,
+				F5111BA81807AE17000C994C /* iToast.m */,
 				F5F923BD18051E0D0070D1D5 /* hongloumeng */,
 				F5F9238F18051D9E0070D1D5 /* Supporting Files */,
 			);
@@ -821,10 +836,13 @@
 				F5CC2B1B18055296009C64A5 /* JFBookMarkModel.m in Sources */,
 				F5F9239918051D9E0070D1D5 /* JFAppDelegate.m in Sources */,
 				F5CC2B2418055EE5009C64A5 /* JFListCell.m in Sources */,
+				F5111BAF1807CB2E000C994C /* JFSetChooseView.m in Sources */,
 				F5CC2B2118055B77009C64A5 /* JFChapterlistViewController.m in Sources */,
 				F5CC2B1318053096009C64A5 /* JFChapterTitleView.m in Sources */,
 				F5F9239F18051D9E0070D1D5 /* JFViewController.m in Sources */,
+				F5111BAC1807C75A000C994C /* JFSetViewController.m in Sources */,
 				F5CC2B161805319A009C64A5 /* JFToolView.m in Sources */,
+				F5111BA91807AE17000C994C /* iToast.m in Sources */,
 				F5F9239518051D9E0070D1D5 /* main.m in Sources */,
 				F5CC2B1E18055555009C64A5 /* JFUserSaveStoreInfo.m in Sources */,
 			);

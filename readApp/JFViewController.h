@@ -12,7 +12,9 @@
 #import "JFToolView.h"
 #import "JFUserSaveStoreInfo.h"
 #import "JFChapterlistViewController.h"
-@interface JFViewController : UIViewController<UITextViewDelegate,JFToolViewDelegate>
+#import "iToast.h"
+#import "JFSetViewController.h"
+@interface JFViewController : UIViewController<UITextViewDelegate,JFToolViewDelegate,JFChapterlistViewControllerdelegate,JFSetViewControllerDelegate>
 {
     JFToolView          *m_toolView;
     JFChapterTitleView  *m_chapView;
@@ -21,6 +23,7 @@
     
     BOOL                m_bIsShow;
     int                 m_index;
+    int                 m_iPage;
 
 }
 

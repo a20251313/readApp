@@ -14,6 +14,9 @@
 
 @implementation JFChapterlistViewController
 
+@synthesize delegate;
+
+
 -(id)initWithdatArray:(NSMutableArray *)dataArray
 {
     self = [super init];
@@ -44,6 +47,8 @@
     [super loadView];
     
     CGRect  frame = [UIScreen mainScreen].bounds;
+    frame.origin.y = 44;
+    frame.size.height -= 44;
     m_tableView = [[UITableView alloc] initWithFrame:frame];
     m_tableView.delegate = self;
     m_tableView.dataSource = self;
@@ -68,7 +73,23 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    id model  = nil;
+    if (m_itype == JFlistTypeBookMark)
+    {
+        model = [m_bookmarkArray objectAtIndex:indexPath.row];
+
+    }else if(m_itype == JFlistTypechapter)
+    {
+        model = [NSNumber numberWithInt:indexPath.row];
+    }
     
+    
+    if (model && delegate  && [delegate respondsToSelector:@selector(selectIndexOrBookMark:)])
+    {
+        [delegate selectIndexOrBookMark:model];
+    }
+    
+    [self backButtonPressed:nil];
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
@@ -80,6 +101,42 @@
     }
     
     return [m_dataArray count];
+}
+
+
+- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    if (m_itype != JFlistTypeBookMark)
+    {
+        return NO;
+    }
+    return YES;
+}
+
+//滑动删除
+- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
+    if (editingStyle == UITableViewCellEditingStyleDelete)
+    {
+        JFBookMarkModel *model = [m_bookmarkArray objectAtIndex:indexPath.row];
+        [m_bookmarkArray removeObject:model];
+        [m_tableView reloadData];
+        
+        if ([JFUserSaveStoreInfo deleteUserBookMarkForUUID:0 bookMark:model.time])
+        {
+            iToast  *toast = [[iToast alloc] initWithText:@"删除成功"];
+            [toast show];
+            [toast release];
+        }else
+        {
+            iToast  *toast = [[iToast alloc] initWithText:@"删除成功"];
+            [toast show];
+            [toast release];
+        }
+        
+    }
+    else if (editingStyle == UITableViewCellEditingStyleInsert) {
+        // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view.
+    }
 }
 
 // Row display. Implementers should *always* try to reuse cells by setting each cell's reuseIdentifier and querying for available reusable cells with dequeueReusableCellWithIdentifier:
@@ -169,7 +226,18 @@
 
 
 
-
+-(void)dealloc
+{
+    [m_tableView release];
+    m_tableView = nil;
+    
+    [m_dataArray release];
+    m_dataArray = nil;
+    
+    [m_bookmarkArray release];
+    m_bookmarkArray = nil;
+    [super dealloc];
+}
 
 
 

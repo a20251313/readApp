@@ -13,6 +13,34 @@
 @synthesize textColor;
 @synthesize textFont;
 
+
+
+-(id)copyWithZone:(NSZone *)zone
+{
+    JFSetModel *model = [super init];
+    if (model)
+    {
+        
+        
+        if (self.bgColor)
+        {
+            model.bgColor = [self.bgColor copy];
+            
+        }
+        if (self.textColor)
+        {
+            model.textColor = [self.textColor copy];
+        }
+        
+        if (self.textFont)
+        {
+            model.textFont = [self.textFont copy];
+        }
+        
+    
+    }
+    return model;
+}
 - (void)encodeWithCoder:(NSCoder *)aCoder
 {
  

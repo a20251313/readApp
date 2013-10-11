@@ -11,6 +11,7 @@
 @interface JFBookMarkModel : NSObject<NSCoding>
 
 @property(nonatomic)int     index;
+@property(nonatomic)int     page;
 @property(nonatomic,copy) NSString  *content;
 @property(nonatomic,copy) NSString  *chaptitle;
 @property(nonatomic,copy) NSDate    *time;

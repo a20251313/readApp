@@ -24,7 +24,7 @@
         [m_labelTitle setBackgroundColor:[UIColor clearColor]];
         [m_labelTitle setText:@"第一回 生物了发的是吃饭阿斯顿出风口"];
         [m_labelTitle setTextColor:[UIColor blackColor]];
-        [m_labelTitle setFont:[UIFont systemFontOfSize:16]];
+        [m_labelTitle setFont:[UIFont systemFontOfSize:12]];
         [m_labelTitle setTextAlignment:NSTextAlignmentCenter];
         [self addSubview:m_labelTitle];
         

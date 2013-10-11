@@ -9,6 +9,11 @@
 #import "JFBookMarkModel.h"
 
 @implementation JFBookMarkModel
+@synthesize index;
+@synthesize page;
+@synthesize time;
+@synthesize content;
+@synthesize chaptitle;
 
 -(id)init
 {
@@ -24,9 +29,11 @@
 -(void)encodeWithCoder:(NSCoder *)aCoder
 {
     [aCoder encodeInt:self.index forKey:@"index"];
+    [aCoder encodeInt:self.page forKey:@"page"];
     [aCoder encodeObject:self.time forKey:@"time"];
     [aCoder encodeObject:self.content forKey:@"content"];
     [aCoder encodeObject:self.chaptitle forKey:@"chaptitle"];
+    
 }
 
 -(id)initWithCoder:(NSCoder *)aDecoder
@@ -35,6 +42,7 @@
     if (self)
     {
         self.index = [aDecoder decodeIntForKey:@"index"];
+        self.page  = [aDecoder decodeIntegerForKey:@"page"];
         self.time = [aDecoder decodeObjectForKey:@"time"];
         self.content = [aDecoder decodeObjectForKey:@"content"];
         self.chaptitle = [aDecoder decodeObjectForKey:@"chaptitle"];

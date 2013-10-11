@@ -57,6 +57,7 @@
             NSArray  *subArray = [array subarrayWithRange:NSMakeRange(1, [array count]-1)];
             NSString  *strinfo = [subArray componentsJoinedByString:@" "];
             [m_labelBelow setText:strinfo];
+            [m_labelAbove setFont:[UIFont systemFontOfSize:16]];
             DLOG(@"array:%@ subArray:%@",array,subArray);
         }
         
@@ -65,8 +66,9 @@
     {
         JFBookMarkModel  *tempModel = (JFBookMarkModel*)model;
         
+        [m_labelAbove setFont:[UIFont systemFontOfSize:12]];
         [m_labelAbove setText:tempModel.chaptitle];
-        [m_labelBelow setText:[tempModel.time description]];
+        [m_labelBelow setText:[NSString stringWithFormat:@"Page:%d Time:%@",tempModel.page,[tempModel.time description]]];
     }
 }
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated

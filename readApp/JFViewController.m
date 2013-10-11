@@ -39,15 +39,24 @@
     self = [super init];
     if (self)
     {
-        JFSetModel  *model = [[JFSetModel alloc] init];
-        model.bgColor = [UIColor blackColor];
-        model.textColor = [UIColor greenColor];
-        model.textFont = [UIFont systemFontOfSize:17];
-        self.setModel = model;
-        [model release];
         
+        m_iPage = 0;
         
-        
+        JFSetModel  *model = [JFUserSaveStoreInfo GetUserBsetModelForUUID:0];
+
+        if (model == nil)
+        {
+            model =  [[JFSetModel alloc] init];
+            model.bgColor = [UIColor blackColor];
+            model.textColor = [UIColor greenColor];
+            model.textFont = [UIFont systemFontOfSize:17];
+            self.setModel = model;
+            [model release];
+            
+        }else
+        {
+            self.setModel = model;
+        }
         self.lastBookModel = [JFUserSaveStoreInfo getUserStoreLastreadBookMark];
         
         
@@ -99,12 +108,19 @@
         DLOG(@"loadWithIndex index:%d error:%@",index,error);
     }
     
+    [m_chapView setTitleText:[m_dataArray objectAtIndex:index]];
+    [m_textView setContentOffset:CGPointZero];
+    
+    
 }
 
 -(void)loadWithBookMark:(JFBookMarkModel*)model
 {
     
     
+    
+
+  //  return;
     NSString  *strFirst = [m_dataArray objectAtIndex:model.index];
    
     
@@ -113,16 +129,20 @@
     NSString  *strContent = [NSString stringWithContentsOfFile:strFirst encoding:NSUTF8StringEncoding error:&error];
     
     
-    NSRange  range = [strContent rangeOfString:model.content];
+   // NSRange  range = [strContent rangeOfString:model.content];
      m_index = model.index;
+    m_iPage = model.page;
     if (!error)
     {
         [m_textView setText:strContent];
-        [m_textView scrollRangeToVisible:range];
+        [m_textView scrollRectToVisible:CGRectMake(0, m_iPage*m_textView.frame.size.height, m_textView.frame.size.width, m_textView.frame.size.height) animated:YES];
+       // [m_textView scrollRangeToVisible:range];
     }else
     {
         DLOG(@"loadWithIndex JFBookMarkModel:%@ error:%@",model,error);
     }
+    
+    [m_chapView setTitleText:model.chaptitle];
     
 }
 -(void)loadView
@@ -148,6 +168,8 @@
     [m_textView setBackgroundColor:self.setModel.bgColor];
     [m_textView setTextColor:self.setModel.textColor];
     [m_textView setFont:self.setModel.textFont];
+    [m_textView setPagingEnabled:NO];
+
     
 
     
@@ -155,16 +177,7 @@
     [self.view addSubview:m_textView];
     [m_textView release];
 
-    if (self.lastBookModel)
-    {
-        [self loadWithBookMark:self.lastBookModel];
-    }else
-    {
-        [self loadWithIndex:m_index];
-    }
-    
 
- 
     UITapGestureRecognizer  *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(clickTextView:)];
     [m_textView addGestureRecognizer:tap];
     [tap release];
@@ -177,6 +190,17 @@
     
     m_chapView = [[JFChapterTitleView alloc] initWithFrame:CGRectMake(0, 0, frame.size.width, 35)];
     [self.view addSubview:m_chapView];
+    
+    
+    
+    if (self.lastBookModel)
+    {
+        [self loadWithBookMark:self.lastBookModel];
+    }else
+    {
+        [self loadWithIndex:m_index];
+    }
+    
 
     [self setToolViewHide:YES isAnimating:NO];
     
@@ -286,6 +310,10 @@
 - (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView  // called when scroll view grinds to a halt
 {
     
+    int page = scrollView.contentOffset.y/scrollView.frame.size.height;
+    m_iPage = page;
+
+    
 }
 
 - (void)scrollViewDidEndScrollingAnimation:(UIScrollView *)scrollView
@@ -294,7 +322,7 @@
 }// called when setContentOffset/scrollRectVisible:animated: finishes. not called if not animating
 
 
-#pragma mark  
+#pragma mark  JFToolViewDelegate
 
 
 -(void)clickbtnViewToolType:(JFToolViewButtonType)type
@@ -306,6 +334,7 @@
         case JFToolViewButtonTypeChapter:
         {
             JFChapterlistViewController  *controller = [[JFChapterlistViewController alloc] initWithdatArray:m_dataArray];
+            controller.delegate = self;
             [self.navigationController pushViewController:controller animated:YES];
             [controller release];
             
@@ -341,6 +370,43 @@
             
         }
             break;
+        case JFToolViewButtonTypeAdd:
+        {
+            JFBookMarkModel  *model = [[JFBookMarkModel alloc] init];
+            model.index = m_index;
+            model.chaptitle = [m_dataArray objectAtIndex:m_index];
+            model.content = model.chaptitle;
+            model.page = m_iPage;
+            model.time = [NSDate date];
+            
+            if ([JFUserSaveStoreInfo storeUserBookMarkForUUID:0 bookMark:model])
+            {
+                iToast  *toast = [[iToast alloc] initWithText:@"添加成功"];
+                [toast show];
+                [toast release];
+                
+            }else
+            {
+                iToast  *toast = [[iToast alloc] initWithText:@"添加失败"];
+                [toast show];
+                [toast release];
+                
+            }
+            
+            [model release];
+           // NSString  *strContent = [m_textView ];
+            
+        }
+            break;
+        case JFToolViewButtonTypeSetting:
+        {
+            JFSetViewController  *controller = [[JFSetViewController alloc] initWithOldsetInfo:self.setModel];
+            controller.delegate = self;
+            [self.navigationController pushViewController:controller animated:YES];
+            [controller release];
+            
+        }
+            break;
             
         default:
             break;
@@ -369,5 +435,33 @@
    
     
     [m_textView.layer addAnimation:animation forKey:@"nil"];
+}
+
+
+#pragma mark JFChapterlistViewControllerdelegate
+
+-(void)selectIndexOrBookMark:(id)model
+{
+    if ([model isKindOfClass:[JFBookMarkModel class]])
+    {
+        [self loadWithBookMark:model];
+    }else
+    {
+        [self loadWithIndex:[model intValue]];
+    }
+}
+
+#pragma mark JFSetViewControllerdeletgate
+-(void)getInsuresetInfo:(JFSetModel*)model
+{
+    if (![model isEqual:self.setModel])
+    {
+        
+        self.setModel = model;
+        m_textView.backgroundColor = model.bgColor;
+        m_textView.textColor = model.textColor;
+        m_textView.font = model.textFont;
+        [JFUserSaveStoreInfo storeUserBsetModelForUUID:0 setModel:model];
+    }
 }
 @end
