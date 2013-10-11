@@ -47,7 +47,7 @@
     
     CGRect  frame = [UIScreen mainScreen].bounds;
     
-    m_textview = [[UITextView alloc] initWithFrame:CGRectMake(0, 44, frame.size.width, 120)];
+    m_textview = [[UITextView alloc] initWithFrame:CGRectMake(0, 44, frame.size.width, frame.size.height-210)];
     m_textview.backgroundColor = [UIColor clearColor];
     m_textview.textColor = m_setModel.textColor;
     m_textview.font = m_setModel.textFont;

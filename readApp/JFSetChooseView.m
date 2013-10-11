@@ -32,6 +32,8 @@
         {
             [m_numberArray addObject:[NSNumber numberWithInt:i+10]];
         }
+        
+        [self creatAndAddCenterView];
         // Initialization code
     }
     return self;
@@ -241,6 +243,44 @@
 -(void)creatAndAddCenterView
 {
 
+    
+    CGRect  frame = self.bounds;
+    UIView  *bgView = [[UIView alloc] initWithFrame:CGRectMake(0, (frame.size.height-40)/2-15, frame.size.width, 40)];
+    bgView.layer.contents =(id) [UIImage imageNamed:@"nav_bg@2x.png"].CGImage;
+    [self addSubview:bgView];
+
+    UILabel  *labelOne = [[UILabel alloc] initWithFrame:CGRectMake(0, 1, 140, 15)];
+    labelOne.backgroundColor = [UIColor clearColor];
+    labelOne.textColor = [UIColor blackColor];
+    labelOne.text = @"Background";
+    labelOne.textAlignment = NSTextAlignmentCenter;
+    labelOne.font = [UIFont systemFontOfSize:11];
+    [bgView addSubview:labelOne];
+    [labelOne release];
+    
+    
+    UILabel  *labelTwo = [[UILabel alloc] initWithFrame:CGRectMake(120, 1, 140, 15)];
+    labelTwo.backgroundColor = [UIColor clearColor];
+    labelTwo.textColor = [UIColor blackColor];
+    labelTwo.text = @"Text Color";
+    labelTwo.textAlignment = NSTextAlignmentCenter;
+    labelTwo.font = [UIFont systemFontOfSize:11];
+    [bgView addSubview:labelTwo];
+    [labelTwo release];
+    
+    UILabel  *labelThree = [[UILabel alloc] initWithFrame:CGRectMake(260, 1, 60, 15)];
+    labelThree.backgroundColor = [UIColor clearColor];
+    labelThree.textColor = [UIColor blackColor];
+    labelThree.text = @"Text Size";
+    labelThree.textAlignment = NSTextAlignmentCenter;
+    labelThree.font = [UIFont systemFontOfSize:11];
+    [bgView addSubview:labelThree];
+    [labelThree release];
+    
+    
+    
+    
+    [bgView release];
     
 }
 
