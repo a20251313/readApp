@@ -16,6 +16,13 @@
 		F52DA9341806C612006AD00A /* navigation_arrows@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F52DA9331806C612006AD00A /* navigation_arrows@2x.png */; };
 		F52DA9361806C63A006AD00A /* navigation_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F52DA9351806C639006AD00A /* navigation_button@2x.png */; };
 		F5A3BFAC1809334600237D5B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F5A3BFAA1809334600237D5B /* InfoPlist.strings */; };
+		F5A3BFFF180948F900237D5B /* IMG_0282.PNG in Resources */ = {isa = PBXBuildFile; fileRef = F5A3BFF8180948F900237D5B /* IMG_0282.PNG */; };
+		F5A3C000180948F900237D5B /* IMG_0283.PNG in Resources */ = {isa = PBXBuildFile; fileRef = F5A3BFF9180948F900237D5B /* IMG_0283.PNG */; };
+		F5A3C001180948F900237D5B /* IMG_0284.PNG in Resources */ = {isa = PBXBuildFile; fileRef = F5A3BFFA180948F900237D5B /* IMG_0284.PNG */; };
+		F5A3C002180948F900237D5B /* IMG_0285.PNG in Resources */ = {isa = PBXBuildFile; fileRef = F5A3BFFB180948F900237D5B /* IMG_0285.PNG */; };
+		F5A3C003180948F900237D5B /* IMG_0286.PNG in Resources */ = {isa = PBXBuildFile; fileRef = F5A3BFFC180948F900237D5B /* IMG_0286.PNG */; };
+		F5A3C004180948F900237D5B /* IMG_0287.PNG in Resources */ = {isa = PBXBuildFile; fileRef = F5A3BFFD180948F900237D5B /* IMG_0287.PNG */; };
+		F5A3C005180948F900237D5B /* IMG_0288.PNG in Resources */ = {isa = PBXBuildFile; fileRef = F5A3BFFE180948F900237D5B /* IMG_0288.PNG */; };
 		F5CC2B1318053096009C64A5 /* JFChapterTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CC2B1218053096009C64A5 /* JFChapterTitleView.m */; };
 		F5CC2B161805319A009C64A5 /* JFToolView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CC2B151805319A009C64A5 /* JFToolView.m */; };
 		F5CC2B1818053CFB009C64A5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5CC2B1718053CFB009C64A5 /* QuartzCore.framework */; };
@@ -187,6 +194,13 @@
 		F52DA9331806C612006AD00A /* navigation_arrows@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navigation_arrows@2x.png"; sourceTree = "<group>"; };
 		F52DA9351806C639006AD00A /* navigation_button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navigation_button@2x.png"; sourceTree = "<group>"; };
 		F5A3BFAB1809334600237D5B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F5A3BFF8180948F900237D5B /* IMG_0282.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_0282.PNG; sourceTree = "<group>"; };
+		F5A3BFF9180948F900237D5B /* IMG_0283.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_0283.PNG; sourceTree = "<group>"; };
+		F5A3BFFA180948F900237D5B /* IMG_0284.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_0284.PNG; sourceTree = "<group>"; };
+		F5A3BFFB180948F900237D5B /* IMG_0285.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_0285.PNG; sourceTree = "<group>"; };
+		F5A3BFFC180948F900237D5B /* IMG_0286.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_0286.PNG; sourceTree = "<group>"; };
+		F5A3BFFD180948F900237D5B /* IMG_0287.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_0287.PNG; sourceTree = "<group>"; };
+		F5A3BFFE180948F900237D5B /* IMG_0288.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_0288.PNG; sourceTree = "<group>"; };
 		F5CC2B1118053096009C64A5 /* JFChapterTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFChapterTitleView.h; sourceTree = "<group>"; };
 		F5CC2B1218053096009C64A5 /* JFChapterTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFChapterTitleView.m; sourceTree = "<group>"; };
 		F5CC2B141805319A009C64A5 /* JFToolView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFToolView.h; sourceTree = "<group>"; };
@@ -468,6 +482,13 @@
 		F5F923BD18051E0D0070D1D5 /* hongloumeng */ = {
 			isa = PBXGroup;
 			children = (
+				F5A3BFF8180948F900237D5B /* IMG_0282.PNG */,
+				F5A3BFF9180948F900237D5B /* IMG_0283.PNG */,
+				F5A3BFFA180948F900237D5B /* IMG_0284.PNG */,
+				F5A3BFFB180948F900237D5B /* IMG_0285.PNG */,
+				F5A3BFFC180948F900237D5B /* IMG_0286.PNG */,
+				F5A3BFFD180948F900237D5B /* IMG_0287.PNG */,
+				F5A3BFFE180948F900237D5B /* IMG_0288.PNG */,
 				F5DA4A67180924F5005270C9 /* icon80.png */,
 				F5DA4A68180924F5005270C9 /* icon120.png */,
 				F5DA4A69180924F5005270C9 /* icon152.png */,
@@ -688,8 +709,10 @@
 				F5F9245718051E0E0070D1D5 /* 第七十七回 俏丫鬟抱屈夭风流　美优伶斩情归水月.txt in Resources */,
 				F5F9247E18051E0E0070D1D5 /* 第二十六回　蜂腰桥设言传心事　潇湘馆春困发幽情.txt in Resources */,
 				F5F9245B18051E0E0070D1D5 /* 第七十五回 开夜宴异兆发悲音　赏中秋新词得佳谶.txt in Resources */,
+				F5A3C002180948F900237D5B /* IMG_0285.PNG in Resources */,
 				F5F924B418051E0E0070D1D5 /* 第四十六回 尴尬人难免尴尬事　鸳鸯女誓绝鸳鸯偶.txt in Resources */,
 				F5DA4A6A180924F5005270C9 /* icon80.png in Resources */,
+				F5A3C001180948F900237D5B /* IMG_0284.PNG in Resources */,
 				F5F9244318051E0E0070D1D5 /* 第一百三回 施毒计金桂自焚身　昧真禅雨村空遇旧.txt in Resources */,
 				F5F9249F18051E0E0070D1D5 /* 第六十六回 情小妹耻情归地府　冷二郎一冷入空门.txt in Resources */,
 				F5F9244A18051E0E0070D1D5 /* 第一百十一回 鸳鸯女殉主登太虚　狗彘奴欺天招伙盗.txt in Resources */,
@@ -728,9 +751,11 @@
 				F5F9247018051E0E0070D1D5 /* 第九十二回 评女传巧姐慕贤良　玩母珠贾政参聚散.txt in Resources */,
 				F5F9245C18051E0E0070D1D5 /* 第七十八回 老学士闲征姽婳词　痴公子杜撰芙蓉诔.txt in Resources */,
 				F5F9244C18051E0E0070D1D5 /* 第一百十三回 忏宿冤凤姐托村妪　释旧憾情婢感痴郎.txt in Resources */,
+				F5A3C003180948F900237D5B /* IMG_0286.PNG in Resources */,
 				F5DA4A6B180924F5005270C9 /* icon120.png in Resources */,
 				F5F924AB18051E0E0070D1D5 /* 第十四回 林如海灵返苏州郡　贾宝玉路谒北静王.txt in Resources */,
 				F5F9249C18051E0E0070D1D5 /* 第六十二回 憨湘云醉眠芍药裀　呆香菱情解石榴裙.txt in Resources */,
+				F5A3C005180948F900237D5B /* IMG_0288.PNG in Resources */,
 				F5E5523218091EA600DF57F7 /* Default-568h@2x.png in Resources */,
 				F5F9245118051E0E0070D1D5 /* 第一百十六回 得通灵幻境悟仙缘　送慈柩故乡全孝道.txt in Resources */,
 				F5F9249618051E0E0070D1D5 /* 第八十回 美香菱屈受贪夫棒　王道士胡诌妒妇方.txt in Resources */,
@@ -742,6 +767,7 @@
 				F5F924B618051E0E0070D1D5 /* 第四十回 史太君两宴大观园　金鸳鸯三宣牙牌令.txt in Resources */,
 				F5F9246518051E0E0070D1D5 /* 第三十二回 诉肺腑心迷活宝玉　含耻辱情烈死金钏.txt in Resources */,
 				F5F9249418051E0E0070D1D5 /* 第八十六回 受私贿老官翻案牍　寄闲情淑女解琴书.txt in Resources */,
+				F5A3BFFF180948F900237D5B /* IMG_0282.PNG in Resources */,
 				F5F9246F18051E0E0070D1D5 /* 第九十九回 守官箴恶奴同破例　阅邸报老舅自担惊.txt in Resources */,
 				F5F924A618051E0E0070D1D5 /* 第十九回 情切切良宵花解语　意绵绵静日玉生香.txt in Resources */,
 				F5F9245818051E0E0070D1D5 /* 第七十三回 痴丫头误拾绣春囊　懦小姐不问累金凤.txt in Resources */,
@@ -795,9 +821,11 @@
 				F5F9248518051E0E0070D1D5 /* 第五十九回 柳叶渚边嗔莺叱燕　绛芸轩里召将飞符.txt in Resources */,
 				F5F9246218051E0E0070D1D5 /* 第三十七回 秋爽斋偶结海棠社　蘅芜院夜拟菊花题.txt in Resources */,
 				F5F9249218051E0E0070D1D5 /* 第八十五回 贾存周报升郎中任　薛文起复惹放流刑.txt in Resources */,
+				F5A3C004180948F900237D5B /* IMG_0287.PNG in Resources */,
 				F5F9249E18051E0E0070D1D5 /* 第六十八回 苦尤娘赚入大观园　酸凤姐大闹宁国府.txt in Resources */,
 				F52DA9311806C4D9006AD00A /* nav_view_bg@2x.png in Resources */,
 				F5F9246C18051E0E0070D1D5 /* 第九十一回 纵淫心宝蟾工设计　布疑阵宝玉妄谈禅.txt in Resources */,
+				F5A3C000180948F900237D5B /* IMG_0283.PNG in Resources */,
 				F5F924B918051E380070D1D5 /* hongloumeng.plist in Resources */,
 				F5F9247F18051E0E0070D1D5 /* 第二十四回 醉金刚轻财尚义侠　痴女儿遗帕惹相思.txt in Resources */,
 				F5F9245318051E0E0070D1D5 /* 第一百十回 史太君寿终归地府　王凤姐力诎失人心.txt in Resources */,
