@@ -75,7 +75,7 @@
         
         [m_labelAbove setFont:[UIFont systemFontOfSize:12]];
         [m_labelAbove setText:tempModel.chaptitle];
-        [m_labelBelow setText:[NSString stringWithFormat:@"Page:%d Time:%@",tempModel.page,strDate]];
+        [m_labelBelow setText:[NSString stringWithFormat:@"Page:%d Time:%@",tempModel.page+1,strDate]];
         [format release];
     }
 }
