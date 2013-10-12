@@ -15,7 +15,6 @@
 		F52DA9321806C4D9006AD00A /* nav_bgview@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F52DA92F1806C4D9006AD00A /* nav_bgview@2x.png */; };
 		F52DA9341806C612006AD00A /* navigation_arrows@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F52DA9331806C612006AD00A /* navigation_arrows@2x.png */; };
 		F52DA9361806C63A006AD00A /* navigation_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F52DA9351806C639006AD00A /* navigation_button@2x.png */; };
-		F5309FA21806B2660015C888 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F5309FA11806B2660015C888 /* Default-568h@2x.png */; };
 		F5CC2B1318053096009C64A5 /* JFChapterTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CC2B1218053096009C64A5 /* JFChapterTitleView.m */; };
 		F5CC2B161805319A009C64A5 /* JFToolView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CC2B151805319A009C64A5 /* JFToolView.m */; };
 		F5CC2B1818053CFB009C64A5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5CC2B1718053CFB009C64A5 /* QuartzCore.framework */; };
@@ -23,6 +22,11 @@
 		F5CC2B1E18055555009C64A5 /* JFUserSaveStoreInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CC2B1D18055555009C64A5 /* JFUserSaveStoreInfo.m */; };
 		F5CC2B2118055B77009C64A5 /* JFChapterlistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CC2B2018055B77009C64A5 /* JFChapterlistViewController.m */; };
 		F5CC2B2418055EE5009C64A5 /* JFListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CC2B2318055EE5009C64A5 /* JFListCell.m */; };
+		F5DA4A6A180924F5005270C9 /* icon80.png in Resources */ = {isa = PBXBuildFile; fileRef = F5DA4A67180924F5005270C9 /* icon80.png */; };
+		F5DA4A6B180924F5005270C9 /* icon120.png in Resources */ = {isa = PBXBuildFile; fileRef = F5DA4A68180924F5005270C9 /* icon120.png */; };
+		F5DA4A6C180924F5005270C9 /* icon152.png in Resources */ = {isa = PBXBuildFile; fileRef = F5DA4A69180924F5005270C9 /* icon152.png */; };
+		F5E5523118091EA600DF57F7 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F5E5522F18091EA600DF57F7 /* Default.png */; };
+		F5E5523218091EA600DF57F7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F5E5523018091EA600DF57F7 /* Default-568h@2x.png */; };
 		F5F9238918051D9E0070D1D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5F9238818051D9E0070D1D5 /* Foundation.framework */; };
 		F5F9238B18051D9E0070D1D5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5F9238A18051D9E0070D1D5 /* CoreGraphics.framework */; };
 		F5F9238D18051D9E0070D1D5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5F9238C18051D9E0070D1D5 /* UIKit.framework */; };
@@ -35,10 +39,6 @@
 		F5F923AA18051D9E0070D1D5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5F9238C18051D9E0070D1D5 /* UIKit.framework */; };
 		F5F923B218051D9E0070D1D5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F5F923B018051D9E0070D1D5 /* InfoPlist.strings */; };
 		F5F923B418051D9E0070D1D5 /* readAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F923B318051D9E0070D1D5 /* readAppTests.m */; };
-		F5F9243B18051E0E0070D1D5 /* chapters.png in Resources */ = {isa = PBXBuildFile; fileRef = F5F923BE18051E0D0070D1D5 /* chapters.png */; };
-		F5F9243C18051E0E0070D1D5 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F5F923BF18051E0D0070D1D5 /* Default.png */; };
-		F5F9243D18051E0E0070D1D5 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F5F923C018051E0D0070D1D5 /* icon.png */; };
-		F5F9243E18051E0E0070D1D5 /* icon2.png in Resources */ = {isa = PBXBuildFile; fileRef = F5F923C118051E0D0070D1D5 /* icon2.png */; };
 		F5F9243F18051E0E0070D1D5 /* test.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F923C218051E0D0070D1D5 /* test.txt */; };
 		F5F9244018051E0E0070D1D5 /* 第一回 甄士隐梦幻识通灵　贾雨村风尘怀闺秀.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F923C318051E0D0070D1D5 /* 第一回 甄士隐梦幻识通灵　贾雨村风尘怀闺秀.txt */; };
 		F5F9244118051E0E0070D1D5 /* 第一百一回 大观园月夜警幽魂　散花寺神签惊异兆.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F923C418051E0D0070D1D5 /* 第一百一回 大观园月夜警幽魂　散花寺神签惊异兆.txt */; };
@@ -160,7 +160,7 @@
 		F5F924B518051E0E0070D1D5 /* 第四十四回 变生不测凤姐泼醋　喜出望外平儿理妆.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F9243818051E0E0070D1D5 /* 第四十四回 变生不测凤姐泼醋　喜出望外平儿理妆.txt */; };
 		F5F924B618051E0E0070D1D5 /* 第四十回 史太君两宴大观园　金鸳鸯三宣牙牌令.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F9243918051E0E0070D1D5 /* 第四十回 史太君两宴大观园　金鸳鸯三宣牙牌令.txt */; };
 		F5F924B718051E0E0070D1D5 /* 第四回 薄命女偏逢薄命郎　葫芦僧乱判葫芦案.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5F9243A18051E0E0070D1D5 /* 第四回 薄命女偏逢薄命郎　葫芦僧乱判葫芦案.txt */; };
-		F5F924B918051E380070D1D5 /* ChapterList.plist in Resources */ = {isa = PBXBuildFile; fileRef = F5F924B818051E380070D1D5 /* ChapterList.plist */; };
+		F5F924B918051E380070D1D5 /* hongloumeng.plist in Resources */ = {isa = PBXBuildFile; fileRef = F5F924B818051E380070D1D5 /* hongloumeng.plist */; };
 		F5F924BC18051F530070D1D5 /* JFSetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F924BB18051F530070D1D5 /* JFSetModel.m */; };
 /* End PBXBuildFile section */
 
@@ -186,7 +186,6 @@
 		F52DA92F1806C4D9006AD00A /* nav_bgview@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nav_bgview@2x.png"; sourceTree = "<group>"; };
 		F52DA9331806C612006AD00A /* navigation_arrows@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navigation_arrows@2x.png"; sourceTree = "<group>"; };
 		F52DA9351806C639006AD00A /* navigation_button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navigation_button@2x.png"; sourceTree = "<group>"; };
-		F5309FA11806B2660015C888 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		F5CC2B1118053096009C64A5 /* JFChapterTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFChapterTitleView.h; sourceTree = "<group>"; };
 		F5CC2B1218053096009C64A5 /* JFChapterTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFChapterTitleView.m; sourceTree = "<group>"; };
 		F5CC2B141805319A009C64A5 /* JFToolView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFToolView.h; sourceTree = "<group>"; };
@@ -200,6 +199,11 @@
 		F5CC2B2018055B77009C64A5 /* JFChapterlistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFChapterlistViewController.m; sourceTree = "<group>"; };
 		F5CC2B2218055EE5009C64A5 /* JFListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFListCell.h; sourceTree = "<group>"; };
 		F5CC2B2318055EE5009C64A5 /* JFListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFListCell.m; sourceTree = "<group>"; };
+		F5DA4A67180924F5005270C9 /* icon80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon80.png; sourceTree = "<group>"; };
+		F5DA4A68180924F5005270C9 /* icon120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon120.png; sourceTree = "<group>"; };
+		F5DA4A69180924F5005270C9 /* icon152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon152.png; sourceTree = "<group>"; };
+		F5E5522F18091EA600DF57F7 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		F5E5523018091EA600DF57F7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		F5F9238518051D9E0070D1D5 /* readApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = readApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5F9238818051D9E0070D1D5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F5F9238A18051D9E0070D1D5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -217,10 +221,6 @@
 		F5F923AF18051D9E0070D1D5 /* readAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "readAppTests-Info.plist"; sourceTree = "<group>"; };
 		F5F923B118051D9E0070D1D5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F5F923B318051D9E0070D1D5 /* readAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = readAppTests.m; sourceTree = "<group>"; };
-		F5F923BE18051E0D0070D1D5 /* chapters.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chapters.png; sourceTree = "<group>"; };
-		F5F923BF18051E0D0070D1D5 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		F5F923C018051E0D0070D1D5 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
-		F5F923C118051E0D0070D1D5 /* icon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon2.png; sourceTree = "<group>"; };
 		F5F923C218051E0D0070D1D5 /* test.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.txt; sourceTree = "<group>"; };
 		F5F923C318051E0D0070D1D5 /* 第一回 甄士隐梦幻识通灵　贾雨村风尘怀闺秀.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第一回 甄士隐梦幻识通灵　贾雨村风尘怀闺秀.txt"; sourceTree = "<group>"; };
 		F5F923C418051E0D0070D1D5 /* 第一百一回 大观园月夜警幽魂　散花寺神签惊异兆.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第一百一回 大观园月夜警幽魂　散花寺神签惊异兆.txt"; sourceTree = "<group>"; };
@@ -342,7 +342,7 @@
 		F5F9243818051E0E0070D1D5 /* 第四十四回 变生不测凤姐泼醋　喜出望外平儿理妆.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第四十四回 变生不测凤姐泼醋　喜出望外平儿理妆.txt"; sourceTree = "<group>"; };
 		F5F9243918051E0E0070D1D5 /* 第四十回 史太君两宴大观园　金鸳鸯三宣牙牌令.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第四十回 史太君两宴大观园　金鸳鸯三宣牙牌令.txt"; sourceTree = "<group>"; };
 		F5F9243A18051E0E0070D1D5 /* 第四回 薄命女偏逢薄命郎　葫芦僧乱判葫芦案.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第四回 薄命女偏逢薄命郎　葫芦僧乱判葫芦案.txt"; sourceTree = "<group>"; };
-		F5F924B818051E380070D1D5 /* ChapterList.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = ChapterList.plist; sourceTree = "<group>"; };
+		F5F924B818051E380070D1D5 /* hongloumeng.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = hongloumeng.plist; sourceTree = "<group>"; };
 		F5F924BA18051F530070D1D5 /* JFSetModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFSetModel.h; sourceTree = "<group>"; };
 		F5F924BB18051F530070D1D5 /* JFSetModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFSetModel.m; sourceTree = "<group>"; usesTabs = 0; };
 /* End PBXFileReference section */
@@ -426,8 +426,8 @@
 				F5111BAB1807C75A000C994C /* JFSetViewController.m */,
 				F5111BAD1807CB2E000C994C /* JFSetChooseView.h */,
 				F5111BAE1807CB2E000C994C /* JFSetChooseView.m */,
-				F5CC2B2218055EE5009C64A5 /* JFListCell.h */,
 				F5CC2B2318055EE5009C64A5 /* JFListCell.m */,
+				F5CC2B2218055EE5009C64A5 /* JFListCell.h */,
 				F5111BA71807AE17000C994C /* iToast.h */,
 				F5111BA81807AE17000C994C /* iToast.m */,
 				F5F923BD18051E0D0070D1D5 /* hongloumeng */,
@@ -468,18 +468,18 @@
 		F5F923BD18051E0D0070D1D5 /* hongloumeng */ = {
 			isa = PBXGroup;
 			children = (
+				F5DA4A67180924F5005270C9 /* icon80.png */,
+				F5DA4A68180924F5005270C9 /* icon120.png */,
+				F5DA4A69180924F5005270C9 /* icon152.png */,
+				F5E5522F18091EA600DF57F7 /* Default.png */,
+				F5E5523018091EA600DF57F7 /* Default-568h@2x.png */,
 				F52DA9331806C612006AD00A /* navigation_arrows@2x.png */,
 				F52DA9351806C639006AD00A /* navigation_button@2x.png */,
 				F52DA92D1806C4D9006AD00A /* nav_bg@2x.png */,
 				F52DA92E1806C4D9006AD00A /* nav_view_bg@2x.png */,
 				F52DA92F1806C4D9006AD00A /* nav_bgview@2x.png */,
-				F5309FA11806B2660015C888 /* Default-568h@2x.png */,
-				F5F923BE18051E0D0070D1D5 /* chapters.png */,
-				F5F923BF18051E0D0070D1D5 /* Default.png */,
-				F5F923C018051E0D0070D1D5 /* icon.png */,
-				F5F923C118051E0D0070D1D5 /* icon2.png */,
 				F5F923C218051E0D0070D1D5 /* test.txt */,
-				F5F924B818051E380070D1D5 /* ChapterList.plist */,
+				F5F924B818051E380070D1D5 /* hongloumeng.plist */,
 				F5F923C318051E0D0070D1D5 /* 第一回 甄士隐梦幻识通灵　贾雨村风尘怀闺秀.txt */,
 				F5F923C418051E0D0070D1D5 /* 第一百一回 大观园月夜警幽魂　散花寺神签惊异兆.txt */,
 				F5F923C518051E0D0070D1D5 /* 第一百七回 散余资贾母明大义　复世职政老沐天恩.txt */,
@@ -689,6 +689,7 @@
 				F5F9247E18051E0E0070D1D5 /* 第二十六回　蜂腰桥设言传心事　潇湘馆春困发幽情.txt in Resources */,
 				F5F9245B18051E0E0070D1D5 /* 第七十五回 开夜宴异兆发悲音　赏中秋新词得佳谶.txt in Resources */,
 				F5F924B418051E0E0070D1D5 /* 第四十六回 尴尬人难免尴尬事　鸳鸯女誓绝鸳鸯偶.txt in Resources */,
+				F5DA4A6A180924F5005270C9 /* icon80.png in Resources */,
 				F5F9244318051E0E0070D1D5 /* 第一百三回 施毒计金桂自焚身　昧真禅雨村空遇旧.txt in Resources */,
 				F5F9249F18051E0E0070D1D5 /* 第六十六回 情小妹耻情归地府　冷二郎一冷入空门.txt in Resources */,
 				F5F9244A18051E0E0070D1D5 /* 第一百十一回 鸳鸯女殉主登太虚　狗彘奴欺天招伙盗.txt in Resources */,
@@ -709,11 +710,11 @@
 				F5F924A318051E0E0070D1D5 /* 第十一回 庆寿辰宁府排家宴　见熙凤贾瑞起淫心.txt in Resources */,
 				F5F9246418051E0E0070D1D5 /* 第三十九回 村姥姥是信口开河　情哥哥偏寻根究底.txt in Resources */,
 				F5F9248218051E0E0070D1D5 /* 第五十一回 薛小妹新编怀古诗　胡庸医乱用虎狼药.txt in Resources */,
+				F5DA4A6C180924F5005270C9 /* icon152.png in Resources */,
 				F5F924A118051E0E0070D1D5 /* 第六十回 茉莉粉替去蔷薇硝　玫瑰露引出茯苓霜.txt in Resources */,
 				F5F9247218051E0E0070D1D5 /* 第九十八回 苦绛珠魂归离恨天　病神瑛泪洒相思地.txt in Resources */,
 				F5F924B118051E0E0070D1D5 /* 第四十二回 蘅芜君兰言解疑癖　潇湘子雅谑补余音.txt in Resources */,
 				F5F924A218051E0E0070D1D5 /* 第六回 贾宝玉初试云雨情　刘姥姥一进荣国府.txt in Resources */,
-				F5F9243B18051E0E0070D1D5 /* chapters.png in Resources */,
 				F5F9248B18051E0E0070D1D5 /* 第五十回 芦雪庭争联即景诗 暖香坞雅制春灯谜.txt in Resources */,
 				F5F924B018051E0E0070D1D5 /* 第四十九回 琉璃世界白雪红梅 脂粉香娃割腥啖膻.txt in Resources */,
 				F5F9248F18051E0E0070D1D5 /* 第八十三回 省宫闱贾元妃染恙　闹闺阃薛宝钗吞声.txt in Resources */,
@@ -726,8 +727,10 @@
 				F5F9247018051E0E0070D1D5 /* 第九十二回 评女传巧姐慕贤良　玩母珠贾政参聚散.txt in Resources */,
 				F5F9245C18051E0E0070D1D5 /* 第七十八回 老学士闲征姽婳词　痴公子杜撰芙蓉诔.txt in Resources */,
 				F5F9244C18051E0E0070D1D5 /* 第一百十三回 忏宿冤凤姐托村妪　释旧憾情婢感痴郎.txt in Resources */,
+				F5DA4A6B180924F5005270C9 /* icon120.png in Resources */,
 				F5F924AB18051E0E0070D1D5 /* 第十四回 林如海灵返苏州郡　贾宝玉路谒北静王.txt in Resources */,
 				F5F9249C18051E0E0070D1D5 /* 第六十二回 憨湘云醉眠芍药裀　呆香菱情解石榴裙.txt in Resources */,
+				F5E5523218091EA600DF57F7 /* Default-568h@2x.png in Resources */,
 				F5F9245118051E0E0070D1D5 /* 第一百十六回 得通灵幻境悟仙缘　送慈柩故乡全孝道.txt in Resources */,
 				F5F9249618051E0E0070D1D5 /* 第八十回 美香菱屈受贪夫棒　王道士胡诌妒妇方.txt in Resources */,
 				F5F9245418051E0E0070D1D5 /* 第一百四回 醉金刚小鳅生大浪　痴公子余痛触前情.txt in Resources */,
@@ -738,7 +741,6 @@
 				F5F924B618051E0E0070D1D5 /* 第四十回 史太君两宴大观园　金鸳鸯三宣牙牌令.txt in Resources */,
 				F5F9246518051E0E0070D1D5 /* 第三十二回 诉肺腑心迷活宝玉　含耻辱情烈死金钏.txt in Resources */,
 				F5F9249418051E0E0070D1D5 /* 第八十六回 受私贿老官翻案牍　寄闲情淑女解琴书.txt in Resources */,
-				F5F9243D18051E0E0070D1D5 /* icon.png in Resources */,
 				F5F9246F18051E0E0070D1D5 /* 第九十九回 守官箴恶奴同破例　阅邸报老舅自担惊.txt in Resources */,
 				F5F924A618051E0E0070D1D5 /* 第十九回 情切切良宵花解语　意绵绵静日玉生香.txt in Resources */,
 				F5F9239318051D9E0070D1D5 /* InfoPlist.strings in Resources */,
@@ -763,11 +765,11 @@
 				F5F9246D18051E0E0070D1D5 /* 第九十七回 林黛玉焚稿断痴情　薛宝钗出闺成大礼.txt in Resources */,
 				F5F9245218051E0E0070D1D5 /* 第一百十四回 王熙凤历幻返金陵　甄应嘉蒙恩还玉阙.txt in Resources */,
 				F5F9247A18051E0E0070D1D5 /* 第二十九回 享福人福深还祷福　多情女情重愈斟情.txt in Resources */,
-				F5F9243E18051E0E0070D1D5 /* icon2.png in Resources */,
 				F5F9249A18051E0E0070D1D5 /* 第六十三回 寿怡红群芳开夜宴　死金丹独艳理亲丧.txt in Resources */,
 				F5F9245518051E0E0070D1D5 /* 第一百回 破好事香菱结深恨　悲远嫁宝玉感离情.txt in Resources */,
 				F52DA9361806C63A006AD00A /* navigation_button@2x.png in Resources */,
 				F5F9248418051E0E0070D1D5 /* 第五十三回 宁国府除夕祭宗祠　荣国府元宵开夜宴.txt in Resources */,
+				F5E5523118091EA600DF57F7 /* Default.png in Resources */,
 				F5F924A718051E0E0070D1D5 /* 第十二回 王熙凤毒设相思局　贾天祥正照风月鉴.txt in Resources */,
 				F5F924B518051E0E0070D1D5 /* 第四十四回 变生不测凤姐泼醋　喜出望外平儿理妆.txt in Resources */,
 				F5F924AD18051E0E0070D1D5 /* 第四十一回 贾宝玉品茶栊翠庵　刘姥姥醉卧怡红院.txt in Resources */,
@@ -794,11 +796,9 @@
 				F5F9246218051E0E0070D1D5 /* 第三十七回 秋爽斋偶结海棠社　蘅芜院夜拟菊花题.txt in Resources */,
 				F5F9249218051E0E0070D1D5 /* 第八十五回 贾存周报升郎中任　薛文起复惹放流刑.txt in Resources */,
 				F5F9249E18051E0E0070D1D5 /* 第六十八回 苦尤娘赚入大观园　酸凤姐大闹宁国府.txt in Resources */,
-				F5309FA21806B2660015C888 /* Default-568h@2x.png in Resources */,
 				F52DA9311806C4D9006AD00A /* nav_view_bg@2x.png in Resources */,
 				F5F9246C18051E0E0070D1D5 /* 第九十一回 纵淫心宝蟾工设计　布疑阵宝玉妄谈禅.txt in Resources */,
-				F5F924B918051E380070D1D5 /* ChapterList.plist in Resources */,
-				F5F9243C18051E0E0070D1D5 /* Default.png in Resources */,
+				F5F924B918051E380070D1D5 /* hongloumeng.plist in Resources */,
 				F5F9247F18051E0E0070D1D5 /* 第二十四回 醉金刚轻财尚义侠　痴女儿遗帕惹相思.txt in Resources */,
 				F5F9245318051E0E0070D1D5 /* 第一百十回 史太君寿终归地府　王凤姐力诎失人心.txt in Resources */,
 				F5F9246718051E0E0070D1D5 /* 第三十八回 林潇湘魁夺菊花诗　薛蘅芜讽和螃蟹咏.txt in Resources */,

@@ -6,6 +6,9 @@
 //  Copyright (c) 2013年 com.jingfu.ran. All rights reserved.
 //
 
+
+
+#define BOOKFILENAME    @"hongloumeng"
 #import "JFViewController.h"
 
 @interface JFViewController ()
@@ -62,7 +65,7 @@
         
         m_dataArray = [[NSMutableArray alloc] init];
         m_index = 0;
-        NSString  *strFile = [[NSBundle mainBundle] pathForResource:@"ChapterList" ofType:@"plist"];
+        NSString  *strFile = [[NSBundle mainBundle] pathForResource:BOOKFILENAME ofType:@"plist"];
         //  NSDictionary    *dicInfo = [NSDictionary dictionaryWithContentsOfFile:strFile];
         
         
@@ -94,6 +97,9 @@
 -(void)loadWithIndex:(int)index
 {
     
+    
+    [m_textView setContentOffset:CGPointZero];
+    
     m_index = index;
     NSString  *strFirst = [m_dataArray objectAtIndex:index];
     strFirst = [[NSBundle mainBundle] pathForResource:strFirst ofType:@"txt"];
@@ -109,7 +115,7 @@
     }
     
     [m_chapView setTitleText:[m_dataArray objectAtIndex:index]];
-    [m_textView setContentOffset:CGPointZero];
+    
     
     
 }
@@ -310,9 +316,24 @@
 - (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView  // called when scroll view grinds to a halt
 {
     
+    int totalPage = scrollView.contentSize.height/scrollView.frame.size.height;;
+    
     int page = scrollView.contentOffset.y/scrollView.frame.size.height;
     m_iPage = page;
-
+    
+    if (m_iPage == totalPage-1)
+    {
+        if (m_index+1 < [m_dataArray count])
+        {
+            m_index++;
+        }else
+        {
+            m_index = 0;
+        }
+        [self showAniFromLeft:NO];
+        [self loadWithIndex:m_index];
+    }
+   // DLOG(@"scrollView:%@",scrollView);
     
 }
 
@@ -426,11 +447,11 @@
     if (isLeft)
     {
         
-         animation.subtype = kCATransitionFromLeft;
+         animation.subtype = kCATransitionFromBottom;
         
     }else
     {
-         animation.subtype = kCATransitionFromRight;
+         animation.subtype = kCATransitionFromTop;
     }
    
     

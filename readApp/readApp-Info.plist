@@ -8,6 +8,12 @@
 	<string>${PRODUCT_NAME}</string>
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
+	<key>CFBundleIconFiles</key>
+	<array>
+		<string>icon80.png</string>
+		<string>icon120.png</string>
+		<string>icon152.png</string>
+	</array>
 	<key>CFBundleIdentifier</key>
 	<string>com.i366.iDraw</string>
 	<key>CFBundleInfoDictionaryVersion</key>
