@@ -50,6 +50,7 @@
     m_textview = [[UITextView alloc] initWithFrame:CGRectMake(0, 44, frame.size.width, frame.size.height-210)];
     m_textview.backgroundColor = [UIColor clearColor];
     m_textview.textColor = m_setModel.textColor;
+    m_textview.editable = NO;
     m_textview.font = m_setModel.textFont;
     [self.view addSubview:m_textview];
     [m_textview setText:@"Sample:This is a sample which you choose\n示例:这是一个显示你的选择示例!"];

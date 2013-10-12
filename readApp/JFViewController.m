@@ -402,13 +402,13 @@
             
             if ([JFUserSaveStoreInfo storeUserBookMarkForUUID:0 bookMark:model])
             {
-                iToast  *toast = [[iToast alloc] initWithText:@"添加成功"];
+                iToast  *toast = [[iToast alloc] initWithText:@"添加书签成功"];
                 [toast show];
                 [toast release];
                 
             }else
             {
-                iToast  *toast = [[iToast alloc] initWithText:@"添加失败"];
+                iToast  *toast = [[iToast alloc] initWithText:@"添加书签失败"];
                 [toast show];
                 [toast release];
                 
