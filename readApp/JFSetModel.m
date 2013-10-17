@@ -34,7 +34,7 @@
         
         if (self.textFont)
         {
-            model.textFont = [self.textFont copy];
+            model.textFont = [self.textFont retain];//[self.textFont mutableCopy];
         }
         
     
