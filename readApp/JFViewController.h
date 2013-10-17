@@ -14,6 +14,7 @@
 #import "JFChapterlistViewController.h"
 #import "iToast.h"
 #import "JFSetViewController.h"
+#import "JFHelpViewController.h"
 @interface JFViewController : UIViewController<UITextViewDelegate,JFToolViewDelegate,JFChapterlistViewControllerdelegate,JFSetViewControllerDelegate>
 {
     JFToolView          *m_toolView;

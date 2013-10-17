@@ -428,7 +428,12 @@
             
         }
             break;
-            
+        case JFToolViewButtonTypeHelp:
+        {
+            JFHelpViewController  *controller = [[JFHelpViewController alloc] init];
+            [self.navigationController pushViewController:controller animated:YES];
+            [controller release];
+        }
         default:
             break;
     }
