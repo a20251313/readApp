@@ -16,8 +16,12 @@
     self = [super initWithFrame:frame];
     if (self)
     {
+        self.backgroundColor = [UIColor colorWithRed:0.5 green:0.5 blue:0.5 alpha:1];
         m_pickView = [[UIPickerView alloc] initWithFrame:self.bounds];
         m_pickView.delegate = self;
+        m_pickView.showsSelectionIndicator = YES;
+        
+        
         [self addSubview:m_pickView];
         
         m_ibgIndex = 0;

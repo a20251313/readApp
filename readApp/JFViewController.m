@@ -89,6 +89,9 @@
     
 
     [super viewDidLoad];
+    
+    
+    [[UIApplication sharedApplication] setStatusBarHidden:YES withAnimation:UIStatusBarAnimationFade];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
